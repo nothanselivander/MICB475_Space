@@ -1,7 +1,9 @@
 # MICB475_Space
 
+### Team Meetings
 
-#### Agenda for October 5 Team Meeting 
+#### October 5
+##### Agenda for Team Meeting 
 * Discuss and evaluate the datasets we have available for the ISS
 * Review project proposal guidelines 
 * Discuss what aim/s and question/s we would like to investigate
