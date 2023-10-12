@@ -15,10 +15,20 @@
 #### October 11
 ##### Meeting Minutes
 * Planning on merging ISS and HI-SEAS data
-*   Removing the human swab samples
-*   deciding on columns to remove
-* Agreeing on common terminology for locations of samples
-* Matching up locations based on purpose
-*   eg waste & hygiene compartment on ISS = toilet for HI-SEAS
-*   
+* Removing the human swab samples
+###### Deciding on columns we're keeping 
+HI-SEAS
+* #SampleID
+* collection_device
+* collection_timestamp
+* description
+* feature
+* material
+* orig_env_material
+
+###### Agreeing on common terminology for locations of samples
+###### Matching up locations based on purpose
+* waste & hygiene compartment on ISS = toilet for HI-SEAS
+* 
+###### 
 * 
