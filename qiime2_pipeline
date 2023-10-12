@@ -1,0 +1,8 @@
+
+# creating a demux file 
+
+qiime tools import \
+  --type "SampleData[SequencesWithQuality]" \
+  --input-format SingleEndFastqManifestPhred33V2 \
+  --input-path filepath/manifest.csv \
+  --output-path ./demux_seqs.qza
