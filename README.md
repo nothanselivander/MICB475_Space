@@ -11,7 +11,14 @@
 * Discuss how we'll compare the HI-SEAS and dataset/s of choice (i.e. by what metrics)
 * Start formatting README file
 ##### Meeting Minutes 
-
+Discussed locations, materials as potential comparison categories
+Discussed combining ISS and Hi-SEAS datasets
+* find what terminology means in ISS dataset (eg node)
+* discussed combining columns
+Create 2 files
+* Manifest
+* Revised metadata file (potentially combining both Hi-SEAS and ISS data)
+Come up with aims for next team meeting 
 
 #### October 11
 ##### Meeting Minutes
@@ -39,3 +46,8 @@ Matching up locations based on purpose
 * kitchen counter on Hi-SEAS = dining table Node 1 on ISS
 
 Drafted potential research objectives and experimental aims - recorded on proposal document
+
+#### October 12
+##### Agenda for Team Meeting 
+* Go over research objectives and experimental aims
+* Consult about changes made to metadata files (data removed, data columns merged, etc)
