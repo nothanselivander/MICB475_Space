@@ -1,9 +1,11 @@
+#importing manifest file from local computer to server
+scp manifest.csv <username>@<IP>:/space_project
 
 # importing the data using the created manifest, demultiplexing it, and creating a demux file 
 qiime tools import \
   --type "SampleData[SequencesWithQuality]" \
   --input-format SingleEndFastqManifestPhred33V2 \
-  --input-path filepath/manifest.csv \
+  --input-path manifest.csv \
   --output-path ./demux_seqs.qza
 
 # converting the file from qza to qzv to view the contents 
