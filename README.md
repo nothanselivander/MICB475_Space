@@ -15,14 +15,17 @@ Discussed locations, materials as potential comparison categories
 Discussed combining ISS and Hi-SEAS datasets
 * find what terminology means in ISS dataset (eg node)
 * discussed combining columns
+  
 Create 2 files
 * Manifest
 * Revised metadata file (potentially combining both Hi-SEAS and ISS data)
+
 Come up with aims for next team meeting 
 
 #### October 11
 ##### Meeting Minutes
 Planning on merging ISS and HI-SEAS data
+
 Removing the human swab samples
 
 Deciding on columns to be kept
@@ -41,6 +44,7 @@ ISS
 * samp_collect_device
 
 Agreeing on common terminology for locations of samples
+
 Matching up locations based on purpose
 * waste & hygiene compartment on ISS = toilet for HI-SEAS
 * kitchen counter on Hi-SEAS = dining table Node 1 on ISS
