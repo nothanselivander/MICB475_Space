@@ -15,8 +15,8 @@
 
 #### October 11
 ##### Meeting Minutes
-* Planning on merging ISS and HI-SEAS data
-* Removing the human swab samples
+Planning on merging ISS and HI-SEAS data
+Removing the human swab samples
 
 Deciding on columns to be kept
 
