@@ -1,8 +1,14 @@
 
-# creating a demux file 
-
+# importing the data using the created manifest, demultiplexing it, and creating a demux file 
 qiime tools import \
   --type "SampleData[SequencesWithQuality]" \
   --input-format SingleEndFastqManifestPhred33V2 \
   --input-path filepath/manifest.csv \
   --output-path ./demux_seqs.qza
+
+# converting the file from qza to qzv to view the contents 
+qiime demux summarize \
+  --i-data demux_seqs.qza \
+  --o-visualization demux_seqs.qzv
+
+
