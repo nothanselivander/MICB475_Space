@@ -24,9 +24,6 @@ HI-SEAS
 * #SampleID
 * collection_device
 * collection_timestamp
-* description
-* feature
-* material
 * orig_env_material
 
 ISS
