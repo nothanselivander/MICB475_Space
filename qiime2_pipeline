@@ -5,8 +5,9 @@ scp hisease_space_manifest.csv root@10.19.139.170:/data
 qiime tools import \
   --type "SampleData[SequencesWithQuality]" \
   --input-format SingleEndFastqManifestPhred33V2 \
-  --input-path manifest.csv \
+  --input-path /data/hisease_space_manifest.csv \
   --output-path ./demux_seqs.qza
+
 
 # converting the file from qza to qzv to view the contents 
 qiime demux summarize \
