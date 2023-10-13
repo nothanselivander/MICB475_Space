@@ -18,3 +18,12 @@ qiime demux summarize \
 
 # move file from server to personal computer
 scp root@10.19.139.170:/data/qiime/demux_seqs.qzv .
+
+# denoise data; trim sequences to specified length
+qiime dada2 denoise-single \
+  --i-demultiplexed-seqs demux_seqs.qza \
+  --p-trim-left 0 \
+  --p-trunc-len 293 \
+  --o-representative-sequences rep-seqs.qza \
+  --o-table table.qza \
+  --o-denoising-stats stats.qza
