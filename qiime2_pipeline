@@ -16,4 +16,5 @@ qiime demux summarize \
   --i-data demux_seqs.qza \
   --o-visualization demux_seqs.qzv
 
-
+# move file from server to personal computer
+scp root@10.19.139.170:/data/qiime/demux_seqs.qzv .
