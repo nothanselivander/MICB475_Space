@@ -54,4 +54,24 @@ Drafted potential research objectives and experimental aims - recorded on propos
 #### October 12
 ##### Agenda for Team Meeting 
 * Go over research objectives and experimental aims
+
+    Aim 1: General Diversity Comparison
+        Aim 1 combines both alpha and beta diversity to compare the overall diversity across datasets. Remove sub-aim 1.
+        
+    Aim 2: Abiotic Surface Nuances
+        In Aim 2, delve into the nuances of abiotic surfaces and compare microbial diversity.
+    
+    Aim 3: Location-Specific Analysis
+        Include taxonomic information through core microbiome analysis and taxa bar plots. Create a Venn diagram for visualization.
+
+    Aim 4: General and Location Comparison
+        Introduce indicator taxa analysis. Ideally, we should get very few unique results which indicates both locations have a lot in common.
+        Validate findings through differential abundance analysis, which focuses on shared species and their abundance. 
+
 * Consult about changes made to metadata files (data removed, data columns merged, etc)
+
+    The columns we kept are good.
+    Before we trim in the denoising, we need to send Evelyn the demux file to check the quality score and then she will help us determine the trimming parameters.
+    Rarefraction analysis will be done after our proposal. 
+
+ 
