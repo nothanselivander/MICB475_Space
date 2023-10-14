@@ -29,6 +29,16 @@ qiime dada2 denoise-single \
   --o-table table.qza \
   --o-denoising-stats stats.qza
 
+# Visualize ASVs stats
+qiime feature-table summarize \
+  --i-table table.qza \
+  --o-visualization table.qzv \
+  --m-sample-metadata-file /data/hiseas_iss_md.tsv
+  
+qiime feature-table tabulate-seqs \
+  --i-data rep-seqs.qza \
+  --o-visualization rep-seqs.qzv
+
 #transferring files over from server to personal computer
 scp root@10.19.139.170:/data/qiime/table.qzv .
 scp root@10.19.139.170:/data/qiime/rep-seqs.qzv .
