@@ -74,4 +74,7 @@ Drafted potential research objectives and experimental aims - recorded on propos
     Before we trim in the denoising, we need to send Evelyn the demux file to check the quality score and then she will help us determine the trimming parameters.
     Rarefraction analysis will be done after our proposal. 
 
- 
+ #### October 13
+ * demux file confirmed received
+ * 293 confirmed as good right trim parameter
+ * denoise started
