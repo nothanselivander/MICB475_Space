@@ -75,6 +75,7 @@ Drafted potential research objectives and experimental aims - recorded on propos
     Rarefraction analysis will be done after our proposal. 
 
  #### October 13
+ * metadata file finalised
  * manifest updated to reflect updated metadata
  * demux file sent and confirmed received
  * 293 confirmed as good right trim parameter
