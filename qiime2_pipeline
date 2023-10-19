@@ -2,6 +2,7 @@
 
 #importing manifest file from local computer to server
 scp hisease_space_manifest.txt root@10.19.139.170:/data
+scp project_metadata.tsv root@10.19.139.170:/data
 
 # importing the data using the created manifest, demultiplexing it, and creating a demux file 
 qiime tools import \
@@ -33,7 +34,7 @@ qiime dada2 denoise-single \
 qiime feature-table summarize \
   --i-table table.qza \
   --o-visualization table.qzv \
-  --m-sample-metadata-file /data/hiseas_iss_md.tsv
+  --m-sample-metadata-file /data/project_metadata.tsv
   
 qiime feature-table tabulate-seqs \
   --i-data rep-seqs.qza \
