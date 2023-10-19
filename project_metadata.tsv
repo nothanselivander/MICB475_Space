@@ -1,0 +1,127 @@
+sample id	collection_date	isolation_source	library_name	samp_collect_device	data_source	mutated_isolation_source	isolation_data_source	material
+SRR6132539	2016-05-06	Lab 3 overhead LAB	ISS3-7_P	polyester wipe	iss	lab_equipment	lab_equipment_iss	NA
+SRR6132542	2016-05-06	Port crew quarters, bump out exterior aft wall Node 2	ISS3-8_P	polyester wipe	iss	bed_room_and_common_area	bed_room_and_common_area_iss	NA
+SRR6132543	2016-05-06	Advanced resistive exercise device (ARED) foot platform Node 3	ISS3-3_P	polyester wipe	iss	bed_room_and_common_area	bed_room_and_common_area_iss	NA
+SRR6132544	2016-05-06	Waste and hygiene compartment Node 3 'F4'	ISS3-2_P	polyester wipe	iss	sanitary_station	sanitary_station_iss	NA
+SRR6132545	2016-05-06	Overhead 4 Node 1	ISS3-5_P	polyester wipe	iss	kitchen_and_dining_area	kitchen_and_dining_area_iss	NA
+SRR6132546	2016-05-06	Dining table Node 1	ISS3-4_P	polyester wipe	iss	kitchen_and_dining_area	kitchen_and_dining_area_iss	NA
+SRR6132547	2016-05-05	Port panel next to cupola Node 3	ISS3-1_P	polyester wipe	iss	bed_room_and_common_area	bed_room_and_common_area_iss	NA
+SRR6132549	2016-05-06	Port crew quarters, bump out exterior aft wall Node 2	ISS3-8	polyester wipe	iss	bed_room_and_common_area	bed_room_and_common_area_iss	NA
+SRR6132550	2016-05-06	Lab 3 overhead LAB	ISS3-7	polyester wipe	iss	lab_equipment	lab_equipment_iss	NA
+SRR6132552	2016-05-06	Overhead 4 Node 1	ISS3-5	polyester wipe	iss	kitchen_and_dining_area	kitchen_and_dining_area_iss	NA
+SRR6132553	2016-05-06	Dining table Node 1	ISS3-4	polyester wipe	iss	kitchen_and_dining_area	kitchen_and_dining_area_iss	NA
+SRR6132554	2016-05-06	Advanced resistive exercise device (ARED) foot platform Node 3	ISS3-3	polyester wipe	iss	bed_room_and_common_area	bed_room_and_common_area_iss	NA
+SRR6132555	2016-05-06	Waste and hygiene compartment Node 3 'F4'	ISS3-2	polyester wipe	iss	sanitary_station	sanitary_station_iss	NA
+SRR6132556	2016-05-05	Port panel next to cupola Node 3	ISS3-1	polyester wipe	iss	bed_room_and_common_area	bed_room_and_common_area_iss	NA
+12858.0BR.3.R1	2015-9-4	bed_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.0KC.2.R1	2015-9-4	kitchen_counter	NA	swab	hiseas	kitchen_and_dining_area	kitchen_and_dining_area_hiseas	plywood
+12858.0MR.4.R1	2015-9-4	main_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.0TB.1.R1	2015-9-4	toilet_bowl	NA	swab	hiseas	sanitary_station	sanitary_station_hiseas	polymer
+12858.10BR.49.R1	2016-2-5	bed_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.10KC.47.R1	2016-2-5	kitchen_counter	NA	swab	hiseas	kitchen_and_dining_area	kitchen_and_dining_area_hiseas	plywood
+12858.10MR.50.R1	2016-2-5	main_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.10TB.46.R1	2016-2-5	toilet_bowl	NA	swab	hiseas	sanitary_station	sanitary_station_hiseas	polymer
+12858.11BR.52.R1	2016-2-19	bed_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.11KC.51.R1	2016-2-19	kitchen_counter	NA	swab	hiseas	kitchen_and_dining_area	kitchen_and_dining_area_hiseas	plywood
+12858.11MR.53.R1	2016-2-19	main_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.11TB.81.R1	2016-2-19	toilet_bowl	NA	swab	hiseas	sanitary_station	sanitary_station_hiseas	polymer
+12858.12BR.56.R1	2016-3-4	bed_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.12KC.55.R1	2016-3-4	kitchen_counter	NA	swab	hiseas	kitchen_and_dining_area	kitchen_and_dining_area_hiseas	plywood
+12858.12MR.57.R1	2016-3-4	main_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.12TB.54.R1	2016-3-4	toilet_bowl	NA	swab	hiseas	sanitary_station	sanitary_station_hiseas	polymer
+12858.13BR.60.R1	2016-3-18	bed_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.13KC.59.R1	2016-3-18	kitchen_counter	NA	swab	hiseas	kitchen_and_dining_area	kitchen_and_dining_area_hiseas	plywood
+12858.13MR.61.R1	2016-3-18	main_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.13TB.58.R1	2016-3-18	toilet_bowl	NA	swab	hiseas	sanitary_station	sanitary_station_hiseas	polymer
+12858.14BR.64.R1	2016-4-1	bed_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.14KC.63.R1	2016-4-1	kitchen_counter	NA	swab	hiseas	kitchen_and_dining_area	kitchen_and_dining_area_hiseas	plywood
+12858.14MR.65.R1	2016-4-1	main_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.14TB.62.R1	2016-4-1	toilet_bowl	NA	swab	hiseas	sanitary_station	sanitary_station_hiseas	polymer
+12858.15BR.68.R1	2016-4-15	bed_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.15KC.67.R1	2016-4-15	kitchen_counter	NA	swab	hiseas	kitchen_and_dining_area	kitchen_and_dining_area_hiseas	plywood
+12858.15MR.69.R1	2016-4-15	main_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.15TB.66.R1	2016-4-15	toilet_bowl	NA	swab	hiseas	sanitary_station	sanitary_station_hiseas	polymer
+12858.16BR.72.R1	2016-4-29	bed_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.16KC.71.R1	2016-4-29	kitchen_counter	NA	swab	hiseas	kitchen_and_dining_area	kitchen_and_dining_area_hiseas	plywood
+12858.16MR.73.R1	2016-4-29	main_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.16TB.70.R1	2016-4-29	toilet_bowl	NA	swab	hiseas	sanitary_station	sanitary_station_hiseas	polymer
+12858.17BR.76.R1	2016-5-13	bed_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.17KC.75.R1	2016-5-13	kitchen_counter	NA	swab	hiseas	kitchen_and_dining_area	kitchen_and_dining_area_hiseas	plywood
+12858.17MR.77.R1	2016-5-13	main_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.17TB.74.R1	2016-5-13	toilet_bowl	NA	swab	hiseas	sanitary_station	sanitary_station_hiseas	polymer
+12858.18BR.82.R1	2016-5-27	bed_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.18KC.79.R1	2016-5-27	kitchen_counter	NA	swab	hiseas	kitchen_and_dining_area	kitchen_and_dining_area_hiseas	plywood
+12858.18MR.83.R1	2016-5-27	main_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.18TB.78.R1	2016-5-27	toilet_bowl	NA	swab	hiseas	sanitary_station	sanitary_station_hiseas	polymer
+12858.19BR.86.R1	2016-6-10	bed_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.19KC.85.R1	2016-6-10	kitchen_counter	NA	swab	hiseas	kitchen_and_dining_area	kitchen_and_dining_area_hiseas	plywood
+12858.19MR.87.R1	2016-6-10	main_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.19TB.84.R1	2016-6-10	toilet_bowl	NA	swab	hiseas	sanitary_station	sanitary_station_hiseas	polymer
+12858.1BR.7.R1	2015-9-18	bed_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.1KC.6.R1	2015-9-18	kitchen_counter	NA	swab	hiseas	kitchen_and_dining_area	kitchen_and_dining_area_hiseas	plywood
+12858.1MR.8.R1	2015-9-18	main_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.1TB.5.R1	2015-9-18	toilet_bowl	NA	swab	hiseas	sanitary_station	sanitary_station_hiseas	polymer
+12858.20BR.90.R1	2016-6-24	bed_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.20KC.89.R1	2016-6-24	kitchen_counter	NA	swab	hiseas	kitchen_and_dining_area	kitchen_and_dining_area_hiseas	plywood
+12858.20MR.91.R1	2016-6-24	main_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.20TB.88.R1	2016-6-24	toilet_bowl	NA	swab	hiseas	sanitary_station	sanitary_station_hiseas	polymer
+12858.21BR.94.R1	2016-7-8	bed_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.21KC.93.R1	2016-7-8	kitchen_counter	NA	swab	hiseas	kitchen_and_dining_area	kitchen_and_dining_area_hiseas	plywood
+12858.21MR.95.R1	2016-7-8	main_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.21TB.92.R1	2016-7-8	toilet_bowl	NA	swab	hiseas	sanitary_station	sanitary_station_hiseas	polymer
+12858.22BR.98.R1	2016-7-22	bed_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.22KC.97.R1	2016-7-22	kitchen_counter	NA	swab	hiseas	kitchen_and_dining_area	kitchen_and_dining_area_hiseas	plywood
+12858.22MR.99.R1	2016-7-22	main_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.22TB.96.R1	2016-7-22	toilet_bowl	NA	swab	hiseas	sanitary_station	sanitary_station_hiseas	polymer
+12858.23BR.102.R1	2016-8-5	bed_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.23KC.101.R1	2016-8-5	kitchen_counter	NA	swab	hiseas	kitchen_and_dining_area	kitchen_and_dining_area_hiseas	plywood
+12858.23MR.103.R1	2016-8-5	main_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.23TB.100.R1	2016-8-5	toilet_bowl	NA	swab	hiseas	sanitary_station	sanitary_station_hiseas	polymer
+12858.24BR.106.R1	2016-8-19	bed_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.24KC.105.R1	2016-8-19	kitchen_counter	NA	swab	hiseas	kitchen_and_dining_area	kitchen_and_dining_area_hiseas	plywood
+12858.24MR.107.R1	2016-8-19	main_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.24TB.104.R1	2016-8-19	toilet_bowl	NA	swab	hiseas	sanitary_station	sanitary_station_hiseas	polymer
+12858.2ABR.15.R1	2015-10-2	bed_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.2AKC.10.R1	2015-10-2	kitchen_counter	NA	swab	hiseas	kitchen_and_dining_area	kitchen_and_dining_area_hiseas	plywood
+12858.2AMR.12.R1	2015-10-2	main_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.2ATB.9.R1	2015-10-2	toilet_bowl	NA	swab	hiseas	sanitary_station	sanitary_station_hiseas	polymer
+12858.2BBR.11.R1	2015-10-16	bed_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.2BKC.14.R1	2015-10-16	kitchen_counter	NA	swab	hiseas	kitchen_and_dining_area	kitchen_and_dining_area_hiseas	plywood
+12858.2BMR.16.R1	2015-10-16	main_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.2BTB.13.R1	2015-10-16	toilet_bowl	NA	swab	hiseas	sanitary_station	sanitary_station_hiseas	polymer
+12858.3BR.19.R1	2015-10-30	bed_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.3KC.18.R1	2015-10-30	kitchen_counter	NA	swab	hiseas	kitchen_and_dining_area	kitchen_and_dining_area_hiseas	plywood
+12858.3MR.20.R1	2015-10-30	main_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.3TB.17.R1	2015-10-30	toilet_bowl	NA	swab	hiseas	sanitary_station	sanitary_station_hiseas	polymer
+12858.4BR.23.R1	2015-11-13	bed_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.4KC.22.R1	2015-11-13	kitchen_counter	NA	swab	hiseas	kitchen_and_dining_area	kitchen_and_dining_area_hiseas	plywood
+12858.4MR.25.R1	2015-11-13	main_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.4TB.21.R1	2015-11-13	toilet_bowl	NA	swab	hiseas	sanitary_station	sanitary_station_hiseas	polymer
+12858.5BR.28.R1	2015-11-27	bed_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.5KC.27.R1	2015-11-27	kitchen_counter	NA	swab	hiseas	kitchen_and_dining_area	kitchen_and_dining_area_hiseas	plywood
+12858.5MR.29.R1	2015-11-27	main_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.5TB.26.R1	2015-11-27	toilet_bowl	NA	swab	hiseas	sanitary_station	sanitary_station_hiseas	polymer
+12858.6BR.32.R1	2015-12-11	bed_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.6KC.31.R1	2015-12-11	kitchen_counter	NA	swab	hiseas	kitchen_and_dining_area	kitchen_and_dining_area_hiseas	plywood
+12858.6MR.33.R1	2015-12-11	main_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.6TB.30.R1	2015-12-11	toilet_bowl	NA	swab	hiseas	sanitary_station	sanitary_station_hiseas	polymer
+12858.7BR.36.R1	2015-12-28	bed_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.7KC.35.R1	2015-12-28	kitchen_counter	NA	swab	hiseas	kitchen_and_dining_area	kitchen_and_dining_area_hiseas	plywood
+12858.7MR.37.R1	2015-12-28	main_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.7TB.34.R1	2015-12-28	toilet_bowl	NA	swab	hiseas	sanitary_station	sanitary_station_hiseas	polymer
+12858.8BR.40.R1	2016-1-8	bed_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.8KC.39.R1	2016-1-8	kitchen_counter	NA	swab	hiseas	kitchen_and_dining_area	kitchen_and_dining_area_hiseas	plywood
+12858.8MR.41.R1	2016-1-8	main_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.8TB.38.R1	2016-1-8	toilet_bowl	NA	swab	hiseas	sanitary_station	sanitary_station_hiseas	polymer
+12858.9BR.44.R1	2016-1-22	bed_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.9KC.43.R1	2016-1-22	kitchen_counter	NA	swab	hiseas	kitchen_and_dining_area	kitchen_and_dining_area_hiseas	plywood
+12858.9MR.45.R1	2016-1-22	main_room	NA	swab	hiseas	bed_room_and_common_area	bed_room_and_common_area_hiseas	polymer
+12858.9TB.42.R1	2016-1-22	toilet_bowl	NA	swab	hiseas	sanitary_station	sanitary_station_hiseas	polymer
+12858.PCRnc1.24.R1	2016-8-19	PCR-NC	NA	swab	hiseas	lab_equipment	lab_equipment_hiseas	na
+12858.PCRnc2.48.R1	not applicable-not applicable-not applicable	PCR-NC	NA	swab	hiseas	lab_equipment	lab_equipment_hiseas	na
+12858.PCRnc3.80.R1	not applicable-not applicable-not applicable	PCR-NC	NA	swab	hiseas	lab_equipment	lab_equipment_hiseas	na
+12858.PCRnc4.115.R1	not applicable-not applicable-not applicable	PCR-NC	NA	swab	hiseas	lab_equipment	lab_equipment_hiseas	na
+12858.W.PCR1.NC.R1	not applicable-not applicable-not applicable	PCR-NC	NA	wipe	hiseas	lab_equipment	lab_equipment_hiseas	na
+12858.W.PCR2.NC.R1	not applicable-not applicable-not applicable	PCR-NC	NA	wipe	hiseas	lab_equipment	lab_equipment_hiseas	na
+12858.W.PCR4.NC.R1	not applicable-not applicable-not applicable	PCR-NC	NA	wipe	hiseas	lab_equipment	lab_equipment_hiseas	na
+12858.W.PCR5.NC.R1	not applicable-not applicable-not applicable	PCR-NC	NA	wipe	hiseas	lab_equipment	lab_equipment_hiseas	na
