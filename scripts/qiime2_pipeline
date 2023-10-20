@@ -32,10 +32,29 @@ scp root@10.19.139.170:/data/qiime/demux_seqs.qzv .
 qiime dada2 denoise-single \
   --i-demultiplexed-seqs demux_seqs.qza \
   --p-trim-left 0 \
-  --p-trunc-len 293 \
+  --p-trunc-len 292 \
   --o-representative-sequences rep-seqs.qza \
   --o-table table.qza \
   --o-denoising-stats stats.qza
+
+# denoise for ISS data
+qiime dada2 denoise-single \
+  --i-demultiplexed-seqs demux_seqs.qza \
+  --p-trim-left 0 \
+  --p-trunc-len 150 \
+  --o-representative-sequences rep-seqs.qza \
+  --o-table table.qza \
+  --o-denoising-stats stats.qza
+
+# Merging ISS and HI-SEAS table.qza and rep-seqs.qza files together
+qiime feature-table merge \
+  --i-tables /data/space_project/iss/table.qza \
+  --i-tables /data/space_project/hiseas/table.qza \
+  --o-merged-table table_iss_hiseas.qza
+qiime feature-table merge-seqs \
+  --i-data rep-seqs-1.qza \
+  --i-data rep-seqs-2.qza \
+  --o-merged-data rep-seqs.qza
 
 # Visualize ASVs stats
 qiime feature-table summarize \
