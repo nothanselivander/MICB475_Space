@@ -51,18 +51,18 @@ qiime dada2 denoise-single \
 
 # Merging ISS and HI-SEAS table.qza and rep-seqs.qza files together
 qiime feature-table merge \
-  --i-tables /data/space_project/iss/table.qza \
-  --i-tables /data/space_project/hiseas/table.qza \
+  --i-tables /data/space_project/iss/table_iss.qza \
+  --i-tables /data/space_project/hiseas/table_hiseas.qza \
   --o-merged-table table_iss_hiseas.qza
 qiime feature-table merge-seqs \
-  --i-data rep-seqs-1.qza \
-  --i-data rep-seqs-2.qza \
-  --o-merged-data rep-seqs.qza
+  --i-data /data/space_project/iss/rep-seqs_iss.qza \
+  --i-data /data/space_project/hiseas/rep-seqs_hiseas.qza \
+  --o-merged-data rep-seqs_iss_hiseas.qza
 
 # Visualize ASVs stats
 qiime feature-table summarize \
-  --i-table table.qza \
-  --o-visualization table.qzv \
+  --i-table table_iss_hiseas.qza \
+  --o-visualization table_iss_hiseas.qzv \
   --m-sample-metadata-file /data/project_metadata.tsv
   
 qiime feature-table tabulate-seqs \
