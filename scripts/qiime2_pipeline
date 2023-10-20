@@ -27,6 +27,8 @@ qiime demux summarize \
 
 # move file from server to personal computer
 scp root@10.19.139.170:/data/qiime/demux_seqs.qzv .
+scp root@10.19.139.170:/data/space_project/hiseas/demux_seqs_hiseas.qzv .
+scp root@10.19.139.170:/data/space_project/iss_qiime/demux_seqs_iss.qzv .
 
 # denoise data using dada2; trim sequences using the value obtained from the demux_seqs.qzv visualisation on https://view.qiime2.org/
 # nothing was trimmed on the left; 293 was used as trim parameter for the right
