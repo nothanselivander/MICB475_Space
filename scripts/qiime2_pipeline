@@ -1,7 +1,8 @@
 #**data/qiime - location of the files**
 
 #importing manifest file from local computer to server
-scp hisease_space_manifest.txt root@10.19.139.170:/data
+scp hisease_manifest.txt root@10.19.139.170:/data
+scp iss_manifest.txt root@10.19.139.170:/data
 scp project_metadata.tsv root@10.19.139.170:/data
 
 # importing the data using the created manifest, demultiplexing it, and creating a demux file 
