@@ -9,7 +9,7 @@ scp project_metadata.tsv root@10.19.139.170:/data
 qiime tools import \
   --type "SampleData[SequencesWithQuality]" \
   --input-format SingleEndFastqManifestPhred33V2 \
-  --input-path /data/hisease_space_manifest.txt \
+  --input-path /data/hisease_manifest.txt \
   --output-path ./demux_seqs.qza
 
 # import ISS data using manifest, dumultiplexing it, outputting a demux file
