@@ -1,0 +1,15 @@
+sample-id	absolute-filepath
+SRR6132539	/mnt/datasets/project_2/space_station/seqs/SRR6132539_1.fastq.gz
+SRR6132542	/mnt/datasets/project_2/space_station/seqs/SRR6132542_1.fastq.gz
+SRR6132543	/mnt/datasets/project_2/space_station/seqs/SRR6132543_1.fastq.gz
+SRR6132544	/mnt/datasets/project_2/space_station/seqs/SRR6132544_1.fastq.gz
+SRR6132545	/mnt/datasets/project_2/space_station/seqs/SRR6132545_1.fastq.gz
+SRR6132546	/mnt/datasets/project_2/space_station/seqs/SRR6132546_1.fastq.gz
+SRR6132547	/mnt/datasets/project_2/space_station/seqs/SRR6132547_1.fastq.gz
+SRR6132549	/mnt/datasets/project_2/space_station/seqs/SRR6132549_1.fastq.gz
+SRR6132550	/mnt/datasets/project_2/space_station/seqs/SRR6132550_1.fastq.gz
+SRR6132552	/mnt/datasets/project_2/space_station/seqs/SRR6132552_1.fastq.gz
+SRR6132553	/mnt/datasets/project_2/space_station/seqs/SRR6132553_1.fastq.gz
+SRR6132554	/mnt/datasets/project_2/space_station/seqs/SRR6132554_1.fastq.gz
+SRR6132555	/mnt/datasets/project_2/space_station/seqs/SRR6132555_1.fastq.gz
+SRR6132556	/mnt/datasets/project_2/space_station/seqs/SRR6132556_1.fastq.gz
