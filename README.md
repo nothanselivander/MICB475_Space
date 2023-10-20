@@ -1,7 +1,7 @@
 # MICB475_Space
 
 ## Table of Contents
-* [Team Meetings](### Team Meetings)
+* [### Team Meetings](https://github.com/nothanselivander/MICB475_Space/blob/main/README.md#team-meetings)
 * abc
 
 ### Team Meetings
