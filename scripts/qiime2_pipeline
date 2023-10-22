@@ -70,5 +70,5 @@ qiime feature-table tabulate-seqs \
   --o-visualization rep-seqs_iss_hiseas.qzv
 
 #transferring files over from server to personal computer
-scp root@10.19.139.170:/data/qiime/table.qzv .
-scp root@10.19.139.170:/data/qiime/rep-seqs.qzv .
+scp root@10.19.139.170:/data/qiime/table_iss_hiseas.qzv .
+scp root@10.19.139.170:/data/qiime/rep-seqs_iss_hiseas.qzv .
