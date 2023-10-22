@@ -66,8 +66,8 @@ qiime feature-table summarize \
   --m-sample-metadata-file /data/project_metadata.tsv
   
 qiime feature-table tabulate-seqs \
-  --i-data rep-seqs.qza \
-  --o-visualization rep-seqs.qzv
+  --i-data rep-seqs_iss_hiseas.qza \
+  --o-visualization rep-seqs_iss_hiseas.qzv
 
 #transferring files over from server to personal computer
 scp root@10.19.139.170:/data/qiime/table.qzv .
