@@ -98,6 +98,6 @@ Drafted potential research objectives and experimental aims - recorded on propos
 * Confirm rarefaction and sampling depth (look over rarefaction curve)
 * Discuss which diversity metric tests are important and relevant to our project
 * Discuss the prevalence and abundance thresholds we should set for the Venn diagram
-<img src="../pictures/alpha-rarefaction.png" height="500" width="500">
+<img src="../pictures/alpha-rarefaction.png" height="500" width="1000">
 
 
