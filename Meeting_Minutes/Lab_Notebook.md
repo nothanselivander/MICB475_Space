@@ -1,8 +1,8 @@
 # MICB475_Space
 
 ## Table of Contents
-* [Team Meetings](https://github.com/nothanselivander/MICB475_Space/blob/main/README.md#team-meetings)
-* [Log of Tasks Performed]()
+* [Team Meetings](https://github.com/nothanselivander/MICB475_Space/blob/main/Lab_Notebook.md#team-meetings)
+* [Log of Tasks Performed](https://github.com/nothanselivander/MICB475_Space/blob/main/Lab_Notebook.md#log-of-tasks-performed)
 
 ### Team Meetings
 
