@@ -100,4 +100,8 @@ Drafted potential research objectives and experimental aims - recorded on propos
 * Discuss the prevalence and abundance thresholds we should set for the Venn diagram
 <img src="../pictures/alpha-rarefaction.png" height="500" width="1000">
 
+### Log of Tasks Performed
+
+
+
 
