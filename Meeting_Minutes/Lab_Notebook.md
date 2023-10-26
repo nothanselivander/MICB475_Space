@@ -2,7 +2,7 @@
 
 ## Table of Contents
 * [Team Meetings](https://github.com/nothanselivander/MICB475_Space/blob/main/README.md#team-meetings)
-* abc
+* [Log of Tasks Performed]()
 
 ### Team Meetings
 
