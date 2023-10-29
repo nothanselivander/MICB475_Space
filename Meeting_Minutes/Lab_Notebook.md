@@ -122,10 +122,12 @@ Drafted potential research objectives and experimental aims - recorded on propos
       * ISS has been there ~24 years
       * Paper mentioned most bacteria in ISS form biofilm, if HISEAS can't replicate that == bad model
     * HISEAS team sent an email, so they will read our paper.
+    * Team will start using google colab to write code. Code should still be documented in github.
       
   *Next step:
     * Generate phyloseq
     * Start core microbiome and generate venn diagram
+    * Organize lab notebook! Should mention date and who did what, errors encountered, figures, and refer to code.
       
 <img src="../pictures/alpha-rarefaction.png" height="500" width="1000">
 
