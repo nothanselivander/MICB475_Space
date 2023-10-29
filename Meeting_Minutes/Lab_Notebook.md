@@ -94,10 +94,39 @@ Drafted potential research objectives and experimental aims - recorded on propos
   * reorganize "readme" - refer to canvas 
   * proposal due date is Oct 25
 
-#### October 26
+#### October 26 
+#### Team meeting Agenda
 * Confirm rarefaction and sampling depth (look over rarefaction curve)
 * Discuss which diversity metric tests are important and relevant to our project
 * Discuss the prevalence and abundance thresholds we should set for the Venn diagram
+
+#### Team Meeting Minutes
+* Selected rarefaction depth at 20810 is good. 
+  * Retained  16% feature. 
+  * Lab equipment and Sanitation have low amount of samples, can compare, but might not be able to run statistical analyses.
+    
+* All diversity metrics would be ran
+  * Ran everything on qiime first, and narrow down to pick out interesting ones and run on R for publication
+  * If all material in ISS in metal, replace the "na" in "material" in metadata with "metal"
+  * Kriti generated the diversity metrics on qiime, and we looked at some of them :
+    * mostly showed that HISEAS and ISS are significantly different:
+      * Faith's: HISEAS more diverse, only lab and sanitation shows similarity but too few sample size (not significant)
+      * Weighted unifrac: No overlap --> all very different
+      * Evennes: Dramatically higher in HISEAS
+      * ISS seems to be driven with uneven population, might have one dominating species --> indicator taxa
+
+  * Other discussion:
+    * Why different?
+      * ISS is completely sterile, might still be contaminated from earth
+      * ISS is shared space with astronauts from other countries, might brought different microbes?
+      * ISS has been there ~24 years
+      * Paper mentioned most bacteria in ISS form biofilm, if HISEAS can't replicate that == bad model
+    * HISEAS team sent an email, so they will read our paper.
+      
+  *Next step:
+    * Generate phyloseq
+    * Start core microbiome and generate venn diagram
+      
 <img src="../pictures/alpha-rarefaction.png" height="500" width="1000">
 
 ### Log of Tasks Performed
