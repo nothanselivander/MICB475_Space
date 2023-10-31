@@ -131,6 +131,17 @@ Drafted potential research objectives and experimental aims - recorded on propos
       
 <img src="../pictures/alpha-rarefaction.png" height="500" width="1000">
 
+#### October 29 
+* Wenny attempted to generate the phyloseq.
+  * Files exported: feature_table.tsv, tree.nwk, taxonomy.tsv, project_metadata.tsv (scripts/phyloseq (refer to scripts/phyloseq)
+  * Imported into R, and attempted to generate phyloseq, but encountered an error (Rstudio/phyloseq.zip)
+     * Error: OTU and Taxa has different numbers of observed values/rows, samples and features-ID do not match.
+#### October 31
+* Wenny found that the wrong file was used for importing the taxa table.
+  * scripts/phyloseq was edited
+  * Rstudio/phyloseq.zip was removed and replaced with the correct one
+* Kriti reorganized the folders in the server and removed the wrong table and rep_seqs files
+
 ### Log of Tasks Performed
 
 
