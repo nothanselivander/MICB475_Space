@@ -29,3 +29,20 @@ mv rooted_tree_expor/ rooted_tree_export/
 scp -r root@10.19.139.170:/data/space_export .
 
 scp root@10.19.139.170:/data/project_metadata.tsv .
+
+
+
+----- #corrected code
+
+#export table.qza
+qiime tools export \
+--input-path /data/space_project/combined_iss_hiseas/table_iss_hiseas.qza \
+--output-path table_export_correct
+
+biom convert \
+-i feature-table.biom \
+--to-tsv \
+-o feature-table.txt
+
+scp -r root@10.19.139.170:/data/space_export/table_export_correct .
+
