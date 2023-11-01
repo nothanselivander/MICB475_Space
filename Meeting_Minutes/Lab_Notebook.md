@@ -1,6 +1,13 @@
 # MICB475_Space
 
 ## Table of Contents
+
+
+| Experiment Number  | Title | Start Date | Pages |
+| ------------- | ------------- |---------| ------|
+| W5-TM  | Week 5 Team Meeting  | October 5| -----|
+| Content Cell  | Content Cell  |
+
 * [Team Meetings](https://github.com/nothanselivander/MICB475_Space/blob/main/Lab_Notebook.md#team-meetings)
 * [Log of Tasks Performed](https://github.com/nothanselivander/MICB475_Space/blob/main/Lab_Notebook.md#log-of-tasks-performed)
 
@@ -133,9 +140,10 @@ Drafted potential research objectives and experimental aims - recorded on propos
 
 #### October 29 
 * Wenny attempted to generate the phyloseq.
-  * Files exported: feature_table.tsv, tree.nwk, taxonomy.tsv, project_metadata.tsv (scripts/phyloseq (refer to scripts/phyloseq)
-  * Imported into R, and attempted to generate phyloseq, but encountered an error (Rstudio/phyloseq.zip)
+  * Files exported: feature_table.tsv, tree.nwk, taxonomy.tsv, project_metadata.tsv (https://github.com/nothanselivander/MICB475_Space/blob/main/scripts/phyloseq)
+  * Imported into R, and attempted to generate phyloseq, but encountered an error (https://github.com/nothanselivander/MICB475_Space/blob/main/Rstudio/phyloseq.zip)
      * Error: OTU and Taxa has different numbers of observed values/rows, samples and features-ID do not match.
+     * Hansel confirmed the error
 #### October 31
 * Wenny found that the wrong file was used for importing the taxa table.
   * scripts/phyloseq was edited
