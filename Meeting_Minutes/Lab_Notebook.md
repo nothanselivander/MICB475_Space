@@ -1,4 +1,4 @@
-# MICB475_Space
+# MICB475 Lab Notebook
 
 ## Table of Contents
 
@@ -6,7 +6,9 @@
 | Experiment Number  | Title | Start Date | Pages |
 | ------------- | ------------- |---------| ------|
 | W5-TM  | Week 5 Team Meeting  | October 5| -----|
-| Content Cell  | Content Cell  |
+| W6–TM | Week 6 Team Meeting  | October 12 | ----|
+| W7–TM | Week 7 Team Meeting | October 19| ----|
+|W8–TM | Week 8 Team Meeting | October 26 | -----|
 
 * [Team Meetings](https://github.com/nothanselivander/MICB475_Space/blob/main/Lab_Notebook.md#team-meetings)
 * [Log of Tasks Performed](https://github.com/nothanselivander/MICB475_Space/blob/main/Lab_Notebook.md#log-of-tasks-performed)
