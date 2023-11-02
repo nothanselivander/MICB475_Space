@@ -177,7 +177,7 @@ Drafted potential research objectives and experimental aims - recorded on propos
 * Kriti ran ISA
 * Irina ran core microbiome and generated venn diagram
 * Hansel ran DESeq2
- <img src="../pictures/deseq_vol_plot.png" height="500" width="1000">
+ <img src="../pictures/deseq_vol_plot.png" height="500" width="800">
 
 
 
