@@ -186,7 +186,13 @@ Drafted potential research objectives and experimental aims - recorded on propos
 
 //metadata formatting
 
-//manifest formatting 
+October 11
+* The team discussed and agreed on the columns of the metadata to be removed
+* The team discussed and agreed on samples to be removed
+* The team discussed and agreed on the common terminology for labels to be given to locations
+* 
+
+// Manifest formatting 
 
 October 12
 * Amy imported combined ISS and HISEAS manifest from local computer to server
