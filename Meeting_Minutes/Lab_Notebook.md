@@ -152,6 +152,17 @@ Drafted potential research objectives and experimental aims - recorded on propos
   * Rstudio/phyloseq.zip was removed and replaced with the correct one
 * Kriti reorganized the folders in the server and removed the wrong table and rep_seqs files
 
+#### November 2
+#### Team Meeting Agenda
+* Confirm rarefaction number for R
+* Discuss abundance and prevalence numbers for core microbiome analysis
+* Review generated plots and other outputs
+* * rarefaction curve
+  * indicator species results
+  * core microbiome venn diagrams
+* Discuss proposal
+* Discuss formatting etc of lab notebook
+
 ### Log of Tasks Performed
 
 
