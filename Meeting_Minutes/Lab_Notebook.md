@@ -184,7 +184,26 @@ Drafted potential research objectives and experimental aims - recorded on propos
 
 ### Log of Tasks Performed
 
+//metadata formatting
 
+//manifest formatting 
+
+October 12
+* Amy imported combined ISS and HISEAS manifest from local computer to server
+* Amy imported and demultiplexed the data using the combined manifest
+* * Amy initially encountered an error
+  * Irina found that it could potentially be the manifest file format that could cause the error
+  * Amy fixed the error by converting the csv to a tsv 
+* Amy converted the resulting demux.qza to a qzv file
+
+October 13
+* Irina looked at the demux.qzv file and proposed 293 as the right trim parameter for denoising the data using DADA
+* Irina emailed Evelyn to confirm that this would be a good trim parameter
+* Evelyn confirmed that 293 was good
+* Irina started denoising the data
+
+October 14
+* Denoising of data finished 
 
 
 
