@@ -5,11 +5,11 @@
 
 | Experiment Number  | Title | Start Date | Pages |
 | ------------- | ------------- |---------| ------|
-| W5-TM  | [Week 5 Team Meeting](https://github.com/nothanselivander/MICB475_Space/blob/main/Meeting_Minutes/Lab_Notebook.md#w5-tm-week-5-team-meeting) | October 5| -----|
+| W5-TM  | [Week 5 Team Meeting](#w5-tm-week-5-team-meeting) | October 5| -----|
 | W6–TM | [Week 6 Team Meeting](https://github.com/nothanselivander/MICB475_Space/blob/main/Meeting_Minutes/Lab_Notebook.md#w6-tm-week-6-team-meeting) | October 12 | ----|
 | W7–TM | [Week 7 Team Meeting](https://github.com/nothanselivander/MICB475_Space/blob/main/Meeting_Minutes/Lab_Notebook.md#w7-tm-week-7-team-meeting)| October 19| ----|
 |W8–TM | [Week 8 Team Meeting](https://github.com/nothanselivander/MICB475_Space/blob/main/Meeting_Minutes/Lab_Notebook.md#w8-tm-week-8-team-meeting) | October 26 | -----|
-| ??? |  Generating phyloseq and running core microbiome, ISA and DESeq2(https://github.com/nothanselivander/MICB475_Space/blob/main/Meeting_Minutes/Lab_Notebook.md#Generating-phyloseq-and-running-core-microbiome,-ISA-and-DESeq2) | October 29| ----|
+| ??? |  [Generating phyloseq and running core microbiome, Indicator Species Analysis, and DESeq2](#Generating-phyloseq-and-running-core-microbiome-indicator-species-analysis-and-deseq2) | October 29| ----|
 | W9-TM | [Week 9 Team Meeting](https://github.com/nothanselivander/MICB475_Space/blob/main/Meeting_Minutes/Lab_Notebook.md#w9-tm-week-9-team-meeting)  | November 2| ----|
 
 * [Team Meetings](https://github.com/nothanselivander/MICB475_Space/blob/main/Meeting_Minutes/Lab_Notebook.md#team-meetings)
@@ -154,7 +154,7 @@ Drafted potential research objectives and experimental aims - recorded on propos
     * Organize lab notebook! Should mention date and who did what, errors encountered, figures, and refer to code.
       
 
-## Generating Phyloseq; Running Core Microbiome, Indicator Species Analysis, DESeq2
+## Generating Phyloseq and Running Core Microbiome, Indicator Species Analysis, and DESeq2
 #### October 29 
 * Wenny attempted to generate the phyloseq, encountered an error
   * Files exported: feature_table.tsv, tree.nwk, taxonomy.tsv, project_metadata.tsv 
