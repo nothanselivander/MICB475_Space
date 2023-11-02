@@ -203,6 +203,28 @@ October 13
 October 14
 * Denoising of data finished
 
+October 19
+* The team realised that the import, demultiplex, and denoising need to occur for the ISS and HISEAS data separately
+* Evelyn confirmed that 292 should be the trim parameter for the data with longer reads
+
+October 20
+* Irina imported and demultiplexed the ISS and HISEAS data with separate manifests
+* Irina converted the resulting qza files to qzv files
+* Irina visualised the qzv files and confirmed that 292 and 150 were good right trim parameters for HISEAS and ISS respectively 
+* Irina denoised the ISS data with a right trim parameter of 150
+* Irina started denousing the HISEAS data with a right trim parameter of 292
+
+* October 21
+* Denoising of HISEAS data completed
+* Irina combined the table.qza and rep-seqs.qza files of both ISS and HISEAS data together
+* Irina converted the resulting qza files to qzv files
+
+October 25
+* Irina confirmed the primers for training the classifier with Evelyn
+* Irina and Kriti worked on filling in parameters for training the classifier
+* Kriti trained the classifier
+* 
+
 * #### October 29 
 * Wenny attempted to generate the phyloseq, encountered an error
   * Files exported: feature_table.tsv, tree.nwk, taxonomy.tsv, project_metadata.tsv 
