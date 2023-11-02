@@ -154,7 +154,7 @@ Drafted potential research objectives and experimental aims - recorded on propos
     * Organize lab notebook! Should mention date and who did what, errors encountered, figures, and refer to code.
       
 
-## ???? -- Generating Phyloseq; Running Core Microbiome, Indicator Species Analysis, DESeq2
+## Generating Phyloseq; Running Core Microbiome, Indicator Species Analysis, DESeq2
 #### October 29 
 * Wenny attempted to generate the phyloseq, encountered an error
   * Files exported: feature_table.tsv, tree.nwk, taxonomy.tsv, project_metadata.tsv 
@@ -172,7 +172,7 @@ Drafted potential research objectives and experimental aims - recorded on propos
   * filter out non-bacterial sequences, low-quality samples, and low reads
   * Rarefy:
     * Sample depth =1000
- <img src="../pictures/R_rarefaction_1000.png" height="400" width="700">
+ <img src="../pictures/R_rarefaction_1000.png" height="350" width="600">
     * Changed to sample depth = 5000
         (insert figure)
 
