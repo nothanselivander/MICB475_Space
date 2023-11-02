@@ -6,7 +6,9 @@
 | Experiment Number  | Title | Start Date | Pages |
 | ------------- | ------------- |---------| ------|
 | W5-TM  | [Week 5 Team Meeting](#w5-tm-week-5-team-meeting) | October 5| -----|
+| | [Week 5 Team Discussion](#w6-tm-week-6-discussion) | October 11 | ----|
 | W6–TM | [Week 6 Team Meeting](#w6-tm-week-6-team-meeting) | October 12 | ----|
+
 | W7–TM | [Week 7 Team Meeting](#w7-tm-week-7-team-meeting)| October 19| ----|
 |W8–TM | [Week 8 Team Meeting](#w8-tm-week-8-team-meeting) | October 26 | -----|
 | ??? |  [Generating phyloseq and running core microbiome, Indicator Species Analysis, and DESeq2](#generating-phyloseq-and-running-core-microbiome-indicator-species-analysis-and-deseq2) | October 29| ----|
@@ -32,14 +34,14 @@ Discussed combining ISS and Hi-SEAS datasets
 * discussed combining columns
 
 Next steps:
-Create 2 files
-* Manifest
-* Revised metadata file (potentially combining both Hi-SEAS and ISS data)
+*Create 2 files
+    * Manifest
+    * Revised metadata file (potentially combining both Hi-SEAS and ISS data)
+* Come up with aims for next team meeting 
 
-Come up with aims for next team meeting 
-
+## Week 5 - Team Discussion
 ### October 11
-##### Meeting Minutes
+#### Meeting Minutes
 Planning on merging ISS and HI-SEAS data
 
 Removing the human swab samples
@@ -171,12 +173,14 @@ Drafted potential research objectives and experimental aims - recorded on propos
   * filter out non-bacterial sequences, low-quality samples, and low reads
   * Rarefy:
     * Sample depth =1000
- <img src="../pictures/R_rarefaction_1000.png" height="350" width="600">
+     <img src="../pictures/R_rarefaction_1000.png" height="350" width="600">
     * Changed to sample depth = 5000
         (insert figure)
 
 * Kriti ran ISA
+    (insert figures)
 * Irina ran core microbiome and generated venn diagram
+    (insert figures)
 * Hansel ran DESeq2
  <img src="../pictures/deseq_vol_plot.png" height="400" width="700">
 
