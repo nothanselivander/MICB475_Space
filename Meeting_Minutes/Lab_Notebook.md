@@ -13,29 +13,31 @@
 * [Team Meetings](https://github.com/nothanselivander/MICB475_Space/blob/main/Meeting_Minutes/Lab_Notebook.md#team-meetings)
 * [Log of Tasks Performed](https://github.com/nothanselivander/MICB475_Space/blob/main/Meeting_Minutes/Lab_Notebook.md#log-of-tasks-performed)
 
-### Team Meetings
 
-#### October 5
-##### Agenda for Team Meeting 
+
+## W5-TM Week 5 Team Meeting
+### October 5
+#### Agenda  
 * Discuss and evaluate the datasets we have available for the ISS
 * Review project proposal guidelines 
 * Discuss what aim/s and question/s we would like to investigate
 * Deciding if we'll push through with abiotic surfaces 
 * Discuss how we'll compare the HI-SEAS and dataset/s of choice (i.e. by what metrics)
 * Start formatting README file
-##### Meeting Minutes 
+#### Meeting Minutes 
 Discussed locations, materials as potential comparison categories
 Discussed combining ISS and Hi-SEAS datasets
 * find what terminology means in ISS dataset (eg node)
 * discussed combining columns
-  
+
+Next steps:
 Create 2 files
 * Manifest
 * Revised metadata file (potentially combining both Hi-SEAS and ISS data)
 
 Come up with aims for next team meeting 
 
-#### October 11
+### October 11
 ##### Meeting Minutes
 Planning on merging ISS and HI-SEAS data
 
@@ -64,8 +66,11 @@ Matching up locations based on purpose
 
 Drafted potential research objectives and experimental aims - recorded on proposal document
 
-#### October 12
-##### Agenda for Team Meeting 
+
+
+## W6-TM Week 6 Team meeting
+### October 12
+#### Agenda
 * Go over research objectives and experimental aims
 
     Aim 1: General Diversity Comparison
@@ -83,9 +88,12 @@ Drafted potential research objectives and experimental aims - recorded on propos
 
 * Consult about changes made to metadata files (data removed, data columns merged, etc)
 
-    The columns we kept are good.
+#### Meeting Minutes
+  The columns we kept are good.
     Before we trim in the denoising, we need to send Evelyn the demux file to check the quality score and then she will help us determine the trimming parameters.
     Rarefraction analysis will be done after our proposal. 
+
+
 
  #### October 13
  * metadata file finalised
@@ -103,8 +111,11 @@ Drafted potential research objectives and experimental aims - recorded on propos
   * reorganize "readme" - refer to canvas 
   * proposal due date is Oct 25
 
-#### October 26 
-#### Team meeting Agenda
+<img src="../pictures/alpha-rarefaction.png" height="500" width="1000">
+
+## W7-TM Week 7 Team Meeting
+### October 26 
+#### Agenda
 * Confirm rarefaction and sampling depth (look over rarefaction curve)
 * Discuss which diversity metric tests are important and relevant to our project
 * Discuss the prevalence and abundance thresholds we should set for the Venn diagram
@@ -138,7 +149,8 @@ Drafted potential research objectives and experimental aims - recorded on propos
     * Start core microbiome and generate venn diagram
     * Organize lab notebook! Should mention date and who did what, errors encountered, figures, and refer to code.
       
-<img src="../pictures/alpha-rarefaction.png" height="500" width="1000">
+
+<div style="page-break-after: always;"></div>
 
 #### October 29 
 * Wenny attempted to generate the phyloseq.
@@ -151,6 +163,8 @@ Drafted potential research objectives and experimental aims - recorded on propos
   * scripts/phyloseq was edited
   * Rstudio/phyloseq.zip was removed and replaced with the correct one
 * Kriti reorganized the folders in the server and removed the wrong table and rep_seqs files
+
+
 
 #### November 2
 #### Team Meeting Agenda
