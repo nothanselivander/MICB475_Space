@@ -10,8 +10,8 @@
 | W7–TM | Week 7 Team Meeting | October 19| ----|
 |W8–TM | Week 8 Team Meeting | October 26 | -----|
 
-* [Team Meetings](https://github.com/nothanselivander/MICB475_Space/blob/main/Lab_Notebook.md#team-meetings)
-* [Log of Tasks Performed](https://github.com/nothanselivander/MICB475_Space/blob/main/Lab_Notebook.md#log-of-tasks-performed)
+* [Team Meetings](https://github.com/nothanselivander/MICB475_Space/blob/main/Meeting_Minutes/Lab_Notebook.md#team-meetings)
+* [Log of Tasks Performed](https://github.com/nothanselivander/MICB475_Space/blob/main/Meeting_Minutes/Lab_Notebook.md#log-of-tasks-performed)
 
 ### Team Meetings
 
