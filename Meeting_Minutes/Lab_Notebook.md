@@ -102,7 +102,9 @@ Drafted potential research objectives and experimental aims - recorded on propos
  * 293 confirmed as good right trim parameter
  * denoise started
 
-  #### October 19
+  ## W7-TM Week 7 Team Meeting
+  ### October 19
+  #### Meeting Minutes
   * previously combine denoised removed reads under 293 
   * redo denoising process in parallel with separate iss and hisease manifests to generate separate files and then merge them into one combined file
   * refer to https://docs.qiime2.org/2023.9/tutorials/fmt/ (ctr-f denoised data) for merging denoised data
@@ -113,7 +115,7 @@ Drafted potential research objectives and experimental aims - recorded on propos
 
 <img src="../pictures/alpha-rarefaction.png" height="500" width="1000">
 
-## W7-TM Week 7 Team Meeting
+## W8-TM Week 8 Team Meeting
 ### October 26 
 #### Agenda
 * Confirm rarefaction and sampling depth (look over rarefaction curve)
@@ -150,8 +152,7 @@ Drafted potential research objectives and experimental aims - recorded on propos
     * Organize lab notebook! Should mention date and who did what, errors encountered, figures, and refer to code.
       
 
-<div style="page-break-after: always;"></div>
-
+##
 #### October 29 
 * Wenny attempted to generate the phyloseq.
   * Files exported: feature_table.tsv, tree.nwk, taxonomy.tsv, project_metadata.tsv (https://github.com/nothanselivander/MICB475_Space/blob/main/scripts/phyloseq)
@@ -166,8 +167,9 @@ Drafted potential research objectives and experimental aims - recorded on propos
 
 
 
-#### November 2
-#### Team Meeting Agenda
+## W9-TM Week 9 Team Meeting
+### November 2
+#### Agenda
 * Confirm rarefaction number for R
 * Discuss abundance and prevalence numbers for core microbiome analysis
 * Review generated plots and other outputs
@@ -176,6 +178,9 @@ Drafted potential research objectives and experimental aims - recorded on propos
   * core microbiome venn diagrams
 * Discuss proposal
 * Discuss formatting etc of lab notebook
+
+#### Meeting Minutes
+*
 
 ### Log of Tasks Performed
 
