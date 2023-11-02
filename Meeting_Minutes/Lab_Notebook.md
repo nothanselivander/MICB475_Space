@@ -177,8 +177,9 @@ Drafted potential research objectives and experimental aims - recorded on propos
         (insert figure)
 
 * Kriti ran ISA
-    * Refer to (https://github.com/nothanselivander/MICB475_Space/blob/main/Rstudio/Indicator-Species-Analysis)
-* Irina ran core microbiome and generated venn diagram
+    * Refer to (https://github.com/nothanselivander/MICB475_Space/blob/main/Rstudio/Indicator_Species_Analysis)
+
+* Irina ran core microbiome and generated venn diagrams
     (insert figures)
 * Hansel ran DESeq2
  <img src="../pictures/deseq_vol_plot.png" height="400" width="700">
