@@ -155,35 +155,6 @@ Drafted potential research objectives and experimental aims - recorded on propos
       
 
 ## Generating Phyloseq and Running Core Microbiome, Indicator Species Analysis, and DESeq2
-#### October 29 
-* Wenny attempted to generate the phyloseq, encountered an error
-  * Files exported: feature_table.tsv, tree.nwk, taxonomy.tsv, project_metadata.tsv 
-  * Imported into R, and attempted to generate phyloseq, but encountered an error 
-     * Error: OTU and Taxa has different numbers of observed values/rows, samples and features-ID do not match.
-     * Hansel confirmed the error
-#### October 31
-* Wenny generated correct phyloseq, found that the wrong import file was used for the taxa table.
-  * scripts/phyloseq was edited (https://github.com/nothanselivander/MICB475_Space/blob/main/scripts/phyloseq)
-  * Rstudio/phyloseq.zip was removed and replaced with the correct one (https://github.com/nothanselivander/MICB475_Space/blob/main/Rstudio/phyloseq.zip)
-* Kriti reorganized the folders in the server and removed the wrong table and rep_seqs files
-
-  #### November 1
-* Hansel adjusted phyloseq file in R:
-  * filter out non-bacterial sequences, low-quality samples, and low reads
-  * Rarefy:
-    * Sample depth =1000
-     <img src="../pictures/R_rarefaction_1000.png" height="350" width="600">
-    * Changed to sample depth = 5000
-        (insert figure)
-
-* Kriti ran ISA
-    * Refer to (https://github.com/nothanselivander/MICB475_Space/blob/main/Rstudio/Indicator_Species_Analysis)
-
-* Irina ran core microbiome and generated venn diagrams
-    (insert figures)
-* Hansel ran DESeq2
- <img src="../pictures/deseq_vol_plot.png" height="400" width="700">
-
 
 
 ## W9-TM Week 9 Team Meeting
@@ -200,7 +171,6 @@ Drafted potential research objectives and experimental aims - recorded on propos
 
 #### Meeting Minutes
 *
-
 
 
 ## Log of Tasks Performed
@@ -230,7 +200,37 @@ October 13
 * Irina started denoising the data
 
 October 14
-* Denoising of data finished 
+* Denoising of data finished
+
+* #### October 29 
+* Wenny attempted to generate the phyloseq, encountered an error
+  * Files exported: feature_table.tsv, tree.nwk, taxonomy.tsv, project_metadata.tsv 
+  * Imported into R, and attempted to generate phyloseq, but encountered an error 
+     * Error: OTU and Taxa has different numbers of observed values/rows, samples and features-ID do not match.
+     * Hansel confirmed the error
+#### October 31
+* Wenny generated correct phyloseq, found that the wrong import file was used for the taxa table.
+  * scripts/phyloseq was edited (https://github.com/nothanselivander/MICB475_Space/blob/main/scripts/phyloseq)
+  * Rstudio/phyloseq.zip was removed and replaced with the correct one (https://github.com/nothanselivander/MICB475_Space/blob/main/Rstudio/phyloseq.zip)
+* Kriti reorganized the folders in the server and removed the wrong table and rep_seqs files
+
+  #### November 1
+* Hansel adjusted phyloseq file in R:
+  * filter out non-bacterial sequences, low-quality samples, and low reads
+  * Rarefy:
+    * Sample depth =1000
+     <img src="../pictures/R_rarefaction_1000.png" height="350" width="600">
+    * Changed to sample depth = 5000
+        (insert figure)
+
+* Kriti ran ISA
+    * Refer to (https://github.com/nothanselivander/MICB475_Space/blob/main/Rstudio/Indicator_Species_Analysis)
+
+* Irina ran core microbiome and generated venn diagrams
+    (insert figures)
+* Hansel ran DESeq2
+ <img src="../pictures/deseq_vol_plot.png" height="400" width="700">
+
 
 
 
