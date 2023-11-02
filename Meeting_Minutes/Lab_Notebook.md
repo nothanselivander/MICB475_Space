@@ -152,7 +152,7 @@ Drafted potential research objectives and experimental aims - recorded on propos
     * Organize lab notebook! Should mention date and who did what, errors encountered, figures, and refer to code.
       
 
-## Generating Phyloseq, Core Microbiome, Indicator Species Analysis, DeSeq
+## ???? -- Generating Phyloseq, Core Microbiome, Indicator Species Analysis, DeSeq
 #### October 29 
 * Wenny attempted to generate the phyloseq, encountered an error
   * Files exported: feature_table.tsv, tree.nwk, taxonomy.tsv, project_metadata.tsv 
