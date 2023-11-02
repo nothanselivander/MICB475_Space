@@ -152,18 +152,30 @@ Drafted potential research objectives and experimental aims - recorded on propos
     * Organize lab notebook! Should mention date and who did what, errors encountered, figures, and refer to code.
       
 
-##
+## Generating Phyloseq, Core Microbiome, Indicator Species Analysis, DeSeq
 #### October 29 
-* Wenny attempted to generate the phyloseq.
-  * Files exported: feature_table.tsv, tree.nwk, taxonomy.tsv, project_metadata.tsv (https://github.com/nothanselivander/MICB475_Space/blob/main/scripts/phyloseq)
-  * Imported into R, and attempted to generate phyloseq, but encountered an error (https://github.com/nothanselivander/MICB475_Space/blob/main/Rstudio/phyloseq.zip)
+* Wenny attempted to generate the phyloseq, encountered an error
+  * Files exported: feature_table.tsv, tree.nwk, taxonomy.tsv, project_metadata.tsv 
+  * Imported into R, and attempted to generate phyloseq, but encountered an error 
      * Error: OTU and Taxa has different numbers of observed values/rows, samples and features-ID do not match.
      * Hansel confirmed the error
 #### October 31
-* Wenny found that the wrong file was used for importing the taxa table.
-  * scripts/phyloseq was edited
-  * Rstudio/phyloseq.zip was removed and replaced with the correct one
+* Wenny generated correct phyloseq, found that the wrong import file was used for the taxa table.
+  * scripts/phyloseq was edited (https://github.com/nothanselivander/MICB475_Space/blob/main/scripts/phyloseq)
+  * Rstudio/phyloseq.zip was removed and replaced with the correct one (https://github.com/nothanselivander/MICB475_Space/blob/main/Rstudio/phyloseq.zip)
 * Kriti reorganized the folders in the server and removed the wrong table and rep_seqs files
+
+  #### November 1
+* Hansel adjusted phyloseq file in R:
+  * filter out non-bacterial sequences, low-quality samples, and low reads
+  * Rarefy:
+    * Sample depth =1000
+       (insert figure)
+    * Changed to sample depth = 5000
+        (insert figure)
+
+* Kriti ran ISA
+* Irina ran core microbiome and generated venn diagram
 
 
 
