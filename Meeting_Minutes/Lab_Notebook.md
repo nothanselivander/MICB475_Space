@@ -5,7 +5,7 @@
 
 | Experiment Number  | Title | Start Date | Pages |
 | ------------- | ------------- |---------| ------|
-| W5-TM  | [Week 5 Team Meeting] (https://github.com/nothanselivander/MICB475_Space/blob/main/Meeting_Minutes/Lab_Notebook.md#W5-TM Week 5 Team Meetin) | October 5| -----|
+| W5-TM  | [Week 5 Team Meeting](https://github.com/nothanselivander/MICB475_Space/blob/main/Meeting_Minutes/Lab_Notebook.md#w5-tm-week-5-team-meeting) | October 5| -----|
 | W6–TM | [Week 6 Team Meeting]  | October 12 | ----|
 | W7–TM | [Week 7 Team Meeting] | October 19| ----|
 |W8–TM | [Week 8 Team Meeting] | October 26 | -----|
@@ -172,14 +172,14 @@ Drafted potential research objectives and experimental aims - recorded on propos
   * filter out non-bacterial sequences, low-quality samples, and low reads
   * Rarefy:
     * Sample depth =1000
- <img src="../pictures/R_rarefaction_1000.png" height="200" width="500">
+ <img src="../pictures/R_rarefaction_1000.png" height="400" width="700">
     * Changed to sample depth = 5000
         (insert figure)
 
 * Kriti ran ISA
 * Irina ran core microbiome and generated venn diagram
 * Hansel ran DESeq2
- <img src="../pictures/deseq_vol_plot.png" height="500" width="800">
+ <img src="../pictures/deseq_vol_plot.png" height="400" width="700">
 
 
 
