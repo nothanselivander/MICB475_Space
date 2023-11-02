@@ -1,6 +1,6 @@
 # MICB475 Lab Notebook
 
-## Table of Contents
+## Table of Contents 
 
 
 | Experiment Number  | Title | Start Date | Pages |
@@ -9,6 +9,8 @@
 | W6–TM | [Week 6 Team Meeting]  | October 12 | ----|
 | W7–TM | [Week 7 Team Meeting] | October 19| ----|
 |W8–TM | [Week 8 Team Meeting] | October 26 | -----|
+| ??? |  Generating phyloseq and running core microbiome, ISA and DESeq2 | October 29| ----|
+| W9-TM | [Week 9 Team Meeting]  | November 2| ----|
 
 * [Team Meetings](https://github.com/nothanselivander/MICB475_Space/blob/main/Meeting_Minutes/Lab_Notebook.md#team-meetings)
 * [Log of Tasks Performed](https://github.com/nothanselivander/MICB475_Space/blob/main/Meeting_Minutes/Lab_Notebook.md#log-of-tasks-performed)
@@ -170,7 +172,7 @@ Drafted potential research objectives and experimental aims - recorded on propos
   * filter out non-bacterial sequences, low-quality samples, and low reads
   * Rarefy:
     * Sample depth =1000
-       (insert figure)
+ <img src="../pictures/R_rarefaction_1000.png" height="500" width="800">
     * Changed to sample depth = 5000
         (insert figure)
 
