@@ -290,42 +290,7 @@ Next steps:
    * ISA: Make table or venn diagram to summarize
    * Download core microbiome figures
    * Update lab notebook
------------------------
-rough meeting minute notes
-0 core microbiome in common- diff abund just compare what they have in common
 
-
-Xantho - in common, go to asv + because its not well resolved, go to the table and click on the table and blast the asv to compare and see if they’re are in common to resolve if they are the same species - look in the rep seq
-Comparing data sets between each other the abundance can change a lot
-For iss look and see if bacteria are usually found in extreme environment = 
-Shared as indicator taxa, they should come up as the core microbiome, since they’re comparing all asv..??
-Can glom to genus or family to resolve
-Unique at species level but maybe not genus? Level??
-Can glom at different levels 
-
-Deseq looks at the genera and how much they have in common
-Volcano plot suggest that they are similar 
-If core microbiome is coming up as 0, the deseq should give error and give nothing to compare 
--redo core microbiome in genus level
-Bar plot - at genus level
-Indicator - quite stringent of what is in it vs what is not, so might only get a couple in common
-Differential abundance + core microbiome is less stringent
-
-Species level - same thing as genus
-Family level…?
-Deseq - amy & irina
-
-Redo all 
-Rename pictures + move them 
-
-Lab notebook
-Dont need to make pages
-Integrate the tasks performed with meeting minutes and pictures 
-
-
--build a venn diagram of the graph  
-
-Go with 20000
 
 
 
