@@ -195,11 +195,27 @@ Drafted potential research objectives and experimental aims - recorded on propos
 * 8. Regenerate in R
 * 9. performed statistics : permanova (compare the multiple surfaces) + Wilcoxon (compare between two data sets), both are non parametric approaches? 
 
-* Proper Aim 2 timline
+* Proper Aim 2 timeline
 * Getting phyoseq 
 * Performing Differential abundance, core microbiome and indicator taxa (no rarefaction, doesn’t work with this data - filtering is okay)
 
-0 core microbiome in common - diff abund just compare what they have in common
+* Core microbiome, Deseq and Indicator taxa had potentially conflicting information. Let other team members regenerate plots to confirm results.
+* generate core microbiome at the genus level?
+* If data generations were correct, blast the ASV of the Xantho genus? (look at the table that kriti generated to confirm) and compare the ASV between the ---- to check if the ASV's resolve to the same species. (look in the rep seq)
+
+* NOTE: "If core microbiome is coming up as 0, the deseq should give error and give nothing to compare" (did she change her minds afterwards?)
+
+* NOTE: can glom the differential abundance? (kriti's plot) to genus or family levels
+
+* NOTE: Indicator taxa are quite stringent about what is in it vs what is not, so might only get a couple in common. Differential abundance + core microbiome is less stringent
+
+* Lab notebook:
+* don't need to make pages and integerate the tasks performed with the meeting minutes and pictures. 
+
+
+-----------------------
+rough meeting minute notes
+0 core microbiome in common- diff abund just compare what they have in common
 
 
 Xantho - in common, go to asv + because its not well resolved, go to the table and click on the table and blast the asv to compare and see if they’re are in common to resolve if they are the same species - look in the rep seq
