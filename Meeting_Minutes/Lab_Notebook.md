@@ -174,7 +174,7 @@ Drafted potential research objectives and experimental aims - recorded on propos
 * Proposal corrections can net a maximum of 10 points 
 * Change title to “compare --- in a simulation space (HISEASE)” to allow readers to understand what HISEASE acronym represents 
 * Background ideas weren’t integrated together. Should mention the contrasting findings between the hisease and iss ex. the difference in temporal and special findings  
-* Mention the novelty of the study in the introduction and how we’re validating the differences that seem apparent (through the comparison of the results in the two papers referenced) and not even the disease people have validated their own model
+* Mention the novelty of the study in the introduction and how we’re validating the differences that seem apparent (through the comparison of the results in the two papers referenced)
 
 * Experimental aim was too repetitive
 * Combine aim 1 + 2 = focus on the overall diversity ?(double check)
