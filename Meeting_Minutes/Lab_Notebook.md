@@ -105,7 +105,7 @@ Next steps:
 
 <img src="../pictures/alpha-rarefaction.png" height="500" width="1000">
 
-## Initial QIIME2 processing
+## Initial QIIME2 Processing
 ### October 12
 * Demultiplexing using manifest
    * Amy generated manifest files for ISS and HI-SEAS
