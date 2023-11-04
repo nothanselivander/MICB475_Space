@@ -42,32 +42,29 @@ Next steps:
 ## Week 5 - Team Discussion
 ### October 11
 #### Meeting Minutes
-Planning on merging ISS and HI-SEAS data
+* Planning on merging ISS and HI-SEAS data
+* Removing the human swab samples
+  
+* Columns to be kept
+   *HI-SEAS
+      * #SampleID
+      * collection_device
+      * collection_timestamp
+      * orig_env_material
+   *ISS
+      * sample-id
+      * collection_date
+      * isolation_source
+      * library name
+      * samp_collect_device
 
-Removing the human swab samples
+* Agreeing on common terminology for locations of samples
+   * Matching up locations based on purpose
+   * waste & hygiene compartment on ISS = toilet for HI-SEAS
+   * kitchen counter on Hi-SEAS = dining table Node 1 on ISS
 
-Deciding on columns to be kept
+* Drafted potential research objectives and experimental aims - recorded on proposal document
 
-HI-SEAS
-* #SampleID
-* collection_device
-* collection_timestamp
-* orig_env_material
-
-ISS
-* sample-id
-* collection_date
-* isolation_source
-* library name
-* samp_collect_device
-
-Agreeing on common terminology for locations of samples
-
-Matching up locations based on purpose
-* waste & hygiene compartment on ISS = toilet for HI-SEAS
-* kitchen counter on Hi-SEAS = dining table Node 1 on ISS
-
-Drafted potential research objectives and experimental aims - recorded on proposal document
 
 
 
@@ -96,6 +93,17 @@ Drafted potential research objectives and experimental aims - recorded on propos
     Before we trim in the denoising, we need to send Evelyn the demux file to check the quality score and then she will help us determine the trimming parameters.
     Rarefraction analysis will be done after our proposal. 
 
+
+## Initial QIIME2 processing
+* Creating Manifest
+
+* Amy imported combined ISS and HISEAS manifest from local computer to server
+* Amy imported and demultiplexed the data using the combined manifest
+   *  Initially encountered an error: ' ' expected afer '"'  
+     * Wenny suggested that the problem might be due to the quotation marks in the manifest file or the file format (tsv instead of csv)
+        * Irina agreed with the suggestion
+        * Amy fixed the error by converting the csv to a tsv 
+* Amy converted the resulting demux.qza to a qzv file
 
 
  #### October 13
@@ -156,7 +164,34 @@ Drafted potential research objectives and experimental aims - recorded on propos
       
 
 ## Generating Phyloseq and Running Core Microbiome, Indicator Species Analysis, and DESeq2
+#### October 29 
+* Wenny attempted to generate the phyloseq, encountered an error
+  * Files exported: feature_table.tsv, tree.nwk, taxonomy.tsv, project_metadata.tsv 
+  * Imported into R, and attempted to generate phyloseq, but encountered an error 
+     * Error: OTU and Taxa has different numbers of observed values/rows, samples and features-ID do not match.
+     * Hansel confirmed the error
+#### October 31
+* Wenny generated correct phyloseq, found that the wrong import file was used for the taxa table.
+  * scripts/phyloseq was edited (https://github.com/nothanselivander/MICB475_Space/blob/main/scripts/phyloseq)
+  * Rstudio/phyloseq.zip was removed and replaced with the correct one (https://github.com/nothanselivander/MICB475_Space/blob/main/Rstudio/phyloseq.zip)
+* Kriti reorganized the folders in the server and removed the wrong table and rep_seqs files
 
+  #### November 1
+* Hansel adjusted phyloseq file in R:
+  * filter out non-bacterial sequences, low-quality samples, and low reads
+  * Rarefy:
+    * Sample depth =1000
+     <img src="../pictures/R_rarefaction_1000.png" height="350" width="600">
+    * Changed to sample depth = 5000
+        (insert figure)
+
+* Kriti ran ISA
+    * Refer to (https://github.com/nothanselivander/MICB475_Space/blob/main/Rstudio/Indicator_Species_Analysis)
+
+* Irina ran core microbiome and generated venn diagrams
+    (insert figures)
+* Hansel ran DESeq2
+ <img src="../pictures/deseq_vol_plot.png" height="400" width="700">
 
 ## W9-TM Week 9 Team Meeting
 ### November 2
@@ -267,7 +302,6 @@ Go with 20000
 ## Log of Tasks Performed
 
 //metadata formatting
-
 October 11
 * The team discussed and agreed on the columns of the metadata to be removed
 * The team discussed and agreed on samples to be removed
@@ -279,9 +313,10 @@ October 11
 October 12
 * Amy imported combined ISS and HISEAS manifest from local computer to server
 * Amy imported and demultiplexed the data using the combined manifest
-* * Amy initially encountered an error
-  * Irina found that it could potentially be the manifest file format that could cause the error
-  * Amy fixed the error by converting the csv to a tsv 
+* Amy initially encountered an error: 
+  * Wenny suggested that the problem might be due to the quotation marks in the manifest file or the file format (tsv instead of csv)
+     * Irina found that it could potentially be the manifest file format that could cause the error
+     * Amy fixed the error by converting the csv to a tsv 
 * Amy converted the resulting demux.qza to a qzv file
 
 October 13
@@ -315,34 +350,7 @@ October 25
 * Kriti trained the classifier
 * 
 
-* #### October 29 
-* Wenny attempted to generate the phyloseq, encountered an error
-  * Files exported: feature_table.tsv, tree.nwk, taxonomy.tsv, project_metadata.tsv 
-  * Imported into R, and attempted to generate phyloseq, but encountered an error 
-     * Error: OTU and Taxa has different numbers of observed values/rows, samples and features-ID do not match.
-     * Hansel confirmed the error
-#### October 31
-* Wenny generated correct phyloseq, found that the wrong import file was used for the taxa table.
-  * scripts/phyloseq was edited (https://github.com/nothanselivander/MICB475_Space/blob/main/scripts/phyloseq)
-  * Rstudio/phyloseq.zip was removed and replaced with the correct one (https://github.com/nothanselivander/MICB475_Space/blob/main/Rstudio/phyloseq.zip)
-* Kriti reorganized the folders in the server and removed the wrong table and rep_seqs files
-
-  #### November 1
-* Hansel adjusted phyloseq file in R:
-  * filter out non-bacterial sequences, low-quality samples, and low reads
-  * Rarefy:
-    * Sample depth =1000
-     <img src="../pictures/R_rarefaction_1000.png" height="350" width="600">
-    * Changed to sample depth = 5000
-        (insert figure)
-
-* Kriti ran ISA
-    * Refer to (https://github.com/nothanselivander/MICB475_Space/blob/main/Rstudio/Indicator_Species_Analysis)
-
-* Irina ran core microbiome and generated venn diagrams
-    (insert figures)
-* Hansel ran DESeq2
- <img src="../pictures/deseq_vol_plot.png" height="400" width="700">
+* 
 
 
 
