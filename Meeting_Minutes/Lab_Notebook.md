@@ -329,57 +329,5 @@ Go with 20000
 
 
 
-## Log of Tasks Performed
-
-//metadata formatting
-October 11
-* The team discussed and agreed on the columns of the metadata to be removed
-* The team discussed and agreed on samples to be removed
-* The team discussed and agreed on the common terminology for labels to be given to locations
-
-
-// Manifest formatting 
-
-October 12
-* Amy imported combined ISS and HISEAS manifest from local computer to server
-* Amy imported and demultiplexed the data using the combined manifest
-* Amy initially encountered an error: 
-     * Irina found that it could potentially be the manifest file format that could cause the error
-     * Amy fixed the error by converting the csv to a tsv 
-* Amy converted the resulting demux.qza to a qzv file
-
-October 13
-* Irina looked at the demux.qzv file and proposed 293 as the right trim parameter for denoising the data using DADA
-* Irina emailed Evelyn to confirm that this would be a good trim parameter
-* Evelyn confirmed that 293 was good
-* Irina started denoising the data
-
-October 14
-* Denoising of data finished
-
-October 19
-* The team realised that the import, demultiplex, and denoising need to occur for the ISS and HISEAS data separately
-* Evelyn confirmed that 292 should be the trim parameter for the data with longer reads
-
-October 20
-* Irina imported and demultiplexed the ISS and HISEAS data with separate manifests
-* Irina converted the resulting qza files to qzv files
-* Irina visualised the qzv files and confirmed that 292 and 150 were good right trim parameters for HISEAS and ISS respectively 
-* Irina denoised the ISS data with a right trim parameter of 150
-* Irina started denousing the HISEAS data with a right trim parameter of 292
-
-* October 21
-* Denoising of HISEAS data completed
-* Irina combined the table.qza and rep-seqs.qza files of both ISS and HISEAS data together
-* Irina converted the resulting qza files to qzv files
-
-October 25
-* Irina confirmed the primers for training the classifier with Evelyn
-* Irina and Kriti worked on filling in parameters for training the classifier
-* Kriti trained the classifier
-  
-
-
-
 
 
