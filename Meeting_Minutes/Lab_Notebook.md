@@ -171,48 +171,60 @@ Drafted potential research objectives and experimental aims - recorded on propos
 * Discuss formatting etc of lab notebook
 
 #### Meeting Minutes
-* Proposal corrections can net a maximum of 10 points 
-* Change title to “compare --- in a simulation space (HISEASE)” to allow readers to understand what HISEASE acronym represents 
-* Background ideas weren’t integrated together. Should mention the contrasting findings between the hisease and iss ex. the difference in temporal and special findings  
-* Mention the novelty of the study in the introduction and how we’re validating the differences that seem apparent (through the comparison of the results in the two papers referenced)
+* Proposal
+   * corrections can net a maximum of 10 points 
+   * Title
+      * Change title to “comparing --- in a simulation space (HISEASE)” to allow readers to understand what HI-SEAS acronym represents 
+   * Intro and background
+      * Background ideas weren’t integrated together. Should mention the contrasting findings between the HI-SEAS and ISS ex. the difference in temporal and special findings  
+      * Mention the novelty of the study in the introduction and how we’re validating the differences that seem apparent (through the comparison of the results in the two papers referenced)
+      * Some info are superfluous, and can be taken out.
+   * Experimental aim
+      * Too repetitive
+      * Combine aim 1 + 2 --> Aim 1: the overall diversity (alpha and beta diversity) between datasets and more nuanced surfaces
+      * Combine aim 3 + 4 --> Aim 2: focus on  taxanomic analysis (Core Microbiome, Indicator Taxa Analysis, DESeq2)
+         * Note: Venn diagram is an output of the core microbiome, not a separate analysis 
+      * Mention what each metric tells you, say what parameters drives the diversity of the community 
+   * Approach
+      * Proper aim 1 timeline:
+        1. reorganize metadata (can mention both data sets have a comparable category and two data sets ran in parallel)
+        2. Importing, demux, denoise (each datasets, separately)
+        3. Combined datasets
+        4. Generate phylogenetic tree
+        5. Rarefaction and preform alpha and beta diversity analysis
+        6. Regenerate in R
+        7. Performed Statistical Analyses
+           * PERMANOVA (compare the multiple surfaces) + Wilcoxon (compare between two data sets)
+           * both are non parametric approaches? 
+      * Proper Aim 2 timeline
+         * Generate phyloseq 
+         * Perform Differential Abundance, Core Microbiome and Indicator Taxa Analysis
+            * (no rarefaction, doesn’t work with this data - filtering is okay)
+   * Dataset Overview
+      * State reason for selected truncation length 
 
-* Experimental aim was too repetitive
-* Combine aim 1 + 2 = focus on the overall diversity ?(double check)
-* Combine aim 3 + 4 = focus on  taxanoma analysis ?(double check)
-* Mention what each metric tells you, say what parameters drives the diversity of the community 
-* Note: Indicator taxa, core microbiome, etc all under the core microbiome umbrella 
-* Note: Venn diagram is an output of the core microbiome, not a separate analysis 
-
-* Notes for reorganizing the "Proposal approach"
-* Proper aim 1 timeline: 
-* 1. reorganize metadata (can mention both data sets have a comparable category and two data sets ran in parallel)
-* 2. Importing 
-* 3. Demux
-* 4. Denoise
-* 5. Combining
-* 6. Make phylo tree
-* 7. Rarfy alpha beta
-* 8. Regenerate in R
-* 9. performed statistics : permanova (compare the multiple surfaces) + Wilcoxon (compare between two data sets), both are non parametric approaches? 
-
-* Proper Aim 2 timeline
-* Getting phyoseq 
-* Performing Differential abundance, core microbiome and indicator taxa (no rarefaction, doesn’t work with this data - filtering is okay)
-
-* Core microbiome, Deseq and Indicator taxa had potentially conflicting information. Let other team members regenerate plots to confirm results.
-* generate core microbiome at the genus level?
-* If data generations were correct, blast the ASV of the Xantho genus? (look at the table that kriti generated to confirm) and compare the ASV between the ---- to check if the ASV's resolve to the same species. (look in the rep seq)
-
-* NOTE: "If core microbiome is coming up as 0, the deseq should give error and give nothing to compare" (did she change her minds afterwards?)
-
-* NOTE: can glom the differential abundance? (kriti's plot) to genus or family levels
-
-* NOTE: Indicator taxa are quite stringent about what is in it vs what is not, so might only get a couple in common. Differential abundance + core microbiome is less stringent
+* Discussion on analyses:
+   * Core microbiome, Deseq and Indicator taxa had potentially conflicting information. Let other team members regenerate plots to confirm results.
+   * Try generating core microbiome at the genus level?
+   * If data generations were correct, blast the ASV of the Xantho genus? (look at the table that Kriti generated to confirm) and compare the ASV between the ---- to check if the ASV's resolve to the same species. (look in the rep seq)
+   * NOTE: "If core microbiome is coming up as 0, the deseq should give error and give nothing to compare" (did she change her minds afterwards?)
+   * NOTE: can glom the differential abundance? (kriti's plot) to genus or family levels
+   * NOTE: Indicator taxa are quite stringent about what is in it vs what is not, so might only get a couple in common. Differential abundance + core microbiome is less stringent
 
 * Lab notebook:
-* don't need to make pages and integerate the tasks performed with the meeting minutes and pictures. 
+   * don't need to make pages and integerate the tasks performed with the meeting minutes and pictures. 
 
-
+* Next steps:
+   * Proposal revision, due Monday, Nov 6, 2023
+   * Team member try to regenerate plots for each taxonomic analyses:
+      * Core microbiome - Kriti, Hansel  (?)
+      * ISA - Irina, Amy (?)
+      * DESeq – Wenny
+   * Try generating core microbiome at genus level?
+   * Try BLAST the ASV of Xanthobacteraceae
+   * ISA: Make table or venn diagram to summarize
+   * Download core microbiome figures
+   * Update lab notebook
 -----------------------
 rough meeting minute notes
 0 core microbiome in common- diff abund just compare what they have in common
