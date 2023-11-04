@@ -171,7 +171,69 @@ Drafted potential research objectives and experimental aims - recorded on propos
 * Discuss formatting etc of lab notebook
 
 #### Meeting Minutes
-*
+* Proposal corrections can net a maximum of 10 points 
+* Change title to “compare --- in a simulation space (HISEASE)” to allow readers to understand what HISEASE acronym represents 
+* Background ideas weren’t integrated together. Should mention the contrasting findings between the hisease and iss ex. the difference in temporal and special findings  
+* Mention the novelty of the study in the introduction and how we’re validating the differences that seem apparent (through the comparison of the results in the two papers referenced) and not even the disease people have validated their own model
+
+* Experimental aim was too repetitive
+* Combine aim 1 + 2 = focus on the overall diversity ?(double check)
+* Combine aim 3 + 4 = focus on  taxanoma analysis ?(double check)
+* Mention what each metric tells you, say what parameters drives the diversity of the community 
+* Note: Indicator taxa, core microbiome, etc all under the core microbiome umbrella 
+* Note: Venn diagram is an output of the core microbiome, not a separate analysis 
+
+* Notes for reorganizing the "Proposal approach"
+* Proper aim 1 timeline: 
+* 1. reorganize metadata (can mention both data sets have a comparable category and two data sets ran in parallel)
+* 2. Importing 
+* 3. Demux
+* 4. Denoise
+* 5. Combining
+* 6. Make phylo tree
+* 7. Rarfy alpha beta
+* 8. Regenerate in R
+* 9. performed statistics : permanova (compare the multiple surfaces) + Wilcoxon (compare between two data sets), both are non parametric approaches? 
+
+* Proper Aim 2 timline
+* Getting phyoseq 
+* Performing Differential abundance, core microbiome and indicator taxa (no rarefaction, doesn’t work with this data - filtering is okay)
+
+0 core microbiome in common - diff abund just compare what they have in common
+
+
+Xantho - in common, go to asv + because its not well resolved, go to the table and click on the table and blast the asv to compare and see if they’re are in common to resolve if they are the same species - look in the rep seq
+Comparing data sets between each other the abundance can change a lot
+For iss look and see if bacteria are usually found in extreme environment = 
+Shared as indicator taxa, they should come up as the core microbiome, since they’re comparing all asv..??
+Can glom to genus or family to resolve
+Unique at species level but maybe not genus? Level??
+Can glom at different levels 
+
+Deseq looks at the genera and how much they have in common
+Volcano plot suggest that they are similar 
+If core microbiome is coming up as 0, the deseq should give error and give nothing to compare 
+-redo core microbiome in genus level
+Bar plot - at genus level
+Indicator - quite stringent of what is in it vs what is not, so might only get a couple in common
+Differential abundance + core microbiome is less stringent
+
+Species level - same thing as genus
+Family level…?
+Deseq - amy & irina
+
+Redo all 
+Rename pictures + move them 
+
+Lab notebook
+Dont need to make pages
+Integrate the tasks performed with meeting minutes and pictures 
+
+
+-build a venn diagram of the graph  
+
+Go with 20000
+
 
 
 ## Log of Tasks Performed
@@ -253,6 +315,8 @@ October 25
     (insert figures)
 * Hansel ran DESeq2
  <img src="../pictures/deseq_vol_plot.png" height="400" width="700">
+
+
 
 
 
