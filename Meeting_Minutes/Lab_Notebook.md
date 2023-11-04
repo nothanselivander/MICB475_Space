@@ -8,7 +8,7 @@
 | W5-TM  | [Week 5 Team Meeting](#w5-tm-week-5-team-meeting) | October 5| -----|
 | | [Week 5 Team Discussion](#w6-tm-week-6-discussion) | October 11 | ----|
 | W6–TM | [Week 6 Team Meeting](#w6-tm-week-6-team-meeting) | October 12 | ----|
-| ??? | Initial QIIME processing |October 13|----|
+| ??? | [Initial QIIME2 processing](initial-qiime2-processing) |October 13|----|
 | W7–TM | [Week 7 Team Meeting](#w7-tm-week-7-team-meeting)| October 19| ----|
 |W8–TM | [Week 8 Team Meeting](#w8-tm-week-8-team-meeting) | October 26 | -----|
 | ??? |  [Generating phyloseq and running core microbiome, Indicator Species Analysis, and DESeq2](#generating-phyloseq-and-running-core-microbiome-indicator-species-analysis-and-deseq2) | October 29| ----|
@@ -66,8 +66,6 @@ Next steps:
 * Drafted potential research objectives and experimental aims - recorded on proposal document
 
 
-
-
 ## W6-TM Week 6 Team meeting
 ### October 12
 #### Agenda
@@ -94,25 +92,6 @@ Next steps:
     Rarefraction analysis will be done after our proposal. 
 
 
-## Initial QIIME2 processing
-* Creating Manifest
-
-* Amy imported combined ISS and HISEAS manifest from local computer to server
-* Amy imported and demultiplexed the data using the combined manifest
-   *  Initially encountered an error: ' ' expected afer '"'  
-     * Wenny suggested that the problem might be due to the quotation marks in the manifest file or the file format (tsv instead of csv)
-        * Irina agreed with the suggestion
-        * Amy fixed the error by converting the csv to a tsv 
-* Amy converted the resulting demux.qza to a qzv file
-
-
- #### October 13
- * metadata file finalised
- * manifest updated to reflect updated metadata
- * demux file sent and confirmed received
- * 293 confirmed as good right trim parameter
- * denoise started
-
   ## W7-TM Week 7 Team Meeting
   ### October 19
   #### Meeting Minutes
@@ -126,6 +105,56 @@ Next steps:
 
 <img src="../pictures/alpha-rarefaction.png" height="500" width="1000">
 
+## Initial QIIME2 processing
+### October 12
+* Demultiplexing using manifest
+   * Amy generated manifest files for ISS and HI-SEAS
+   * Amy imported combined ISS and HI-SEAS manifest from local computer to server
+   * Amy imported and demultiplexed the data using the combined manifest
+      *  Initially encountered an error: ' ' expected afer '"'  
+        * Wenny suggested that the problem might be due to the quotation marks in the manifest file or the file format (tsv instead of csv)
+           * Irina agreed with the suggestion
+           * Amy fixed the error by converting the csv to a tsv 
+   * Amy converted the resulting demux.qza to a qzv file
+     
+* Creating new, organized metadata files
+   * Hansel removed unwanted samples and columns, and combined the metadata from both datasets using R
+      * Kriti suggested common terminology for comparable locations in the ISS and HI-SEAS datasets. Team agreed on it.
+     (insert table)
+      * Wenny wrote code for the new column to "rename" the locations
+   * [R Code](https://github.com/nothanselivander/MICB475_Space/blob/main/Metadata&Manifest/Metadata.R)
+   * [tsv file](https://github.com/nothanselivander/MICB475_Space/blob/main/Metadata&Manifest/Metadata/project_metadata.tsv)
+     
+ ### October 13
+* Denoising 
+   * Irina looked at the demux.qzv file and proposed 293 as the right trim parameter for denoising the data using DADA
+   * Irina emailed Evelyn to confirm that this would be a good trim parameter
+   * Evelyn confirmed that 293 was good
+   * Irina started denoising the data
+      * Denoising finished – October 14
+          
+   ### October 19
+   * The team realised that the import, demultiplex, and denoising need to occur for the ISS and HISEAS data separately
+   * Evelyn confirmed that 292 should be the trim parameter for the data with longer reads
+   
+   ### October 20
+   * Irina imported and demultiplexed the ISS and HISEAS data with separate manifests
+   * Irina converted the resulting qza files to qzv files
+   * Irina visualised the qzv files and confirmed that 292 and 150 were good right trim parameters for HISEAS and ISS respectively 
+   * Irina denoised the ISS data with a right trim parameter of 150
+   * Irina started denoising the HISEAS data with a right trim parameter of 292
+      * Denoising finished - October 21
+   
+   ### October 21
+   * Irina combined the table.qza and rep-seqs.qza files of both ISS and HISEAS data together
+   * Irina converted the resulting qza files to qzv files
+     
+### October 25
+* Training classifier
+   * Irina confirmed the primers for training the classifier with Evelyn
+   * Irina and Kriti worked on filling in parameters for training the classifier
+   * Kriti trained the classifier
+     
 ## W8-TM Week 8 Team Meeting
 ### October 26 
 #### Agenda
@@ -164,19 +193,19 @@ Next steps:
       
 
 ## Generating Phyloseq and Running Core Microbiome, Indicator Species Analysis, and DESeq2
-#### October 29 
+### October 29 
 * Wenny attempted to generate the phyloseq, encountered an error
   * Files exported: feature_table.tsv, tree.nwk, taxonomy.tsv, project_metadata.tsv 
   * Imported into R, and attempted to generate phyloseq, but encountered an error 
      * Error: OTU and Taxa has different numbers of observed values/rows, samples and features-ID do not match.
      * Hansel confirmed the error
-#### October 31
+### October 31
 * Wenny generated correct phyloseq, found that the wrong import file was used for the taxa table.
   * scripts/phyloseq was edited (https://github.com/nothanselivander/MICB475_Space/blob/main/scripts/phyloseq)
   * Rstudio/phyloseq.zip was removed and replaced with the correct one (https://github.com/nothanselivander/MICB475_Space/blob/main/Rstudio/phyloseq.zip)
 * Kriti reorganized the folders in the server and removed the wrong table and rep_seqs files
 
-  #### November 1
+### November 1
 * Hansel adjusted phyloseq file in R:
   * filter out non-bacterial sequences, low-quality samples, and low reads
   * Rarefy:
@@ -192,6 +221,7 @@ Next steps:
     (insert figures)
 * Hansel ran DESeq2
  <img src="../pictures/deseq_vol_plot.png" height="400" width="700">
+* Wenny started reformatting lab notebook
 
 ## W9-TM Week 9 Team Meeting
 ### November 2
@@ -306,7 +336,7 @@ October 11
 * The team discussed and agreed on the columns of the metadata to be removed
 * The team discussed and agreed on samples to be removed
 * The team discussed and agreed on the common terminology for labels to be given to locations
-* 
+
 
 // Manifest formatting 
 
@@ -314,7 +344,6 @@ October 12
 * Amy imported combined ISS and HISEAS manifest from local computer to server
 * Amy imported and demultiplexed the data using the combined manifest
 * Amy initially encountered an error: 
-  * Wenny suggested that the problem might be due to the quotation marks in the manifest file or the file format (tsv instead of csv)
      * Irina found that it could potentially be the manifest file format that could cause the error
      * Amy fixed the error by converting the csv to a tsv 
 * Amy converted the resulting demux.qza to a qzv file
@@ -348,10 +377,7 @@ October 25
 * Irina confirmed the primers for training the classifier with Evelyn
 * Irina and Kriti worked on filling in parameters for training the classifier
 * Kriti trained the classifier
-* 
-
-* 
-
+  
 
 
 
