@@ -291,8 +291,16 @@ Next steps:
    * Download core microbiome figures
    * Update lab notebook
 
+### November 4
+* Irina, Amy, Kriti, Hansel and Wenny edited the proposal 
 
+### November 5
+* Irina, Amy, Kriti, Hansel and Wenny completed proposal edits
 
+### November 6
+* Irina, Amy, Kriti, Hansel and Wenny performed final reviews on proposal 
 
-
-
+## W9-TM Week 10 Team Meeting
+### November 9
+#### Agenda
+* review regenerated ISA, Core microbiome and deseq data 
