@@ -305,7 +305,7 @@ Next steps:
 #### Agenda
 * review regenerated ISA, Core microbiome and deseq data
    * Core Microbiome
-        *Data source:
+        * Data source:
            * HISEAS has more diversity but ISS had more read counts
            * According to our table, there are 10,000 unique ASVs but according to CM, there are ~4504 for HISEAS. We lost about 5000 samples.
         * Isolation data source
