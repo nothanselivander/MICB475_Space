@@ -303,4 +303,32 @@ Next steps:
 ## W9-TM Week 10 Team Meeting
 ### November 9
 #### Agenda
-* review regenerated ISA, Core microbiome and deseq data 
+* review regenerated ISA, Core microbiome and deseq data
+   * Core Microbiome
+        *Data source:
+           * HISEAS has more diversity but ISS had more read counts
+           * According to our table, there are 10,000 unique ASVs but according to CM, there are ~4504 for HISEAS. We lost about 5000 samples.
+        * Isolation data source
+           * ISS more unique in the sanitary station
+           * HISEAS bedroom and common area are more unique
+
+   * Deseq:
+        * Only looks at the ASV in common, and if they are up or down-regulated relative to each other. 
+        * There are so many significant ASVs shared, so CM should represent them.  
+
+   * ISA: 
+        * Even ISA_isolation_data_source shows that there are things shared, just very little.
+        * ISS have very few indicator species and there are some unique ones that are not in the HISEAS (row 16 and 9)
+        * Table with only the unique ASVs for each dataset and another column specifying the locations where they’re found. Ignore the ones that are shared. Include the indicator value and the p-value; keep the family and genus.  
+   
+   * Diversity metrics:
+        * HISEAS is more diverse
+
+   * Action items:
+        * Try to compile all figures and put in the lab notebook
+        * Paper needs:
+            * One figure of alpha and beta analyses
+            * For the CM, only put the data_source figure (the rest go in the supplemental)
+            * ISA is a table
+
+
