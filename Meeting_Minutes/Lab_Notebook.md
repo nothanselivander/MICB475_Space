@@ -319,10 +319,10 @@ Next steps:
    * ISA: 
         * Even ISA_isolation_data_source shows that there are things shared, just very little.
         * ISS have very few indicator species and there are some unique ones that are not in the HISEAS (row 16 and 9)
-        * Table with only the unique ASVs for each dataset and another column specifying the locations where they’re found. Ignore the ones that are shared. Include the indicator value and the p-value; keep the family and genus.  
+        * For our paper, we need to create a table with only the unique ASVs for each dataset and another column specifying the locations where they’re found. Ignore the ones that are shared. Include the indicator value and the p-value; keep the family and genus.  
    
    * Diversity metrics:
-        * HISEAS is more diverse
+        * These metrics also confirm that HISEAS is more diverse
 
    * Action items:
         * Try to compile all figures and put in the lab notebook
