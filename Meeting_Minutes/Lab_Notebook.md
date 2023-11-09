@@ -283,8 +283,8 @@ Next steps:
    * Proposal revision, due Monday, Nov 6, 2023
    * Team member try to regenerate plots for each taxonomic analyses:
       * Core microbiome - Kriti, Hansel  (?)
-      * ISA - Irina, Amy (?)
-      * DESeq – Wenny
+      * DeSeq - Irina, Amy (?)
+      * ISS – Wenny
    * Try generating core microbiome at genus level?
    * Try BLAST the ASV of Xanthobacteraceae
    * ISA: Make table or venn diagram to summarize
