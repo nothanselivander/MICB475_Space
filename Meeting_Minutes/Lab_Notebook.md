@@ -9,10 +9,11 @@
 | | [Week 5 Team Discussion](#w6-tm-week-6-discussion) | October 11 | ----|
 | W6–TM | [Week 6 Team Meeting](#w6-tm-week-6-team-meeting) | October 12 | ----|
 | W7–TM | [Week 7 Team Meeting](#w7-tm-week-7-team-meeting)| October 19| ----|
-| ??? | [Initial QIIME2 processing](#initial-qiime2-processing) |October 12|----|
+|  | [Initial QIIME2 processing](#initial-qiime2-processing) |October 12|----|
 |W8–TM | [Week 8 Team Meeting](#w8-tm-week-8-team-meeting) | October 26 | -----|
-| ??? |  [Generating phyloseq and running core microbiome, Indicator Species Analysis, and DESeq2](#generating-phyloseq-and-running-core-microbiome-indicator-species-analysis-and-deseq2) | October 29| ----|
+|  |  [Generating phyloseq and running core microbiome, Indicator Species Analysis, and DESeq2](#generating-phyloseq-and-running-core-microbiome-indicator-species-analysis-and-deseq2) | October 29| ----|
 | W9-TM | [Week 9 Team Meeting](#w9-tm-week-9-team-meeting)  | November 2| ----|
+| W10-TM | [Week 10 Team Meeting](#w10-tm-week-10-team-meeting)  | November 10| ----|
 
 * [Log of Tasks Performed](https://github.com/nothanselivander/MICB475_Space/blob/main/Meeting_Minutes/Lab_Notebook.md#log-of-tasks-performed)
 
@@ -300,7 +301,7 @@ Next steps:
 ### November 6
 * Irina, Amy, Kriti, Hansel and Wenny performed final reviews on proposal 
 
-## W9-TM Week 10 Team Meeting
+## W10-TM Week 10 Team Meeting
 ### November 9
 #### Agenda
 * review regenerated ISA, Core microbiome and deseq data
