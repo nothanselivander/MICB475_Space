@@ -1,0 +1,60 @@
+###Recreating alpha diversity analysis (Shannon's, Observed Features)
+
+#Load packages
+library(phyloseq)
+library(ape)
+library(tidyverse)
+library(picante)
+
+#Load data
+load("space_final_rare.RData")
+
+# Shannon and Observed features analyses for Data Source
+gg_richness_data_source <- plot_richness(space_final_rare, x= "data_source", measures = c("Shannon", "Observed")) +
+  xlab("Data Source") +
+  geom_boxplot()
+gg_richness_data_source
+
+#Shannon analysis for Mutated Isolation Source
+gg_shannon_mutated_isolation_source <- plot_richness(space_final_rare, x= "mutated_isolation_source", measures = c("Shannon")) +
+  xlab("Mutated Isolation Source") + ylab ("Shannon Diversity Index") + facet_wrap(.~data_source, scales = "free_x")+
+  geom_boxplot()
+gg_shannon_mutated_isolation_source
+
+#Observed Features for Mutated Isolation Source
+gg_observed_mutated_isolation_source<-plot_richness(space_final_rare, x= "mutated_isolation_source", measures = c("Observed")) +
+  xlab("Mutated Isolation Source") +
+  ylab("Observed Features") +   facet_wrap(.~data_source, scales = "free_x")+
+  geom_boxplot() 
+gg_observed_mutated_isolation_source
+
+estimate_richness(space_final_rare)
+
+
+#save
+ggsave(filename = "plot_richness_data_source.png"
+       , gg_richness_data_source
+       , height=4, width=6)
+
+ggsave(filename = "plot_shannon_mutated_isolation_source.png"
+       , gg_shannon_mutated_isolation_source
+       , height=4, width=6)
+
+ggsave(filename = "plot_observed_mutated_isolation_source.png"
+       , gg_observed_mutated_isolation_source
+       , height=4, width=6)
+### Recreating beta diversity analysis (weighted unifrac)
+#### Beta diversity #####
+wu_dm <- distance(space_final_rare, method="wunifrac")
+# check which methods you can specify
+?distance
+
+pcoa_wu <- ordinate(space_final_rare, method="PCoA", distance=wu_dm)
+
+gg_pcoa <-plot_ordination(space_final_rare, pcoa_wu, color = "data_source") + labs (col = "Data Source")
+
+gg_pcoa
+
+ggsave("plot_wu_pcoa_data_source.png"
+       , gg_pcoa
+       , height=4, width=5)
