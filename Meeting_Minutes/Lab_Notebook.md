@@ -338,7 +338,7 @@ Next steps:
 #### Agenda
 * No meeting this week
 
-## W10-TM Week 12 Team Meeting
+## W12-TM Week 12 Team Meeting
 ### November 23
 #### Agenda
 * Normal to have core microbiome and indicator taxa metrics to contradict
@@ -366,6 +366,12 @@ Next steps:
    * have presentation draft ready by next meeting
         * In the presentation - pick one alpha and one beta - say that diversity is different, venn diagram and indicator taxa 
 
+## W13-TM Week 13 Team Meeting Agenda
+
+* Go over draft slides:
+  * Statistical testing: Wilcox or Kruskal for data source? PERMANOVA for isolation_data_source?
+  * Ellipses for PCOA
+  * How to present the ISA 
 
 
   
