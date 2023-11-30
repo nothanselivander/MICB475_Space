@@ -58,3 +58,17 @@ gg_pcoa
 ggsave("plot_wu_pcoa_data_source.png"
        , gg_pcoa
        , height=4, width=5)
+
+####
+
+wu_dm <- distance(space_final_rare, method="wunifrac")
+
+pcoa_wu <- ordinate(space_final_rare, method="PCoA", distance=wu_dm)
+
+gg_pcoa <-plot_ordination(space_final_rare, pcoa_wu, color = "isolation_data_source") + labs (col = "Isolation Source")
+
+gg_pcoa
+
+ggsave("plot_wu_pcoa_isolation_source.png"
+       , gg_pcoa
+       , height=4, width=7)
