@@ -331,5 +331,42 @@ Next steps:
             * One figure of alpha and beta analyses
             * For the CM, only put the data_source figure (the rest go in the supplemental)
             * ISA is a table
+            * 
 
+## W10-TM Week 11 Team Meeting
+### November 16
+#### Agenda
+* No meeting this week
+
+## W10-TM Week 12 Team Meeting
+### November 23
+#### Agenda
+* Normal to have core microbiome and indicator taxa metrics to contradict
+     * The TA's said that if there are different levels of abundance shared (in our case 0), then the code processes it relative to 0 or 1 so they think there’s more up and down reg because there’s to 1??
+
+* Another group reported HISEASE had contamination from the outside
+     * possibly soil contamination
+     * from team 3, frank zhang (chi et al) includes all the figures generated and reference their paper in our report
+ 
+* Observed traits 
+   * Venn diagram: datea source, iss and disease locatios specific 
+   * Kitchen, bedroom/common area most diverse + equipment is least diverse
+
+* Deseq is meaningless and do not include
+  
+* Action items:
+     * Regenerate diversity metrics in R
+     * create Fig 1. A mix between alpha (Shannon + observed features) and beta (weighted unifrat PCA) diversity
+          * have 6 panels
+          * Data Source: will have 1 Shannon panel, 1 observed feature panel + 1 weighted unifrat PCA panel
+          * Mutated solation data source (the one where the iss and hisease locations are combined) between HIEASE and ISS will have 1 Shannon panel + 1 observed features panel - faceted on R
+          * Isolated data source? (the one where the iss and hisease locations are separated) will have 1 PCA panel (not faceted on R)
+   * Indicator taxa - write all 28 of them and keep p value and stas value -
+     *  indicator (stats) value, remove species (did up to genus level - family, genus - remove domain + phyla) - only include anything above 0.7 - separate into two columns, location and data sets          (maybe organize by family or highest stat value to lowest) can consider color coding
+   * have presentation draft ready by next meeting
+        * In the presentation - pick one alpha and one beta - say that diversity is different, venn diagram and indicator taxa 
+
+
+
+  
 
