@@ -65,10 +65,17 @@ wu_dm <- distance(space_final_rare, method="wunifrac")
 
 pcoa_wu <- ordinate(space_final_rare, method="PCoA", distance=wu_dm)
 
-gg_pcoa <-plot_ordination(space_final_rare, pcoa_wu, color = "isolation_data_source") + labs (col = "Isolation Source")
+gg_pcoa_isolation <-plot_ordination(space_final_rare, pcoa_wu, color = "isolation_data_source") + labs (col = "Isolation Source")
 
-gg_pcoa
+gg_pcoa_isolation
 
 ggsave("plot_wu_pcoa_isolation_source.png"
-       , gg_pcoa
+       , gg_pcoa_isolation
        , height=4, width=7)
+
+
+
+## kruskal for first figure
+kruskal.test(Observed ~ `data_source`, data = samp_dat_wdiv) #P-value = 4.55e-8
+kruskal.test(Shannon ~ `data_source`, data = samp_dat_wdiv)#P-value = 4.58e-8
+
