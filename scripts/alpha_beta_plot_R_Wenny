@@ -8,6 +8,7 @@ library(picante)
 
 #Load data
 load("space_final_rare.RData")
+samp_dat_wdiv <- data.frame(sample_data(space_final_rare), estimate_richness(space_final_rare))
 
 # Shannon and Observed features analyses for Data Source
 gg_richness_data_source <- plot_richness(space_final_rare, x= "data_source", measures = c("Shannon", "Observed")) +
@@ -44,35 +45,55 @@ ggsave(filename = "plot_observed_mutated_isolation_source.png"
        , gg_observed_mutated_isolation_source
        , height=4, width=6)
 ### Recreating beta diversity analysis (weighted unifrac)
-#### Beta diversity #####
+### PERMANOVA (Permutational ANOVA) ####
+# isolation data source
+dm_unifrac <- UniFrac(space_final_rare, weighted=TRUE)
+
+# plot the above as an ordination to a PCoA plot
+ord.unifrac <- ordinate(space_final_rare, method="PCoA", distance="unifrac")
+plot_ordination(space_final_rare, ord.unifrac, color="isolation_data_source", shape= "isolation_data_source")
+
+# run the permanova on the above matrix for weighted unifrac
+adonis2(dm_unifrac ~ `isolation_data_source`*isolation_data_source, data=samp_dat_wdiv)
+
+###premannoca data source###
+dm_unifrac_data_source <- UniFrac(space_final_rare, weighted=TRUE)
+
+# plot the above as an ordination to a PCoA plot
+ord.unifrac__data_source <- ordinate(space_final_rare, method="PCoA", distance="unifrac")
+plot_ordination(space_final_rare, ord.unifrac, color="data_source")
+
+# run the permanova on the above matrix for weighted unifrac
+adonis2(dm_unifrac ~ `data_source`*isolation_data_source, data=samp_dat_wdiv)
+
+#### Beta diversity isolation data source#####
+wu_dm <- distance(space_final_rare, method="wunifrac")
+# check which methods you can specify
+
+pcoa_wu <- ordinate(space_final_rare, method="PCoA", distance=wu_dm)
+
+gg_pcoa <-plot_ordination(space_final_rare, pcoa_wu, color = "isolation_data_source") + labs (col = "Isolation Source") + stat_ellipse(type = "norm")
+
+gg_pcoa2 <-adonis2(dm_unifrac ~ `isolation_data_source`*isolation_data_source, data=samp_dat_wdiv)
+
+ggsave("plot_wu_pcoa_isolation_source.png"
+       , gg_pcoa
+       , height=4, width=7)
+
+#### Beta diversity data source #####
 wu_dm <- distance(space_final_rare, method="wunifrac")
 # check which methods you can specify
 ?distance
 
 pcoa_wu <- ordinate(space_final_rare, method="PCoA", distance=wu_dm)
 
-gg_pcoa <-plot_ordination(space_final_rare, pcoa_wu, color = "data_source") + labs (col = "Data Source")
+gg_pcoa <-plot_ordination(space_final_rare, pcoa_wu, color = "data_source", shape = "data_source") + labs (col = "Data Source") + stat_ellipse(type = "norm")
 
 gg_pcoa
 
 ggsave("plot_wu_pcoa_data_source.png"
        , gg_pcoa
        , height=4, width=5)
-
-####
-
-wu_dm <- distance(space_final_rare, method="wunifrac")
-
-pcoa_wu <- ordinate(space_final_rare, method="PCoA", distance=wu_dm)
-
-gg_pcoa_isolation <-plot_ordination(space_final_rare, pcoa_wu, color = "isolation_data_source") + labs (col = "Isolation Source")
-
-gg_pcoa_isolation
-
-ggsave("plot_wu_pcoa_isolation_source.png"
-       , gg_pcoa_isolation
-       , height=4, width=7)
-
 
 
 ## kruskal for first figure
