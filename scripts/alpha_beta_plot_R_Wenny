@@ -44,27 +44,6 @@ ggsave(filename = "plot_shannon_mutated_isolation_source.png"
 ggsave(filename = "plot_observed_mutated_isolation_source.png"
        , gg_observed_mutated_isolation_source
        , height=4, width=6)
-### Recreating beta diversity analysis (weighted unifrac)
-### PERMANOVA (Permutational ANOVA) ####
-# isolation data source
-dm_unifrac <- UniFrac(space_final_rare, weighted=TRUE)
-
-# plot the above as an ordination to a PCoA plot
-ord.unifrac <- ordinate(space_final_rare, method="PCoA", distance="unifrac")
-plot_ordination(space_final_rare, ord.unifrac, color="isolation_data_source", shape= "isolation_data_source")
-
-# run the permanova on the above matrix for weighted unifrac
-adonis2(dm_unifrac ~ `isolation_data_source`*isolation_data_source, data=samp_dat_wdiv)
-
-###premannoca data source###
-dm_unifrac_data_source <- UniFrac(space_final_rare, weighted=TRUE)
-
-# plot the above as an ordination to a PCoA plot
-ord.unifrac__data_source <- ordinate(space_final_rare, method="PCoA", distance="unifrac")
-plot_ordination(space_final_rare, ord.unifrac, color="data_source")
-
-# run the permanova on the above matrix for weighted unifrac
-adonis2(dm_unifrac ~ `data_source`*isolation_data_source, data=samp_dat_wdiv)
 
 #### Beta diversity isolation data source#####
 wu_dm <- distance(space_final_rare, method="wunifrac")
@@ -74,11 +53,11 @@ pcoa_wu <- ordinate(space_final_rare, method="PCoA", distance=wu_dm)
 
 gg_pcoa <-plot_ordination(space_final_rare, pcoa_wu, color = "isolation_data_source") + labs (col = "Isolation Source") + stat_ellipse(type = "norm")
 
-gg_pcoa2 <-adonis2(dm_unifrac ~ `isolation_data_source`*isolation_data_source, data=samp_dat_wdiv)
-
 ggsave("plot_wu_pcoa_isolation_source.png"
        , gg_pcoa
        , height=4, width=7)
+
+adonis2(dm_unifrac ~ `data_source`*isolation_data_source, data=samp_dat_wdiv)
 
 #### Beta diversity data source #####
 wu_dm <- distance(space_final_rare, method="wunifrac")
@@ -95,6 +74,8 @@ ggsave("plot_wu_pcoa_data_source.png"
        , gg_pcoa
        , height=4, width=5)
 
+# run the permanova on the above matrix for weighted unifrac
+adonis2(dm_unifrac ~ `isolation_data_source`*isolation_data_source, data=samp_dat_wdiv)
 
 ## kruskal for first figure
 kruskal.test(Observed ~ `data_source`, data = samp_dat_wdiv) #P-value = 4.55e-8
