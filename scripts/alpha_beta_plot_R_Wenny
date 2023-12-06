@@ -35,22 +35,6 @@ gg_shannon_mutated_isolation_source <- plot_richness(space_final_rare, x= "mutat
   geom_boxplot()
 gg_shannon_mutated_isolation_source
 
-
-## Statistical analysis
-alphadiv <- estimate_richness(space_final_rare) #richness and abundance
-samp_dat <- sample_data(space_final_rare)
-samp_dat_wdiv <- data.frame(samp_dat, alphadiv)
-
-#????if using kruskal????
-kruskal.test(Shannon ~ `mutated_isolation_source`, data = samp_dat_wdiv)
-
-#????if using PERMANOVA but resulted in error???
-dm_shannon <- diversity(space_final_rare, index = "shannon")
-adonis2(dm_shannon ~ data_site*subject, data = samp_dat_wdiv)
-
-
-
-
 #### Beta diversity isolation data source#####
 wu_dm <- distance(space_final_rare, method="wunifrac")
 pcoa_wu <- ordinate(space_final_rare, method="PCoA", distance=wu_dm)
@@ -64,7 +48,20 @@ gg_pcoa_isolation <-plot_ordination(space_final_rare, pcoa_wu, color = "isolatio
 adonis2(dm_unifrac ~ `data_source`*isolation_data_source, data=samp_dat_wdiv)
 adonis2(dm_unifrac ~ `isolation_data_source`*isolation_data_source, data=samp_dat_wdiv)
 
+## Statistical analysis
+alphadiv <- estimate_richness(space_final_rare) #richness and abundance
+samp_dat <- sample_data(space_final_rare)
+samp_dat_wdiv <- data.frame(samp_dat, alphadiv)
 
+#????if using kruskal????
+kruskal.test(Shannon ~ `mutated_isolation_source`, data = samp_dat_wdiv)
+
+#????if using PERMANOVA but resulted in error???
+dm_shannon <- diversity(space_final_rare, index = "shannon")
+adonis2(dm_shannon ~ data_site*subject, data = samp_dat_wdiv)
+
+#$$$ kruskal test for the PCOA data source - getting error
+kruskal.test(UniFrac(space_final_rare, weighted=TRUE) ~ `data_source`, data=samp_dat_wdiv)
 
 
 #save
