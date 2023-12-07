@@ -14,6 +14,7 @@
 |  |  [Generating phyloseq and running core microbiome, Indicator Species Analysis, and DESeq2](#generating-phyloseq-and-running-core-microbiome-indicator-species-analysis-and-deseq2) | October 29| ----|
 | W9-TM | [Week 9 Team Meeting](#w9-tm-week-9-team-meeting)  | November 2| ----|
 | W10-TM | [Week 10 Team Meeting](#w10-tm-week-10-team-meeting)  | November 10| ----|
+| W11-TM | [Week 10 Team Meeting](#w11-tm-week-11-team-meeting)  | November 17| ----|
 
 * [Log of Tasks Performed](https://github.com/nothanselivander/MICB475_Space/blob/main/Meeting_Minutes/Lab_Notebook.md#log-of-tasks-performed)
 
