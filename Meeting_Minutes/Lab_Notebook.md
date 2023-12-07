@@ -339,7 +339,7 @@ Next steps:
 ### November 23
 #### Agenda
 * Normal to have core microbiome and indicator taxa metrics to contradict
-     * The TA's said that if there are different levels of abundance shared (in our case 0), then the code processes it relative to 0 or 1 so they think there’s more up and down reg because there’s to 1??
+* For the deseq: The TA's said that if there are different levels of abundance shared (in our case 0), then the code processes it relative to 0 or 1 so they think there’s more up and down reg because there’s to 1??
 
 * Another group reported HISEASE had contamination from the outside
      * possibly soil contamination
