@@ -8,8 +8,7 @@ library(picante)
 
 #Load data
 load("space_final_rare.RData")
-
-
+samp_dat_wdiv <- data.frame(sample_data(space_final_rare), estimate_richness(space_final_rare))
 
 ####Alpha Diversity -Data Source####
 ### Shannon and Observed features analyses for Data Source
