@@ -60,6 +60,11 @@ kruskal.test(Shannon ~ `mutated_isolation_source`, data = samp_dat_wdiv)
 dm_shannon <- diversity(space_final_rare, index = "shannon")
 adonis2(dm_shannon ~ data_site*subject, data = samp_dat_wdiv)
 
+# 2-Way ANOVA 
+ml_datasource_mutloc <- lm(Shannon ~ `data_source`*`mutated_isolation_source`, data=samp_dat_wdiv)
+summary(aov(ml_datasource_mutloc))
+TukeyHSD(aov(ml_datasource_mutloc))
+
 #$$$ kruskal test for the PCOA data source - getting error
 kruskal.test(UniFrac(space_final_rare, weighted=TRUE) ~ `data_source`, data=samp_dat_wdiv)
 
