@@ -59,8 +59,8 @@ gg_pcoa_isolation <-plot_ordination(space_final_rare, pcoa_wu, color = "isolatio
 gg_pcoa_isolation 
 
 #PERMANOVA on the above matrix for weighted unifrac
-adonis2(dm_unifrac ~ `data_source`, data=samp_dat_wdiv)
-adonis2(dm_unifrac ~ `data_source`*isolation_data_source, data=samp_dat_wdiv)
+adonis2(dm_unifrac ~ `isolation_data_source`, data=samp_dat_wdiv)
+adonis2(dm_unifrac ~ `data_source`*mutated_isolation_source, data=samp_dat_wdiv)
 
 
 #save
