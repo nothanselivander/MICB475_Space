@@ -425,13 +425,19 @@ Next steps:
      * It's ok to keep CMA to ASVs and ISA to genus
      * Ensure this is explicit in methodology
 * Question regarding which system was used in ISS samples removed due to processing time
-      * One of the systems used was the NextSeq 500 - too dense and took too long to process in initial trials
-      * NextSeq 500 system samples were removed
-      * Only HiSeq 2500 samples kept
+   * One of the systems used was the NextSeq 500 - too dense and took too long to process in initial trials
+   * NextSeq 500 system samples were removed
+   * Only HiSeq 2500 samples kept
 * Comments made on introduction
      * Need to establish a better link to study being done
      * Aim should be to validate the model - need to add more information on this rather than focus on space exploration
      * Discuss on if an earthbound model is worth using and spending money on - cheaper, but need to validate
      * Is an earthbound model a good proxy?
 * Comments made on figures
-   * 
+   * mention the p values in the figure caption
+   * can use p values < 0.05 across the datasets
+   * report all comparisons between datasets as significant and p < 0.001 - no need for p value table
+   * for ISA, keep indicator value, family, genus; can remove index
+   * one column in dataset for locations - which ones correspond
+   * one column for datasets, one for location
+   * format the figures, then write around the figures
