@@ -222,7 +222,9 @@ Next steps:
     * Refer to (https://github.com/nothanselivander/MICB475_Space/blob/main/Rstudio/Indicator_Species_Analysis)
 
 * Irina ran core microbiome and generated venn diagrams
-  <img src="../pictures/Core_Microbiome_Data_Source_d0_p0.png" height="400" width="700">
+  <img src="../pictures/Core_Microbiome_Data_Source_d0_p0.png" height="400" width="600">
+  <img src="../pictures/Isolation_Source_HISEAS_d0_p0.png" height="400" width="600">
+  <img src="../pictures/Isolation_Source_ISS_d0_p0.png" height="400" width="600">
 * Hansel ran DESeq2
  <img src="../pictures/deseq_vol_plot.png" height="400" width="700">
 * Wenny started reformatting lab notebook
