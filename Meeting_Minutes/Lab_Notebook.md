@@ -409,7 +409,7 @@ Next steps:
 * Acknowledgement to the department
 
   
-## W24-TM Week 14 Team Meeting 
+## W14-TM Week 14 Team Meeting 
 # December 7, 2023
 # Agenda
    * Discuss statistical analyses
