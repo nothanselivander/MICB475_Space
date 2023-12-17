@@ -418,3 +418,20 @@ Next steps:
    * Discuss draft manuscript
 
 # Minutes
+
+* Question regarding difference in results between ISA and CMA
+     * ISA glommed data to genus level
+     * CMA was kept to the level of ASVs - more specific than ISA
+     * It's ok to keep CMA to ASVs and ISA to genus
+     * Ensure this is explicit in methodology
+* Question regarding which system was used in ISS samples removed due to processing time
+      * One of the systems used was the NextSeq 500 - too dense and took too long to process in initial trials
+      * NextSeq 500 system samples were removed
+      * Only HiSeq 2500 samples kept
+* Comments made on introduction
+     * Need to establish a better link to study being done
+     * Aim should be to validate the model - need to add more information on this rather than focus on space exploration
+     * Discuss on if an earthbound model is worth using and spending money on - cheaper, but need to validate
+     * Is an earthbound model a good proxy?
+* Comments made on figures
+   * 
