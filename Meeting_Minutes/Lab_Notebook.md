@@ -13,7 +13,13 @@
 |W8–TM | [Week 8 Team Meeting](#w8-tm-week-8-team-meeting) | October 26 | -----|
 |  |  [Generating phyloseq and running core microbiome, Indicator Species Analysis, and DESeq2](#generating-phyloseq-and-running-core-microbiome-indicator-species-analysis-and-deseq2) | October 29| ----|
 | W9-TM | [Week 9 Team Meeting](#w9-tm-week-9-team-meeting)  | November 2| ----|
-| W10-TM | [Week 10 Team Meeting](#w10-tm-week-10-team-meeting)  | November 10| ----|
+| W10-TM | [Week 10 Team Meeting](#w10-tm-week-10-team-meeting)  | November 9| ----|
+| W11-TM | [Week 11 Team Meeting](#w11-tm-week-11-team-meeting)  | November 16| ----|
+| W12-TM | [Week 12 Team Meeting](#w12-tm-week-12-team-meeting)  | November 23| ----|
+| W13-TM | [Week 13 Team Meeting](#w13-tm-week-13-team-meeting)  | November 30| ----|
+| W14-TM | [Week 14 Team Meeting](#w14-tm-week-14-team-meeting)  | November 10| ----|
+
+
 
 
 ## W5-TM Week 5 Team Meeting
@@ -330,7 +336,7 @@ Next steps:
             * ISA is a table
             * 
 
-## W10-TM Week 11 Team Meeting
+## W11-TM Week 11 Team Meeting
 ### November 16
 #### Agenda
 * No meeting this week
@@ -363,13 +369,50 @@ Next steps:
    * have presentation draft ready by next meeting
         * In the presentation - pick one alpha and one beta - say that diversity is different, venn diagram and indicator taxa 
 
-## W13-TM Week 13 Team Meeting Agenda
-
+## W13-TM Week 13 Team Meeting 
+# Meeting Agenda
+# December 30, 2023
 * Go over draft slides:
   * Statistical testing: Wilcox or Kruskal for data source? PERMANOVA for isolation_data_source?
   * Ellipses for PCOA
   * How to present the ISA 
 
+# Meeting Minutes
+* Draft slides:
+   * Title: No. HISEAS (give context)  MODEL IS A POOR MODEL.
+   * Intro: What HISEAS is. Why we do it. Explain ISS. Add picture
+        * Impact on astronauts health, etc. but keep it brief
+        * bigger fonts
+        * Explain what kinds of data they collected
+* Research question. Let’s not have a hypothesis.
+* Research aims: make it more succint
+    * Explain how we organize our data --> Grouping ISS and HISEAS data (have a diagram)
+        * grouping
+* Fig 1 and 2: Remove text
+   * Which Statistical testing
+     * Data source: Kruskal, isolated mutation source: PERMANOVA. Add a p value.
+   * Fig 1b, show shannon only
+   * Fig 2, generate ellipses 
+* For ITA explain using use text, we have 12 ita for hiseas and 5 for iss. Discuss some of the interesting ones: shared
+
+* Briefly mention limitation — > think of future directions:
+   * different datasets
+   * different sample sizes
+   *  different people
+   *  differences in datasets themselves that we don’t know 
+
+* Future directions:
+   * Comparable collection
+   * Future studies can just be done directly in the ISS
+
+* Conclusion - not completed yet
+* Acknowledgement to the department
 
   
+## W24-TM Week 14 Team Meeting 
+# December 7, 2023
+# Agenda
+   * Discuss statistical analyses
+   * Discuss draft manuscript
 
+# Minutes
