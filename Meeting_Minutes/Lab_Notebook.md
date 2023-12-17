@@ -108,6 +108,13 @@ Next steps:
   * proposal due date is Oct 25
 
 <img src="../pictures/alpha-rarefaction.png" height="500" width="1000">
+<img src="../pictures/qiime 2 alpha rarefaction - data source.png" height="500" width="1000">
+<img src="../pictures/qiime 2 alpha rarefaction - isolated-source.png" height="500" width="1000">
+<img src="../pictures/qiime 2 alpha rarefaction - mutated-isolation-source.png" height="500" width="1000">
+<img src="../pictures/qiime 2 interactive sample details - mutated-isolated-source.png" height="500" width="1000">
+<img src="../pictures/qiime 2 interactive sample details - solated-source.png" height="500" width="1000">
+<img src="../pictures/qiime 2 interative sample details - data-source.png" height="500" width="1000">
+
 
 ## Initial QIIME2 Processing
 ### October 12
