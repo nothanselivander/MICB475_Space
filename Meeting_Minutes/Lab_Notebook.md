@@ -139,8 +139,9 @@ Laptop w/ Window 10 Home OS and RStudio
    * Irina emailed Evelyn to confirm that this would be a good trim parameter
    * Evelyn confirmed that 293 was good
    * Irina started denoising the data
-      * Denoising finished – October 14
-
+##### October 14
+* denoising data finished
+  
 #### Discussion 
 * Discovered demultiplexing data was missing samples.
 * Consult Professor on next meeting for future step
