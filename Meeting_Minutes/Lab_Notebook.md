@@ -10,7 +10,7 @@
 |P001| W6–TM | [Week 6 Team Meeting](#w6-tm-week-6-team-meeting) | October 12 |
 |P001|  | [Initial QIIME2 processing](#initial-qiime2-processing) |October 12|
 |P001| W7–TM | [Week 7 Team Meeting](#w7-tm-week-7-team-meeting)| October 19| 
-|P001|  | [Initial QIIME2 processing (cont.) ](#initial-qiime2-processing-(-cont-.-)) |October 19|
+|P001|  | [Initial QIIME2 processing (continued) ](#initial-qiime2-processing-(continued)) |October 19|
 |P001|W8–TM | [Week 8 Team Meeting](#w8-tm-week-8-team-meeting) | October 26 | 
 |P001|  |  [Generating phyloseq and running core microbiome, Indicator Species Analysis, and DESeq2](#generating-phyloseq-and-running-core-microbiome-indicator-species-analysis-and-deseq2) | October 29|
 |P001| W9-TM | [Week 9 Team Meeting](#w9-tm-week-9-team-meeting)  | November 2| 
@@ -167,7 +167,7 @@ Laptop w/ Window 10 Home OS and RStudio
   * reorganize "readme" - refer to canvas 
   * proposal due date is Oct 25
 
-## Initial QIIME2 Processing (cont.)
+## Initial QIIME2 Processing (continued)
 ### October 19
 #### Purpose:
 To import, demultiplex, and denoising need to occur for the ISS and HISEAS data separately
