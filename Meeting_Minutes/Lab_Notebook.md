@@ -37,6 +37,7 @@ Project Code - P001 - Validation of HISEAS to the ISS microbiome
 * Deciding if we'll push through with abiotic surfaces 
 * Discuss how we'll compare the HI-SEAS and dataset/s of choice (i.e. by what metrics)
 * Start formatting README file
+  
 #### Meeting Minutes 
 Discussed locations, materials as potential comparison categories
 Discussed combining ISS and Hi-SEAS datasets
@@ -114,11 +115,6 @@ To visualize demuxed sequence on QIIME2 from a combined ISS and HISEAS metadata 
 Laptop w/ Window 10 Home OS and RStudio 
 
 #### Methods 
-* [Outdated Combining metadata code](https://github.com/nothanselivander/MICB475_Space/blob/main/scripts/combining_manifests.R) 
-* [Outdated Inputing and demultiplexing code](https://github.com/nothanselivander/MICB475_Space/blob/main/qiime_files/outdated_table_combined.qzv)
-* [Code to organize metadata file](https://github.com/nothanselivander/MICB475_Space/blob/main/Metadata&Manifest/Metadata.R) 
-
-#### Results 
 ##### October 12
 * Demultiplexing using manifest
    * Amy generated manifest files for ISS and HI-SEAS using Excel 
@@ -129,15 +125,18 @@ Laptop w/ Window 10 Home OS and RStudio
            * Irina agreed with the suggestion
            * Amy fixed the error by converting the csv to a tsv 
    * Amy converted the resulting demux.qza to a qzv file
-   
+Scripts: 
+* [Outdated Combining metadata code](https://github.com/nothanselivander/MICB475_Space/blob/main/scripts/combining_manifests.R) 
+* [Outdated Inputing and demultiplexing code](https://github.com/nothanselivander/MICB475_Space/blob/main/qiime_files/outdated_table_combined.qzv)
+* [Code to organize metadata file](https://github.com/nothanselivander/MICB475_Space/blob/main/Metadata&Manifest/Metadata.R)
+  
 * Creating new, organized metadata files
    * Hansel removed unwanted samples and columns, and combined the metadata from both datasets using R
       * Kriti suggested common terminology for comparable locations in the ISS and HI-SEAS datasets. Team agreed on it.
      <img src="../pictures/Dataset_Configuration.png"  height="250" width="500">
-      
-      * Wenny wrote code for the new column to "rename" the locations
-   * [Metadata Editing](../Metadata&Manifest/Metadata.R)
-* [metadata.tsv](https://github.com/nothanselivander/MICB475_Space/blob/main/Metadata&Manifest/project_metadata.tsv)
+
+   * Wenny wrote code for the new column to "rename" the locations
+      * [Metadata Editing](../Metadata&Manifest/Metadata.R)
      
  ##### October 13
 * Denoising 
@@ -145,8 +144,13 @@ Laptop w/ Window 10 Home OS and RStudio
    * Irina emailed Evelyn to confirm that this would be a good trim parameter
    * Evelyn confirmed that 293 was good
    * Irina started denoising the data using p-trim-left = 0 and p-trunc-len = 293
+     
 ##### October 14
 * denoising data finished
+
+#### Results 
+##### October 12
+* [metadata.tsv](https://github.com/nothanselivander/MICB475_Space/blob/main/Metadata&Manifest/project_metadata.tsv)
   
 #### Discussion 
 * Discovered demultiplexing data was missing samples.
@@ -178,12 +182,6 @@ To import, demultiplex, and denoising need to occur for the ISS and HISEAS data 
 Laptop w/ Window 10 Home OS
 
 #### Methods: 
-
-Scripts:
-* [Demultiplexing and denoising script](../scripts/demux_and_denoise.sh)
-* [Training classifier script](../scripts/taxonomic_classification_and_rarefaction.sh)
-
-#### Results:
 #### October 20
    * Irina imported and demultiplexed the ISS and HISEAS data with separate manifests
    * Irina converted the resulting qza files to qzv files
@@ -196,6 +194,11 @@ Scripts:
    * Irina combined the table.qza and rep-seqs.qza files of both ISS and HISEAS data together
    * Irina converted the resulting qza files to qzv files
      
+Scripts:
+* [Demultiplexing and denoising script](../scripts/demux_and_denoise.sh)
+* [Training classifier script](../scripts/taxonomic_classification_and_rarefaction.sh)
+
+#### Results:  
     
 <img src="../pictures/qiime 2 alpha rarefaction - data source.png"  height="250" width="500">
 Figure: 1. Observed features alpha rarefaction curve of data source visualized in QIIME2
@@ -302,7 +305,7 @@ Scripts:
   
 * Hansel ran DESeq2
  <img src="../pictures/deseq_vol_plot.png" height="400" width="700">
-  S1. DESEQ : Volcano plot of differentially abundant microbial species at HI-SEAS relative to ISS. Data was filtered for adjusted p-value < 0.01. Microbial species present by a factor of 2 or higher are indicated in orange.
+  Fig S1. Volcano plot of differentially abundant microbial species at HI-SEAS relative to ISS. Data was filtered for adjusted p-value < 0.01. Microbial species present by a factor of 2 or higher are indicated in orange.
 
 ## W9-TM Week 9 Team Meeting
 ### November 2
@@ -381,9 +384,9 @@ Scripts:
 ### November 6
 * Irina, Amy, Kriti, Hansel and Wenny performed final reviews on proposal
 
-## Generating Phyloseq and Taxonomic Analysis Part 2
+## Generating Phyloseq and Taxonomic Analyses Part 2
 #### Purpose
-Regenerating ISA, CMA, and DESeq2 by different team members to confirm correct result
+Tp regenerate ISA, CMA, and DESeq2 by different team members to validate the originals results
 
 #### Methods
 
@@ -391,9 +394,9 @@ Scripts:
 * [CMA regeneration script](../scripts/core_microbiome_Kriti.R)
 * [differential abundance analysis regeneration script](../scripts/differential_abundance_2_Irina.R)
 * [ISA regeneration script](../scripts/indicator_species_analysis_2_Wenny.R)
+
 #### Result
 ### November 8
-
 
 * Kriti regenerated the CMA venn diagrams
   
@@ -411,7 +414,8 @@ Fig 9C. Distribution trends of ASVs within each of the locations in the ISS.  Th
   
 * Irina regenerated the differential abundance analysis volcano plot
   <img src="../pictures/vol_plot_data_source_2.png" height="350" width="600">
-  S2. DESEQ : Volcano plot of differentially abundant microbial species at HI-SEAS relative to ISS. Data was filtered for adjusted p-value < 0.01. Microbial species present by a factor of 2 or higher are indicated in orange.
+
+Fig S2. Volcano plot of differentially abundant microbial species at HI-SEAS relative to ISS. Data was filtered for adjusted p-value < 0.01. Microbial species present by a factor of 2 or higher are indicated in orange.
   
 * Wenny regenerated the ISA table
 
@@ -422,9 +426,8 @@ Core Microbiome between ISS and HISEAS locations appears to be contradictory to 
 
 #### Conclusion
 
-ISS and HISEAS locations shares no ASV.
+ISS and HISEAS locations share no ASV.
 
- 
 * Wenny started reformatting the lab notebook
 
 ## W10-TM Week 10 Team Meeting
@@ -495,6 +498,11 @@ ISS and HISEAS locations shares no ASV.
 
 ## ACCFR7523-003 Regenerating alpha and beta diversity plots in R and Statistical Analyses
 ### November 28
+
+#### Purpose
+To evaluate statistical significance of the alpha and beta diversity plots
+
+#### Method 
 * Wenny regenerated alpha diversity plots (Shannon's and Observed features) for data_source and mutated_isolation_source
      * Performed Kruskal-Wallis on data_source plots
      * Initially performed PERMANOVA on mutated_isolation source, but encountered error.
@@ -502,8 +510,8 @@ ISS and HISEAS locations shares no ASV.
 * Wenny regenerated beta diversity pcoa plot for data_source (Weighted UniFrac)
 * Amy added beta diversity PcoA plot for isolation_data_source (Weighted UniFrac)
 * Amy performed Permanova analysis on both Beta Diversity Plots
-#### Method 
 Scripts:[Alpha Beta Analyses Scripts](https://github.com/nothanselivander/MICB475_Space/blob/main/scripts/alpha_beta_plot.R)
+
 #### Results:
 <img src="../pictures/alpha_beta_plots_R/plot_richness_data_source.png" height="250" width="500">
 Figure 1. Alpha Diversity plots on Data Source (Shannon's and Observed features) on RStudio
