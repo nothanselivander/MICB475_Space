@@ -21,7 +21,7 @@
 |P001|ACCFR7523-003| [Regenerating alpha and beta diversity plots in R and Statistical Analyses](#accfr7523-003-Regenerating-alpha-and-beta-diversity-plots-in-R-and-Statistical-Analyses)| November 29||
 |P001| W13-TM | [Week 13 Team Meeting](#w13-tm-week-13-team-meeting)  | November 30||
 |P001| W14-TM | [Week 14 Team Meeting](#w14-tm-week-14-team-meeting)  | November 10| |
-| |
+|P001| |[Manuscript Writing](#manuscript-writing) | December 8||
 
 Project Code - P001 - Validation of HISEAS to the ISS microbiome 
 
@@ -385,6 +385,7 @@ Scripts:
 * Irina, Amy, Kriti, Hansel and Wenny performed final reviews on proposal
 
 ## Generating Phyloseq and Taxonomic Analyses Part 2
+### November 8
 #### Purpose
 Tp regenerate ISA, CMA, and DESeq2 by different team members to validate the originals results
 
@@ -396,7 +397,6 @@ Scripts:
 * [ISA regeneration script](../scripts/indicator_species_analysis_2_Wenny.R)
 
 #### Result
-### November 8
 
 * Kriti regenerated the CMA venn diagrams
   
@@ -604,6 +604,7 @@ Figure 5. Weighted UniFrac principal component analysis plot on Isolation Data S
    * one column for datasets, one for location
    * format the figures, then write around the figures
 
+## Manuscript Writing
 ### December 8 
 Abstract
 * Draft written by Amy
