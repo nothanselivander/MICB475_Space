@@ -558,18 +558,49 @@ Scripts:[Alpha Beta Analyses Scripts](https://github.com/nothanselivander/MICB47
    * format the figures, then write around the figures
 
 ### December 8 
-* Kriti wrote results + discussion of ISA
-* Irina wrote methods for dataset retrieval, QIIME2 processing, part of taxonomic analysis
-* .... idk write what you did
+Abstract
+* Draft written by Amy
+  
+Introduction
+* Written by Hansel and Kriti
+  
+Methods
+* Dataset Retrieval, QIIME2 Processing
+   * Written by Irina
+* Alpha, Beta Diversity and Statistical Analysis
+   * Written by Hansel
+* Taxonomic Analysis
+   * Written by Irina and Kriti
+
+Results
+* HI-SEAS and ISS displayed distinct ASVs and ASV richness distribution trends
+   * Written by Irina
+* HI-SEAS showed significantly higher alpha and beta diversity compared to ISS
+   * Written by Amy and Wenny
+* ISA revealed two shared ASVs between HI-SEAS and ISS
+   * Written by Kriti
+   * 
+Discussion
+* HI-SEAS revealed richer and more distinct microbial diversity than ISS
+   * Written by Irina, Amy, Wenny, Kriti
+* ISS revealed limited diversity and a high prevalence of bacteria in the sanitary station,
+  HI-SEAS exhibited a distinct microbial environment compared to the ISS
+  Xenorhabdus and Paenibacillus in HI-SEAS and ISS sanitary stations indicate a shared ecosystem
+   * Written by Kriti
+* Conclusion
+   * Written by Wenny
+* Study Limitations
+   * Written by Hansel
+* Future Directions
+   * Written by Hansel and Irina
+
+Table 1. Indicator Special Analysis 
+* Made by Kriti
+
+Figures 1-3 Generation and Captions
+* By Wenny, Amy and Irina
 
 ### December 9 
-* Amy worked on figure legends
-* Amy wrote draft abstract
-* Amy imported introduction and added
-* Irina wrote results + discussion for CMA
-* Irina wrote on future directions
-
-### December 10 
-* Everyone revised the manuscript
+* Everyone edited and revised the manuscript
 * Irina connected the manuscript to Zotero and added references
 * Hansel rewrote abstract 
