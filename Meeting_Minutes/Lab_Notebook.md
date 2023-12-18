@@ -353,7 +353,17 @@ Training classifier script
 * Irina, Amy, Kriti, Hansel and Wenny completed proposal edits
 
 ### November 6
-* Irina, Amy, Kriti, Hansel and Wenny performed final reviews on proposal 
+* Irina, Amy, Kriti, Hansel and Wenny performed final reviews on proposal
+
+### November 8
+* Kriti regenerated the CMA venn diagrams
+  <img src="../Rstudio/Core_Microbiome/Core_Microbiome_Kriti/Data_Source.png" height="350" width="600">
+  <img src="../Rstudio/Core_Microbiome/Core_Microbiome_Kriti/Isolation_Data_Source_HISEAS.png" height="350" width="600">
+  <img src="../Rstudio/Core_Microbiome/Core_Microbiome_Kriti/Isolation_Data_Source_ISS.png" height="350" width="600">
+* Irina regenerated the differential abundance analysis volcano plot
+  <img src="../pictures/vol_plot_data_source_2.png" height="350" width="600">
+* Wenny regenerated the ISA table
+  
 
 ## W10-TM Week 10 Team Meeting
 ### November 9
@@ -425,7 +435,7 @@ Training classifier script
 * Wenny regenerated alpha diversity plots (Shannon's and Observed features) for data_source and mutated_isolation_source
      * Performed Kruskal-Wallis on data_source plots
      * Initially performed PERMANOVA on mutated_isolation source, but encountered error.
-          * Irina performed Two-Way ANOVA on it instead
+          * Irina performed Two-Way ANOVA on it instead using data source and mutated isolation source 
 * Wenny regenerated beta diversity pcoa plot for data_source (Weighted UniFrac)
 * Amy added beta diversity PcoA plot for isolation_data_source (Weighted UniFrac)
 * Amy performed Permanova analysis on both Beta Diversity Plots
@@ -522,16 +532,16 @@ Scripts:[Alpha Beta Analyses Scripts](https://github.com/nothanselivander/MICB47
    * format the figures, then write around the figures
 
 ### December 8 
-* Kriti worked on results + discussion of ISA
-* Irina worked on methods for dataset retrieval, QIIME2 processing
+* Kriti wrote results + discussion of ISA
+* Irina wrote methods for dataset retrieval, QIIME2 processing, part of taxonomic analysis
 * .... idk write what you did
 
 ### December 9 
 * Amy worked on figure legends
 * Amy wrote draft abstract
 * Amy imported introduction and added
-* Irina worked on results + discussion for CMA
-* Irina worked on future directions
+* Irina wrote results + discussion for CMA
+* Irina wrote on future directions
 
 ### December 10 
 * Everyone revised the manuscript
