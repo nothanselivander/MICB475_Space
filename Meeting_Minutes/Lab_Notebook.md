@@ -41,7 +41,7 @@ Discussed combining ISS and Hi-SEAS datasets
 * discussed combining columns
 
 #### Before next Meeting 
-*Create 2 files
+* Create 2 files
     * Manifest
     * Revised metadata file (potentially combining both Hi-SEAS and ISS data)
 * Come up with aims for next team meeting 
