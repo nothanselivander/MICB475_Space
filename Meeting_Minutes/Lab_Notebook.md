@@ -414,11 +414,19 @@ Training classifier script
    * Indicator taxa - write all 28 of them and keep p value and stas value -
      *  indicator (stats) value, remove species (did up to genus level - family, genus - remove domain + phyla) - only include anything above 0.7 - separate into two columns, location and data sets          (maybe organize by family or highest stat value to lowest) can consider color coding
    * have presentation draft ready by next meeting
-        * In the presentation - pick one alpha and one beta - say that diversity is different, venn diagram and indicator taxa 
+        * In the presentation - pick one alpha and one beta - say that diversity is different, venn diagram and indicator taxa
+
+### November 28
+* insert tasks here
+* Amy performed Permanova analysis on Beta Diversity Plots 
+
+### November 29
+* insert tasks here
+* Amy created beta diversity slides + added information to the limitation  
 
 ## W13-TM Week 13 Team Meeting 
 # Meeting Agenda
-# December 30, 2023
+# November 30, 2023
 * Go over draft slides:
   * Statistical testing: Wilcox or Kruskal for data source? PERMANOVA for isolation_data_source?
   * Ellipses for PCOA
@@ -455,6 +463,9 @@ Training classifier script
 * Conclusion - not completed yet
 * Acknowledgement to the department
 
+### November 30
+* Wenny and Amy emailed to confirm if Kruskal ...?
+* Amy added ellipses to the Beta Diversity plots. (updated code here)
   
 ## W14-TM Week 14 Team Meeting 
 # December 7, 2023
@@ -463,7 +474,6 @@ Training classifier script
    * Discuss draft manuscript
 
 # Minutes
-
 * Question regarding difference in results between ISA and CMA
      * ISA glommed data to genus level
      * CMA was kept to the level of ASVs - more specific than ISA
@@ -486,3 +496,17 @@ Training classifier script
    * one column in dataset for locations - which ones correspond
    * one column for datasets, one for location
    * format the figures, then write around the figures
+
+# December 8 
+* Kriti worked on results + discussion of ISA
+* Irina worked on results ....
+* .... idk write what you did
+
+# December 9 
+* Amy worked on figure legends
+* Amy wrote draft abstract
+* Amy imported introduction and added 
+
+# December 10 
+* Everyone revised the manuscript
+* Hansel rewrote abstract 
