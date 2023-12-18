@@ -598,7 +598,7 @@ Discussion
    * Written by Hansel and Irina
 
 Table 1. Indicator Special Analysis 
-[Final ISA Results for Manuscript](../Rstudio/Indicator_Species_Analysis/Final ISA Results for Manuscript.csv)  
+[Final ISA Results for Manuscript](../Rstudio/Indicator_Species_Analysis/Final_ISA_Results_for_Manuscript.csv)  
 * Made by Kriti
 
 Figures 1-3 Generation and Captions
