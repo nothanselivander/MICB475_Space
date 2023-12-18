@@ -114,8 +114,8 @@ To visualize demuxed sequence on QIIME2 from a combined ISS and HISEAS metadata 
 Laptop w/ Window 10 Home OS and RStudio 
 
 #### Methods 
-* [Combining metadata code](https://github.com/nothanselivander/MICB475_Space/blob/main/scripts/combining_manifests.R) 
-* [Inputing and demultiplexing code]
+* [Outdated Combining metadata code](https://github.com/nothanselivander/MICB475_Space/blob/main/scripts/combining_manifests.R) 
+* [Outdated Inputing and demultiplexing code](https://github.com/nothanselivander/MICB475_Space/blob/main/qiime_files/outdated_table_combined.qzv)
 * [Code to organize metadata file](https://github.com/nothanselivander/MICB475_Space/blob/main/Metadata&Manifest/Metadata.R) 
 
 #### Results 
@@ -135,8 +135,8 @@ Laptop w/ Window 10 Home OS and RStudio
       * Kriti suggested common terminology for comparable locations in the ISS and HI-SEAS datasets. Team agreed on it.
      (insert table)
       * Wenny wrote code for the new column to "rename" the locations
-   * [R Code](https://github.com/nothanselivander/MICB475_Space/blob/main/Metadata&Manifest/Metadata.R)
-   * [tsv file](https://github.com/nothanselivander/MICB475_Space/blob/main/Metadata&Manifest/Metadata/project_metadata.tsv)
+   * [Metadata Editing](https://github.com/nothanselivander/MICB475_Space/blob/main/Metadata&Manifest/Metadata.R)
+   * [metadata.tsv](https://github.com/nothanselivander/MICB475_Space/blob/main/Metadata&Manifest/Metadata/project_metadata.tsv)
      
  ##### October 13
 * Denoising 
