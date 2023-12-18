@@ -528,7 +528,6 @@ Figure 5. Weighted UniFrac principal component analysis plot on Isolation Data S
 
 ### November 29
 * Finished draft slides
-* Amy created beta diversity slides + added information to the limitation  
 
 ## W13-TM Week 13 Team Meeting 
 ### November 30, 2023
