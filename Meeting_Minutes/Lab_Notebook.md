@@ -6,7 +6,7 @@
 | Project Code | Experiment Number  | Title | Start Date | Pages |
 | ----| ------------- | ------------- |---------| ------|
 |P001| W5-TM  | [Week 5 Team Meeting](#w5-tm-week-5-team-meeting) | October 5| -----|
-|P001| [Week 5 Team Discussion](#w6-tm-week-6-discussion) | October 11 | ----|
+|P001|  | [Week 5 Team Discussion](#w6-tm-week-6-discussion) | October 11 | ----|
 |P001| W6–TM | [Week 6 Team Meeting](#w6-tm-week-6-team-meeting) | October 12 | ----|
 |P001| W7–TM | [Week 7 Team Meeting](#w7-tm-week-7-team-meeting)| October 19| ----|
 |P001|  | [Initial QIIME2 processing](#initial-qiime2-processing) |October 12|----|
