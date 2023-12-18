@@ -1,18 +1,19 @@
 # MICB475 Lab Notebook
-
+## ACCFR7523
+# Team 5
+# Hansel Anggunmulia, Amy Chen, Irina Chua, Wenny Feng, Kriti Randhawa
 ## Table of Contents 
 
 
-| Project Code | Experiment Number  | Title | Start Date |
-| ----| ------------- | ------------- |---------|
-|P001| W5-TM  | [Week 5 Team Meeting](#w5-tm-week-5-team-meeting) | October 5|
-|P001|  | [Week 5 Team Discussion](#w6-tm-week-6-discussion) | October 11 | 
-|P001| W6–TM | [Week 6 Team Meeting](#w6-tm-week-6-team-meeting) | October 12 |
-|P001|  | [Initial QIIME2 processing](#initial-qiime2-processing) |October 12|
+| Project Code | Experiment Number  | Title | Start Date | Parts|
+| ----| ------------- | ------------- |---------||
+|P001| W5-TM  | [Week 5 Team Meeting](#w5-tm-week-5-team-meeting) | October 5||
+|P001| W5-TD | [Week 5 Team Discussion](#w5-td-week-5-discussion) | October 11 | |
+|P001| W6–TM | [Week 6 Team Meeting](#w6-tm-week-6-team-meeting) | October 12 ||
+|P001| ACCFR7523-001 |Initial QIIME2 processing|October 12| [Part 1](#initial-qiime2-processing-part-1), [Part 2](#initial-qiime2-processing-part-2)
 |P001| W7–TM | [Week 7 Team Meeting](#w7-tm-week-7-team-meeting)| October 19| 
-|P001|  | [Initial QIIME2 processing (continued)](#initial-qiime2-processing-continued) |October 19|
 |P001|W8–TM | [Week 8 Team Meeting](#w8-tm-week-8-team-meeting) | October 26 | 
-|P001|  |  [Generating phyloseq and running core microbiome, Indicator Species Analysis, and DESeq2](#generating-phyloseq-and-running-core-microbiome-indicator-species-analysis-and-deseq2) | October 29|
+|P001| ACCFR7523-002 |  [Generating phyloseq and running core microbiome, Indicator Species Analysis, and DESeq2](#generating-phyloseq-and-running-core-microbiome-indicator-species-analysis-and-deseq2) | October 29|
 |P001| W9-TM | [Week 9 Team Meeting](#w9-tm-week-9-team-meeting)  | November 2| 
 |P001| W10-TM | [Week 10 Team Meeting](#w10-tm-week-10-team-meeting)  | November 9| 
 |P001| W11-TM | [Week 11 Team Meeting](#w11-tm-week-11-team-meeting)  | November 16| 
@@ -48,7 +49,7 @@ Discussed combining ISS and Hi-SEAS datasets
     * Revised metadata file (potentially combining both Hi-SEAS and ISS data)
 * Come up with aims for next team meeting 
 
-## Week 5 - Team Discussion
+## W5 -TD Week 5 Team Discussion
 ### October 11
 #### Agenda 
 * double check metadata + manifest with professor
@@ -103,7 +104,8 @@ Discussed combining ISS and Hi-SEAS datasets
     Rarefraction analysis will be done after our proposal. 
 
 
-## Initial QIIME2 Processing
+## ACCFR7523-001 Initial QIIME2 Processing
+### Initial QIIME2 Processing Part 1
 #### October 12
 #### Purpose:
 To visualize demuxed sequence on QIIME2 from a combined ISS and HISEAS metadata file
@@ -167,10 +169,10 @@ Laptop w/ Window 10 Home OS and RStudio
   * reorganize "readme" - refer to canvas 
   * proposal due date is Oct 25
 
-## Initial QIIME2 Processing continued
+## Initial QIIME2 Processing part 2
 ### October 19
 #### Purpose:
-To import, demultiplex, and denoising need to occur for the ISS and HISEAS data separately
+To import, demultiplex, and denoising need to occur for the ISS and HISEAS data separately. Train classifier
 
 #### Materials: 
 Laptop w/ Window 10 Home OS
@@ -247,6 +249,7 @@ Laptop w/ Window 10 Home OS
       
 
 ## Generating Phyloseq and Running Core Microbiome, Indicator Species Analysis, and DESeq2
+## ACCFR7523-001
 ### October 29 
 * Wenny attempted to generate the phyloseq, encountered an error
   * Files exported: feature_table.tsv, tree.nwk, taxonomy.tsv, project_metadata.tsv 
