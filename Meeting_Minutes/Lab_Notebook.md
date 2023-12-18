@@ -425,7 +425,16 @@ Training classifier script
 * Wenny regenerated beta diversity pcoa plot for data_source (Weighted UniFrac)
 * Amy added beta diversity PcoA plot for isolation_data_source (Weighted UniFrac)
 * Amy performed Permanova analysis on both Beta Diversity Plots
-* Scripts:(https://github.com/nothanselivander/MICB475_Space/blob/main/scripts/alpha_beta_plot.R)
+* Scripts:[Alpha Beta Analyses in R](https://github.com/nothanselivander/MICB475_Space/blob/main/scripts/alpha_beta_plot.R)
+* Results:
+   <img src="../pictures/alpha_beta_plots_R/plot_richness_data_source.png" height="250" width="500">
+   Figure 1a. Alpha Diversity plots on Data Source (Shannon's and Observed features)
+  
+   <img src="../pictures/alpha_beta_plots_R/plot_shannon_mutated_isolation_source.png" height="250" width="500">
+   Figure 1b. Shannon's Diversity analysis plot on Mutated Isolation Source
+
+    <img src="../pictures/alpha_beta_plots_R/plot_observed_mutated_isolation_source.png" height="250" width="500">
+   Figure 1c. Observed features analysis plot on Mutated Isolation Source
 
 
 ### November 29
@@ -433,14 +442,14 @@ Training classifier script
 * Amy created beta diversity slides + added information to the limitation  
 
 ## W13-TM Week 13 Team Meeting 
-# Meeting Agenda
-# November 30, 2023
+### November 30, 2023
+##### Meeting Agenda
 * Go over draft slides:
   * Statistical testing: Wilcox or Kruskal for data source? PERMANOVA for isolation_data_source?
   * Ellipses for PCOA
   * How to present the ISA 
 
-# Meeting Minutes
+#### Meeting Minutes
 * Draft slides:
    * Title: No. HISEAS (give context)  MODEL IS A POOR MODEL.
    * Intro: What HISEAS is. Why we do it. Explain ISS. Add picture
@@ -476,12 +485,12 @@ Training classifier script
 * Amy added ellipses to the Beta Diversity plots. (updated code here)
   
 ## W14-TM Week 14 Team Meeting 
-# December 7, 2023
-# Agenda
+### December 7, 2023
+#### Agenda
    * Discuss statistical analyses
    * Discuss draft manuscript
 
-# Minutes
+#### Minutes
 * Question regarding difference in results between ISA and CMA
      * ISA glommed data to genus level
      * CMA was kept to the level of ASVs - more specific than ISA
