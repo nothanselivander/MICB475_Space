@@ -16,8 +16,7 @@
 |P001| W10-TM | [Week 10 Team Meeting](#w10-tm-week-10-team-meeting)  | November 9| ----|
 |P001| W11-TM | [Week 11 Team Meeting](#w11-tm-week-11-team-meeting)  | November 16| ----|
 |P001| W12-TM | [Week 12 Team Meeting](#w12-tm-week-12-team-meeting)  | November 23| ----|
-|P001| | [Regenerating alpha and beta diversity plots in R and Statistical Analyses](Regenerating-alpha-and-beta-diversity-plots-in-R-and-Statistical-Analyses| November 29|---| 
-
+|P001|| [Regenerating alpha and beta diversity plots in R and Statistical Analyses](Regenerating-alpha-and-beta-diversity-plots-in-R-and-Statistical-Analyses)| November 29|-| 
 |P001| W13-TM | [Week 13 Team Meeting](#w13-tm-week-13-team-meeting)  | November 30| ----|
 |P001| W14-TM | [Week 14 Team Meeting](#w14-tm-week-14-team-meeting)  | November 10| ----|
 | |
@@ -438,7 +437,7 @@ Training classifier script
 
 
 ### November 29
-* insert tasks here
+* Finished draft slides
 * Amy created beta diversity slides + added information to the limitation  
 
 ## W13-TM Week 13 Team Meeting 
@@ -481,7 +480,6 @@ Training classifier script
 * Acknowledgement to the department
 
 ### November 30
-* Wenny and Amy emailed to confirm if Kruskal ...?
 * Amy added ellipses to the Beta Diversity plots. (updated code here)
   
 ## W14-TM Week 14 Team Meeting 
