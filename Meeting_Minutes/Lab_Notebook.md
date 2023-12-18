@@ -100,6 +100,7 @@ Discussed combining ISS and Hi-SEAS datasets
     Before we trim in the denoising, we need to send Evelyn the demux file to check the quality score and then she will help us determine the trimming parameters.
     Rarefraction analysis will be done after our proposal. 
 
+#### October 12
 #### Purpose:
 To visualize demuxed sequence on QIIME2 from a combined ISS and HISEAS metadata file
 
@@ -154,7 +155,8 @@ Laptop w/ Window 10 Home OS and RStudio
   ### October 19
   #### Agenda
   #### Meeting Minutes
-  * previously combined denoised removed reads under 293 
+  * previously combined denoised removed reads under 293
+  * Evelyn confirmed that 292 should be the trim parameter for the data with longer reads
   * redo denoising process in parallel with separate iss and hisease manifests to generate separate files and then merge them into one combined file
   * refer to [merging denoise data tutorial](https://docs.qiime2.org/2023.9/tutorials/fmt/) (ctr-f denoised data)
   * create alpha refraction curve 
@@ -162,26 +164,30 @@ Laptop w/ Window 10 Home OS and RStudio
   * reorganize "readme" - refer to canvas 
   * proposal due date is Oct 25
 
+#### October 19
 #### Purpose:
-To separately create a combined ISS and HISEAS manifest and metadata for QIIME2 processing
+To import, demultiplex, and denoising need to occur for the ISS and HISEAS data separately
 
-Materials: 
+#### Materials: 
 Laptop w/ Window 10 Home OS
 
-Methods: 
-Refer to --- for script
-          
-   ### October 19
-   * The team realised that the import, demultiplex, and denoising need to occur for the ISS and HISEAS data separately
-   * Evelyn confirmed that 292 should be the trim parameter for the data with longer reads
-   
-   ### October 20
+#### Methods: 
+
+Training classifier script
+
+#### Results:
+#### October 20
    * Irina imported and demultiplexed the ISS and HISEAS data with separate manifests
    * Irina converted the resulting qza files to qzv files
    * Irina visualised the qzv files and confirmed that 292 and 150 were good right trim parameters for HISEAS and ISS respectively 
    * Irina denoised the ISS data with a right trim parameter of 150
    * Irina started denoising the HISEAS data with a right trim parameter of 292
-      * Denoising finished - October 21
+   
+#### October 21
+   * Denoise finished 
+   * Irina combined the table.qza and rep-seqs.qza files of both ISS and HISEAS data together
+   * Irina converted the resulting qza files to qzv files
+     
     
  <img src="../pictures/alpha-rarefaction.png" height="250" width="500">
 <img src="../pictures/qiime 2 alpha rarefaction - data source.png"  height="250" width="500">
@@ -191,12 +197,9 @@ Refer to --- for script
 <img src="../pictures/qiime 2 interactive sample details - solated-source.png"  height="250" width="500">
 <img src="../pictures/qiime 2 interative sample details - data-source.png"  height="250" width="800">
    
-   ### October 21
-   * Irina combined the table.qza and rep-seqs.qza files of both ISS and HISEAS data together
-   * Irina converted the resulting qza files to qzv files
-     
-### October 25
-* Training classifier
+
+#### October 25
+##### Training classifier
    * Irina confirmed the primers for training the classifier with Evelyn
    * Irina and Kriti worked on filling in parameters for training the classifier
    * Kriti trained the classifier
