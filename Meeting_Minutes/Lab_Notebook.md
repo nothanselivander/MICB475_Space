@@ -287,11 +287,21 @@ Scripts:
       
 * Irina ran core microbiome and generated venn diagrams
   <img src="../pictures/Core_Microbiome_Data_Source_d0_p0.png" height="400" width="600">
+  
+  Fig Core microbiome analysis between the HI-SEAS and ISS datasets revealed shared ASV between the HI-SEAS and ISS datasets.
+  
   <img src="../pictures/Isolation_Source_HISEAS_d0_p0.png" height="400" width="600">
+
+  Distribution trends of ASVs within each of the locations in HI-SEAS. The bedroom & common area are determined to be the most ASV rich and the lab equipment was the most ASV-poor location.
+  
   <img src="../pictures/Isolation_Source_ISS_d0_p0.png" height="400" width="600">
+
+  Distribution trends of ASVs within each of the locations in the ISS.  The kitchen & dining area was the most ASV rich and the lab equipment was the most ASV-poor location.
   
 * Hansel ran DESeq2
  <img src="../pictures/deseq_vol_plot.png" height="400" width="700">
+
+
  
 * Wenny started reformatting lab notebook
 
@@ -375,30 +385,41 @@ Scripts:
 ## Generating Phyloseq and Taxnonomic Analysis Part 2
 #### Purpose
 Regenerating ISA, CMA, and DESeq2 by different team members to confirm correct result
+
+#### Methods
+
+Scripts:
+* [CMA regeneration script](../scripts/core_microbiome_Kriti.R)
+* [differential abundance analysis regeneration script](../scripts/differential_abundance_2_Irina.R)
+* [ISA regeneration script](../scripts/indicator_species_analysis_2_Wenny.R)
+  
 ### November 8
 
 
 * Kriti regenerated the CMA venn diagrams
   <img src="../Rstudio/Core_Microbiome/Core_Microbiome_Kriti/Data_Source.png" height="350" width="600">
+
+Core microbiome analysis between the HI-SEAS and ISS datasets revealed shared ASV between the HI-SEAS and ISS datasets.
+
   <img src="../Rstudio/Core_Microbiome/Core_Microbiome_Kriti/Isolation_Data_Source_HISEAS.png" height="350" width="600">
+
+Distribution trends of ASVs within each of the locations in HI-SEAS. The bedroom & common area are determined to be the most ASV rich and the lab equipment was the most ASV-poor location.
+  
   <img src="../Rstudio/Core_Microbiome/Core_Microbiome_Kriti/Isolation_Data_Source_ISS.png" height="350" width="600">
 
-  [CMA regeneration script](../scripts/core_microbiome_Kriti.R)
+Distribution trends of ASVs within each of the locations in the ISS.  The kitchen & dining area was the most ASV rich and the lab equipment was the most ASV-poor location.
   
 * Irina regenerated the differential abundance analysis volcano plot
   <img src="../pictures/vol_plot_data_source_2.png" height="350" width="600">
-
-  [differential abundance analysis regeneration script](../scripts/differential_abundance_2_Irina.R)
   
 * Wenny regenerated the ISA table
-
-  [ISA regeneration script](../scripts/indicator_species_analysis_2_Wenny.R)
   
 
 ## W10-TM Week 10 Team Meeting
 ### November 9
 #### Agenda
 * review regenerated ISA, Core microbiome and deseq data
+#### Meeting Minutes
    * Core Microbiome
         * Data source:
            * HISEAS has more diversity but ISS had more read counts
