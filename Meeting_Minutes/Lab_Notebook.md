@@ -416,9 +416,17 @@ Training classifier script
    * have presentation draft ready by next meeting
         * In the presentation - pick one alpha and one beta - say that diversity is different, venn diagram and indicator taxa
 
+## Regenerating alpha and beta diversity plots in R and Statistical Analyses
 ### November 28
-* insert tasks here
-* Amy performed Permanova analysis on Beta Diversity Plots 
+* Wenny regenerated alpha diversity plots (Shannon's and Observed features) for data_source and mutated_isolation_source
+     * Performed Kruskal-Wallis on data_source plots
+     * Initially performed PERMANOVA on mutated_isolation source, but encountered error.
+          * Irina performed Two-Way ANOVA on it instead
+* Wenny regenerated beta diversity pcoa plot for data_source (Weighted UniFrac)
+* Amy added beta diversity PcoA plot for isolation_data_source (Weighted UniFrac)
+* Amy performed Permanova analysis on both Beta Diversity Plots
+* Scripts:(https://github.com/nothanselivander/MICB475_Space/blob/main/scripts/alpha_beta_plot.R)
+
 
 ### November 29
 * insert tasks here
