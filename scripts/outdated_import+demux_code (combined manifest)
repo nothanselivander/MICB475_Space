@@ -16,3 +16,27 @@ qiime demux summarize \
 
 # move file from server to personal computer
 scp root@10.19.139.170:/data/qiime/demux_seqs.qzv .
+
+# denoise data using dada2; trim sequences using the value obtained from the demux_seqs.qzv visualisation on https://view.qiime2.org/
+# nothing was trimmed on the left; 293 was used as trim parameter for the right
+qiime dada2 denoise-single \
+  --i-demultiplexed-seqs demux_seqs.qza \
+  --p-trim-left 0 \
+  --p-trunc-len 292 \
+  --o-representative-sequences rep-seqs.qza \
+  --o-table table.qza \
+  --o-denoising-stats stats.qza
+
+# Visualize ASVs stats
+qiime feature-table summarize \
+  --i-table table_combined.qza \
+  --o-visualization table_combined.qzv \
+  --m-sample-metadata-file /data/project_metadata.tsv
+  
+qiime feature-table tabulate-seqs \
+  --i-data rep-seqs.qza \
+  --o-visualization rep-seqs.qzv
+
+#transferring files over from server to personal computer
+scp root@10.19.139.170:/data/qiime/table_combined.qzv .
+scp root@10.19.139.170:/data/qiime/rep-seqs.qzv .
