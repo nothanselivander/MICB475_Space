@@ -16,6 +16,8 @@
 |P001| W10-TM | [Week 10 Team Meeting](#w10-tm-week-10-team-meeting)  | November 9| ----|
 |P001| W11-TM | [Week 11 Team Meeting](#w11-tm-week-11-team-meeting)  | November 16| ----|
 |P001| W12-TM | [Week 12 Team Meeting](#w12-tm-week-12-team-meeting)  | November 23| ----|
+|P001| | [Regenerating alpha and beta diversity plots in R and Statistical Analyses](Regenerating-alpha-and-beta-diversity-plots-in-R-and-Statistical-Analyses| November 29|---| 
+
 |P001| W13-TM | [Week 13 Team Meeting](#w13-tm-week-13-team-meeting)  | November 30| ----|
 |P001| W14-TM | [Week 14 Team Meeting](#w14-tm-week-14-team-meeting)  | November 10| ----|
 | |
@@ -416,7 +418,7 @@ Training classifier script
    * have presentation draft ready by next meeting
         * In the presentation - pick one alpha and one beta - say that diversity is different, venn diagram and indicator taxa
 
-## Regenerating alpha and beta diversity plots in R and Statistical Analyses
+# Regenerating alpha and beta diversity plots in R and Statistical Analyses
 ### November 28
 * Wenny regenerated alpha diversity plots (Shannon's and Observed features) for data_source and mutated_isolation_source
      * Performed Kruskal-Wallis on data_source plots
@@ -427,14 +429,12 @@ Training classifier script
 * Amy performed Permanova analysis on both Beta Diversity Plots
 * Scripts:[Alpha Beta Analyses in R](https://github.com/nothanselivander/MICB475_Space/blob/main/scripts/alpha_beta_plot.R)
 * Results:
-   <img src="../pictures/alpha_beta_plots_R/plot_richness_data_source.png" height="250" width="500">
-   Figure 1a. Alpha Diversity plots on Data Source (Shannon's and Observed features)
-  
-   <img src="../pictures/alpha_beta_plots_R/plot_shannon_mutated_isolation_source.png" height="250" width="500">
+   * <img src="../pictures/alpha_beta_plots_R/plot_richness_data_source.png" height="250" width="500">
+    Figure 1a. Alpha Diversity plots on Data Source (Shannon's and Observed features)
+   * <img src="../pictures/alpha_beta_plots_R/plot_shannon_mutated_isolation_source.png" height="250" width="500">
    Figure 1b. Shannon's Diversity analysis plot on Mutated Isolation Source
-
-    <img src="../pictures/alpha_beta_plots_R/plot_observed_mutated_isolation_source.png" height="250" width="500">
-   Figure 1c. Observed features analysis plot on Mutated Isolation Source
+  * <img src="../pictures/alpha_beta_plots_R/plot_observed_mutated_isolation_source.png" height="250" width="500">
+  Figure 1c. Observed features analysis plot on Mutated Isolation Source
 
 
 ### November 29
