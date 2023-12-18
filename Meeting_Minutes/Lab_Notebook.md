@@ -424,7 +424,6 @@ Core Microbiome between ISS and HISEAS locations appears to be contradictory to 
 
 ISS and HISEAS locations shares no ASV.
 
-Core microbiome and DESeq2 results until results are regenerated and reevaluated. 
  
 * Wenny started reformatting the lab notebook
 
