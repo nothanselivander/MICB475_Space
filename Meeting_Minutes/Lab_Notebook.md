@@ -4,7 +4,8 @@ Team 5
 Hansel Anggunmulia, Amy Chen, Irina Chua, Wenny Feng, Kriti Randhawa
 ## Table of Contents 
 
-| Project Code | Experiment Number  | Title | Start Date | Parts|
+| Project Code | Experiment Number  | Title | Start Date | Parts |
+|---|-----|-----|-----|-----|
 |P001| W5-TM  | [Week 5 Team Meeting](#w5-tm-week-5-team-meeting) | October 5||
 |P001| W5-TD | [Week 5 Team Discussion](#w5-td-week-5-discussion) | October 11 | |
 |P001| W6–TM | [Week 6 Team Meeting](#w6-tm-week-6-team-meeting) | October 12 ||
