@@ -260,6 +260,10 @@ To generate phyloseq and perform taxonomic analyses: indicator taxa analyses, co
 #### Method 
 Scripts:
 * [Phyloseq](https://github.com/nothanselivander/MICB475_Space/blob/main/scripts/space_phyloseq.R)
+* [indicator species analysis](../scripts/indicator_species_analysis.R)
+* [core microbiome analysis](../scripts/core_microbiome_analysis.R)
+* [differential abundance analysis](../scripts/differential_abundance_analysis.R)
+
 ### October 29 
 * Wenny attempted to generate the phyloseq, encountered an error
   * Files exported: feature_table.tsv, tree.nwk, taxonomy.tsv, project_metadata.tsv 
@@ -279,20 +283,14 @@ Scripts:
 
 * Kriti ran ISA
     * Refer to (https://github.com/nothanselivander/MICB475_Space/blob/main/Rstudio/Indicator_Species_Analysis)
- 
-   [indicator species analysis script](../scripts/indicator_species_analysis.R)
-
+      
 * Irina ran core microbiome and generated venn diagrams
   <img src="../pictures/Core_Microbiome_Data_Source_d0_p0.png" height="400" width="600">
   <img src="../pictures/Isolation_Source_HISEAS_d0_p0.png" height="400" width="600">
   <img src="../pictures/Isolation_Source_ISS_d0_p0.png" height="400" width="600">
-
-  [core microbiome analysis script](../scripts/core_microbiome_analysis.R)
   
 * Hansel ran DESeq2
  <img src="../pictures/deseq_vol_plot.png" height="400" width="700">
-
- [differential abundance analysis script](../scripts/differential_abundance_analysis.R)
  
 * Wenny started reformatting lab notebook
 
@@ -600,7 +598,7 @@ Discussion
    * Written by Hansel and Irina
 
 Table 1. Indicator Special Analysis 
-[Final ISA Results for Manuscript](https://github.com/nothanselivander/MICB475_Space/blob/main/Rstudio/Indicator_Species_Analysis/Final ISA Results for Manuscript.csv)  
+[Final ISA Results for Manuscript](../Rstudio/Indicator_Species_Analysis/Final ISA Results for Manuscript.csv)  
 * Made by Kriti
 
 Figures 1-3 Generation and Captions
