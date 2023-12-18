@@ -429,8 +429,9 @@ Training classifier script
 * Wenny regenerated beta diversity pcoa plot for data_source (Weighted UniFrac)
 * Amy added beta diversity PcoA plot for isolation_data_source (Weighted UniFrac)
 * Amy performed Permanova analysis on both Beta Diversity Plots
-* Scripts:[Alpha Beta Analyses Scripts](https://github.com/nothanselivander/MICB475_Space/blob/main/scripts/alpha_beta_plot.R)
-* Results:
+#### Method 
+Scripts:[Alpha Beta Analyses Scripts](https://github.com/nothanselivander/MICB475_Space/blob/main/scripts/alpha_beta_plot.R)
+#### Results:
    * <img src="../pictures/alpha_beta_plots_R/plot_richness_data_source.png" height="250" width="500">
     Figure 1a. Alpha Diversity plots on Data Source (Shannon's and Observed features)
    * <img src="../pictures/alpha_beta_plots_R/plot_shannon_mutated_isolation_source.png" height="250" width="500">
