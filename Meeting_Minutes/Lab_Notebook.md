@@ -579,7 +579,7 @@ Results
    * Written by Amy and Wenny
 * ISA revealed two shared ASVs between HI-SEAS and ISS
    * Written by Kriti
-   * 
+     
 Discussion
 * HI-SEAS revealed richer and more distinct microbial diversity than ISS
    * Written by Irina, Amy, Wenny, Kriti
