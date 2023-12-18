@@ -3,22 +3,23 @@
 ## Table of Contents 
 
 
-| Project Code | Experiment Number  | Title | Start Date | Pages |
-| ----| ------------- | ------------- |---------| ------|
-|P001| W5-TM  | [Week 5 Team Meeting](#w5-tm-week-5-team-meeting) | October 5| -----|
-|P001|  | [Week 5 Team Discussion](#w6-tm-week-6-discussion) | October 11 | ----|
-|P001| W6–TM | [Week 6 Team Meeting](#w6-tm-week-6-team-meeting) | October 12 | ----|
-|P001| W7–TM | [Week 7 Team Meeting](#w7-tm-week-7-team-meeting)| October 19| ----|
-|P001|  | [Initial QIIME2 processing](#initial-qiime2-processing) |October 12|----|
-|P001|W8–TM | [Week 8 Team Meeting](#w8-tm-week-8-team-meeting) | October 26 | -----|
-|P001|  |  [Generating phyloseq and running core microbiome, Indicator Species Analysis, and DESeq2](#generating-phyloseq-and-running-core-microbiome-indicator-species-analysis-and-deseq2) | October 29| ----|
-|P001| W9-TM | [Week 9 Team Meeting](#w9-tm-week-9-team-meeting)  | November 2| ----|
-|P001| W10-TM | [Week 10 Team Meeting](#w10-tm-week-10-team-meeting)  | November 9| ----|
-|P001| W11-TM | [Week 11 Team Meeting](#w11-tm-week-11-team-meeting)  | November 16| ----|
-|P001| W12-TM | [Week 12 Team Meeting](#w12-tm-week-12-team-meeting)  | November 23| ----|
-|P001|| [Regenerating alpha and beta diversity plots in R and Statistical Analyses](#Regenerating-alpha-and-beta-diversity-plots-in-R-and-Statistical-Analyses)| November 29|-| 
-|P001| W13-TM | [Week 13 Team Meeting](#w13-tm-week-13-team-meeting)  | November 30| ----|
-|P001| W14-TM | [Week 14 Team Meeting](#w14-tm-week-14-team-meeting)  | November 10| ----|
+| Project Code | Experiment Number  | Title | Start Date |
+| ----| ------------- | ------------- |---------|
+|P001| W5-TM  | [Week 5 Team Meeting](#w5-tm-week-5-team-meeting) | October 5|
+|P001|  | [Week 5 Team Discussion](#w6-tm-week-6-discussion) | October 11 | 
+|P001| W6–TM | [Week 6 Team Meeting](#w6-tm-week-6-team-meeting) | October 12 |
+|P001|  | [Initial QIIME2 processing](#initial-qiime2-processing) |October 12|
+|P001| W7–TM | [Week 7 Team Meeting](#w7-tm-week-7-team-meeting)| October 19| 
+|P001|  | [Initial QIIME2 processing (cont.) ](#initial-qiime2-processing-(cont.)) |October 19|
+|P001|W8–TM | [Week 8 Team Meeting](#w8-tm-week-8-team-meeting) | October 26 | 
+|P001|  |  [Generating phyloseq and running core microbiome, Indicator Species Analysis, and DESeq2](#generating-phyloseq-and-running-core-microbiome-indicator-species-analysis-and-deseq2) | October 29|
+|P001| W9-TM | [Week 9 Team Meeting](#w9-tm-week-9-team-meeting)  | November 2| 
+|P001| W10-TM | [Week 10 Team Meeting](#w10-tm-week-10-team-meeting)  | November 9| 
+|P001| W11-TM | [Week 11 Team Meeting](#w11-tm-week-11-team-meeting)  | November 16| 
+|P001| W12-TM | [Week 12 Team Meeting](#w12-tm-week-12-team-meeting)  | November 23| 
+|P001|| [Regenerating alpha and beta diversity plots in R and Statistical Analyses](#Regenerating-alpha-and-beta-diversity-plots-in-R-and-Statistical-Analyses)| November 29|
+|P001| W13-TM | [Week 13 Team Meeting](#w13-tm-week-13-team-meeting)  | November 30|
+|P001| W14-TM | [Week 14 Team Meeting](#w14-tm-week-14-team-meeting)  | November 10| 
 | |
 
 Project Code - P001 - Validation of HISEAS to the ISS microbiome 
@@ -101,6 +102,8 @@ Discussed combining ISS and Hi-SEAS datasets
     Before we trim in the denoising, we need to send Evelyn the demux file to check the quality score and then she will help us determine the trimming parameters.
     Rarefraction analysis will be done after our proposal. 
 
+
+## Initial QIIME2 Processing
 #### October 12
 #### Purpose:
 To visualize demuxed sequence on QIIME2 from a combined ISS and HISEAS metadata file
@@ -114,7 +117,6 @@ Laptop w/ Window 10 Home OS and RStudio
 * [Code to organize metadata file](https://github.com/nothanselivander/MICB475_Space/blob/main/Metadata&Manifest/Metadata.R) 
 
 #### Results 
-##### Initial QIIME2 Processing
 ##### October 12
 * Demultiplexing using manifest
    * Amy generated manifest files for ISS and HI-SEAS using Excel 
@@ -152,10 +154,10 @@ Laptop w/ Window 10 Home OS and RStudio
 #### Conclusion
 * demux.qzv may not be useable as the sample number count is lower than expected. 
 
-  ## W7-TM Week 7 Team Meeting
-  ### October 19
-  #### Agenda
-  #### Meeting Minutes
+## W7-TM Week 7 Team Meeting
+### October 19
+#### Agenda
+#### Meeting Minutes
   * previously combined denoised removed reads under 293
   * Evelyn confirmed that 292 should be the trim parameter for the data with longer reads
   * redo denoising process in parallel with separate iss and hiseas manifests to generate separate files and then merge them into one combined file
@@ -165,7 +167,8 @@ Laptop w/ Window 10 Home OS and RStudio
   * reorganize "readme" - refer to canvas 
   * proposal due date is Oct 25
 
-#### October 19
+## Initial QIIME2 Processing (cont.)
+### October 19
 #### Purpose:
 To import, demultiplex, and denoising need to occur for the ISS and HISEAS data separately
 
