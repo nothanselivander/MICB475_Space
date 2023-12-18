@@ -134,6 +134,7 @@ Laptop w/ Window 10 Home OS and RStudio
    * Hansel removed unwanted samples and columns, and combined the metadata from both datasets using R
       * Kriti suggested common terminology for comparable locations in the ISS and HI-SEAS datasets. Team agreed on it.
      <img src="../pictures/Dataset_Configuration.png"  height="250" width="500">
+      
       * Wenny wrote code for the new column to "rename" the locations
    * [Metadata Editing](../Metadata&Manifest/Metadata.R)
 * [metadata.tsv](https://github.com/nothanselivander/MICB475_Space/blob/main/Metadata&Manifest/project_metadata.tsv)
