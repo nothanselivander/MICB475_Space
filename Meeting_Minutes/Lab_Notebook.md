@@ -280,7 +280,7 @@ Training classifier script
 * Confirm rarefaction number for R
 * Discuss abundance and prevalence numbers for core microbiome analysis
 * Review generated plots and other outputs
-* * rarefaction curve
+  * rarefaction curve
   * indicator species results
   * core microbiome venn diagrams
 * Discuss proposal
@@ -290,7 +290,7 @@ Training classifier script
 * Proposal
    * corrections can net a maximum of 10 points 
    * Title
-      * Change title to “comparing --- in a simulation space (HISEASE)” to allow readers to understand what HI-SEAS acronym represents 
+      * Change title to “comparing --- in a simulation space (HISEAS)” to allow readers to understand what HI-SEAS acronym represents 
    * Intro and background
       * Background ideas weren’t integrated together. Should mention the contrasting findings between the HI-SEAS and ISS ex. the difference in temporal and special findings  
       * Mention the novelty of the study in the introduction and how we’re validating the differences that seem apparent (through the comparison of the results in the two papers referenced)
@@ -499,14 +499,17 @@ Training classifier script
 
 # December 8 
 * Kriti worked on results + discussion of ISA
-* Irina worked on results ....
+* Irina worked on methods for dataset retrieval, QIIME2 processing
 * .... idk write what you did
 
 # December 9 
 * Amy worked on figure legends
 * Amy wrote draft abstract
-* Amy imported introduction and added 
+* Amy imported introduction and added
+* Irina worked on results + discussion for CMA
+* Irina worked on future directions
 
 # December 10 
 * Everyone revised the manuscript
+* Irina connected the manuscript to Zotero and added references
 * Hansel rewrote abstract 
