@@ -74,9 +74,8 @@ Discussed combining ISS and Hi-SEAS datasets
 
 * Drafted potential research objectives and experimental aims - recorded on proposal document
 
-
-## W6-TM Week 6 Team meeting
-### October 12
+##October 12
+### W6-TM Week 6 Team meeting
 #### Agenda
 * Go over research objectives and experimental aims
 
@@ -99,6 +98,21 @@ Discussed combining ISS and Hi-SEAS datasets
   The columns we kept are good.
     Before we trim in the denoising, we need to send Evelyn the demux file to check the quality score and then she will help us determine the trimming parameters.
     Rarefraction analysis will be done after our proposal. 
+
+#### Purpose:
+To visualize demuxed sequence on QIIME2 from a combined ISS and HISEAS metadata file
+
+#### Material:
+Laptop w/ Window 10 Home OS and RStudio 
+
+#### Methods 
+1. Refer to ---- for script to combine metadata.
+2. Refer to --- for import and demultiplexing code. 
+
+#### Results 
+Refer to --- for combined metadata. 
+Refer to --- for a.pha rarfaction.qzv
+Refer to --- for 
 
 
   ## W7-TM Week 7 Team Meeting
