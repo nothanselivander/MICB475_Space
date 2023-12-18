@@ -1,0 +1,18 @@
+#importing manifest file from local computer to server
+scp hisease_iss_combined_manifest.txt root@10.19.139.170:/data
+scp project_metadata.tsv root@10.19.139.170:/data
+
+# importing the data using the created manifest, demultiplexing it, and creating a demux file 
+qiime tools import \
+  --type "SampleData[SequencesWithQuality]" \
+  --input-format SingleEndFastqManifestPhred33V2 \
+  --input-path /data/hisease_iss_combined_manifest.txt \
+  --output-path ./demux_seqs.qza
+
+# converting the file from qza to qzv to view the contents 
+qiime demux summarize \
+  --i-data demux_seqs.qza \
+  --o-visualization demux_seqs.qzv
+
+# move file from server to personal computer
+scp root@10.19.139.170:/data/qiime/demux_seqs.qzv .
