@@ -16,7 +16,7 @@
 |P001| W10-TM | [Week 10 Team Meeting](#w10-tm-week-10-team-meeting)  | November 9| ----|
 |P001| W11-TM | [Week 11 Team Meeting](#w11-tm-week-11-team-meeting)  | November 16| ----|
 |P001| W12-TM | [Week 12 Team Meeting](#w12-tm-week-12-team-meeting)  | November 23| ----|
-|P001|| [Regenerating alpha and beta diversity plots in R and Statistical Analyses](Regenerating-alpha-and-beta-diversity-plots-in-R-and-Statistical-Analyses)| November 29|-| 
+|P001|| [Regenerating alpha and beta diversity plots in R and Statistical Analyses](#Regenerating-alpha-and-beta-diversity-plots-in-R-and-Statistical-Analyses)| November 29|-| 
 |P001| W13-TM | [Week 13 Team Meeting](#w13-tm-week-13-team-meeting)  | November 30| ----|
 |P001| W14-TM | [Week 14 Team Meeting](#w14-tm-week-14-team-meeting)  | November 10| ----|
 | |
@@ -417,7 +417,7 @@ Training classifier script
    * have presentation draft ready by next meeting
         * In the presentation - pick one alpha and one beta - say that diversity is different, venn diagram and indicator taxa
 
-# Regenerating alpha and beta diversity plots in R and Statistical Analyses
+## Regenerating alpha and beta diversity plots in R and Statistical Analyses
 ### November 28
 * Wenny regenerated alpha diversity plots (Shannon's and Observed features) for data_source and mutated_isolation_source
      * Performed Kruskal-Wallis on data_source plots
@@ -426,7 +426,7 @@ Training classifier script
 * Wenny regenerated beta diversity pcoa plot for data_source (Weighted UniFrac)
 * Amy added beta diversity PcoA plot for isolation_data_source (Weighted UniFrac)
 * Amy performed Permanova analysis on both Beta Diversity Plots
-* Scripts:[Alpha Beta Analyses in R](https://github.com/nothanselivander/MICB475_Space/blob/main/scripts/alpha_beta_plot.R)
+* Scripts:[Alpha Beta Analyses Scripts](https://github.com/nothanselivander/MICB475_Space/blob/main/scripts/alpha_beta_plot.R)
 * Results:
    * <img src="../pictures/alpha_beta_plots_R/plot_richness_data_source.png" height="250" width="500">
     Figure 1a. Alpha Diversity plots on Data Source (Shannon's and Observed features)
@@ -435,6 +435,7 @@ Training classifier script
   * <img src="../pictures/alpha_beta_plots_R/plot_observed_mutated_isolation_source.png" height="250" width="500">
   Figure 1c. Observed features analysis plot on Mutated Isolation Source
 
+* Corresponding plots from qiime qzv files can be found in:(https://github.com/nothanselivander/MICB475_Space/blob/main/qiime_files/Diversity_Metrics/core-metrics-results/new_dm)
 
 ### November 29
 * Finished draft slides
@@ -512,19 +513,19 @@ Training classifier script
    * one column for datasets, one for location
    * format the figures, then write around the figures
 
-# December 8 
+### December 8 
 * Kriti worked on results + discussion of ISA
 * Irina worked on methods for dataset retrieval, QIIME2 processing
 * .... idk write what you did
 
-# December 9 
+### December 9 
 * Amy worked on figure legends
 * Amy wrote draft abstract
 * Amy imported introduction and added
 * Irina worked on results + discussion for CMA
 * Irina worked on future directions
 
-# December 10 
+### December 10 
 * Everyone revised the manuscript
 * Irina connected the manuscript to Zotero and added references
 * Hansel rewrote abstract 
