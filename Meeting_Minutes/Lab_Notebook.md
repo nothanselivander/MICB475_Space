@@ -1,7 +1,8 @@
-# MICB475 Lab Notebook
-ACCFR7523
-Team 5
-Hansel Anggunmulia, Amy Chen, Irina Chua, Wenny Feng, Kriti Randhawa
+### MICB475 Lab Notebook
+### ACCFR7523
+### Team 5
+### Hansel Anggunmulia, Amy Chen, Irina Chua, Wenny Feng, Kriti Randhawa
+
 ## Table of Contents 
 
 | Project Code | Experiment Number  | Title | Start Date | Parts |
