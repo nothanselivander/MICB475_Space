@@ -13,8 +13,7 @@
 |P001| ACCFR7523-001 |Initial QIIME2 processing|October 12| [Part 1](#initial-qiime2-processing-part-1), [Part 2](#initial-qiime2-processing-part-2)|
 |P001| W7–TM | [Week 7 Team Meeting](#w7-tm-week-7-team-meeting)| October 19| |
 |P001|W8–TM | [Week 8 Team Meeting](#w8-tm-week-8-team-meeting) | October 26 | |
-|P001| ACCFR7523-002 |  [Generating phyloseq and Taxonomic Analyses] | October 29|[Part 1]
-](#generating-phyloseq-and-taxonomic-analysis-part-1), [Part 2](#generating-phyloseq-and-taxonomic-analysis-part-2)|
+|P001| ACCFR7523-002 |Generating phyloseq and Taxonomic Analyses| October 29|[Part 1](#generating-phyloseq-and-taxonomic-analysis-part-1), [Part 2](#generating-phyloseq-and-taxonomic-analysis-part-2)|
 |P001| W9-TM | [Week 9 Team Meeting](#w9-tm-week-9-team-meeting)  | November 2| |
 |P001| W10-TM | [Week 10 Team Meeting](#w10-tm-week-10-team-meeting)  | November 9| |
 |P001| W11-TM | [Week 11 Team Meeting](#w11-tm-week-11-team-meeting)  | November 16| |
