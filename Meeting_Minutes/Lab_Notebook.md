@@ -282,6 +282,8 @@ Scripts:
   * filter out non-bacterial sequences, low-quality samples, and low reads
   * Rarefy
 
+#### Results  
+
 * Kriti ran ISA
     * Refer to (https://github.com/nothanselivander/MICB475_Space/blob/main/Rstudio/Indicator_Species_Analysis)
       
@@ -300,10 +302,7 @@ Scripts:
   
 * Hansel ran DESeq2
  <img src="../pictures/deseq_vol_plot.png" height="400" width="700">
-
-
- 
-* Wenny started reformatting lab notebook
+  S1. DESEQ : Volcano plot of differentially abundant microbial species at HI-SEAS relative to ISS. Data was filtered for adjusted p-value < 0.01. Microbial species present by a factor of 2 or higher are indicated in orange.
 
 ## W9-TM Week 9 Team Meeting
 ### November 2
@@ -412,9 +411,22 @@ Fig 9C. Distribution trends of ASVs within each of the locations in the ISS.  Th
   
 * Irina regenerated the differential abundance analysis volcano plot
   <img src="../pictures/vol_plot_data_source_2.png" height="350" width="600">
+  S2. DESEQ : Volcano plot of differentially abundant microbial species at HI-SEAS relative to ISS. Data was filtered for adjusted p-value < 0.01. Microbial species present by a factor of 2 or higher are indicated in orange.
   
 * Wenny regenerated the ISA table
-  
+
+
+#### Discussion 
+
+Core Microbiome between ISS and HISEAS locations appears to be contradictory to DESeq2, initially. Different team members regenerated Core Microbiome and DESeq2 to confirm the results. The regenerated plots confirmed the initial graphs were correct. Discuss with the Professor for further steps. 
+
+#### Conclusion
+
+ISS and HISEAS locations shares no ASV.
+
+Core microbiome and DESeq2 results until results are regenerated and reevaluated. 
+ 
+* Wenny started reformatting the lab notebook
 
 ## W10-TM Week 10 Team Meeting
 ### November 9
@@ -633,4 +645,7 @@ Figures 1-3 Generation and Captions
 ### December 9 
 * Everyone edited and revised the manuscript
 * Irina connected the manuscript to Zotero and added references
-* Hansel rewrote abstract 
+* Hansel rewrote abstract
+
+### December 15
+* Hansel, Wenny, Irina, Kriti and Amy edited the lab notebook
