@@ -133,10 +133,10 @@ Laptop w/ Window 10 Home OS and RStudio
 * Creating new, organized metadata files
    * Hansel removed unwanted samples and columns, and combined the metadata from both datasets using R
       * Kriti suggested common terminology for comparable locations in the ISS and HI-SEAS datasets. Team agreed on it.
-     (insert table)
+     <img src=“../pictures/Dataset_Configuration.png” height=“250” width=“500”>
       * Wenny wrote code for the new column to "rename" the locations
    * [Metadata Editing](https://github.com/nothanselivander/MICB475_Space/blob/main/Metadata&Manifest/Metadata.R)
-   * [metadata.tsv](https://github.com/nothanselivander/MICB475_Space/blob/main/Metadata&Manifest/Metadata/project_metadata.tsv)
+* [metadata.tsv](https://github.com/nothanselivander/MICB475_Space/blob/main/Metadata&Manifest/project_metadata.tsv)
      
  ##### October 13
 * Denoising 
@@ -600,6 +600,7 @@ Discussion
    * Written by Hansel and Irina
 
 Table 1. Indicator Special Analysis 
+[Final ISA Results for Manuscript](https://github.com/nothanselivander/MICB475_Space/blob/main/Rstudio/Indicator_Species_Analysis/Final ISA Results for Manuscript.csv)  
 * Made by Kriti
 
 Figures 1-3 Generation and Captions
