@@ -135,7 +135,7 @@ Laptop w/ Window 10 Home OS and RStudio
       * Kriti suggested common terminology for comparable locations in the ISS and HI-SEAS datasets. Team agreed on it.
      <img src=“../pictures/Dataset_Configuration.png” height=“250” width=“500”>
       * Wenny wrote code for the new column to "rename" the locations
-   * [Metadata Editing](https://github.com/nothanselivander/MICB475_Space/blob/main/Metadata&Manifest/Metadata.R)
+   * [Metadata Editing](../Metadata&Manifest/Metadata.R)
 * [metadata.tsv](https://github.com/nothanselivander/MICB475_Space/blob/main/Metadata&Manifest/project_metadata.tsv)
      
  ##### October 13
