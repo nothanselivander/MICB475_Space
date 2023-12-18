@@ -288,15 +288,15 @@ Scripts:
 * Irina ran core microbiome and generated venn diagrams
   <img src="../pictures/Core_Microbiome_Data_Source_d0_p0.png" height="400" width="600">
   
-  Fig Core microbiome analysis between the HI-SEAS and ISS datasets revealed shared ASV between the HI-SEAS and ISS datasets.
+  Fig 1. Core microbiome analysis between the HI-SEAS and ISS datasets revealed shared ASV between the HI-SEAS and ISS datasets.
   
   <img src="../pictures/Isolation_Source_HISEAS_d0_p0.png" height="400" width="600">
 
-  Distribution trends of ASVs within each of the locations in HI-SEAS. The bedroom & common area are determined to be the most ASV rich and the lab equipment was the most ASV-poor location.
+  Fig 2. Distribution trends of ASVs within each of the locations in HI-SEAS. The bedroom & common area are determined to be the most ASV rich and the lab equipment was the most ASV-poor location.
   
   <img src="../pictures/Isolation_Source_ISS_d0_p0.png" height="400" width="600">
 
-  Distribution trends of ASVs within each of the locations in the ISS.  The kitchen & dining area was the most ASV rich and the lab equipment was the most ASV-poor location.
+  Fig 3. Distribution trends of ASVs within each of the locations in the ISS.  The kitchen & dining area was the most ASV rich and the lab equipment was the most ASV-poor location.
   
 * Hansel ran DESeq2
  <img src="../pictures/deseq_vol_plot.png" height="400" width="700">
@@ -399,15 +399,15 @@ Scripts:
 * Kriti regenerated the CMA venn diagrams
   <img src="../Rstudio/Core_Microbiome/Core_Microbiome_Kriti/Data_Source.png" height="350" width="600">
 
-Core microbiome analysis between the HI-SEAS and ISS datasets revealed shared ASV between the HI-SEAS and ISS datasets.
+Fig 1. Core microbiome analysis between the HI-SEAS and ISS datasets revealed shared ASV between the HI-SEAS and ISS datasets.
 
   <img src="../Rstudio/Core_Microbiome/Core_Microbiome_Kriti/Isolation_Data_Source_HISEAS.png" height="350" width="600">
 
-Distribution trends of ASVs within each of the locations in HI-SEAS. The bedroom & common area are determined to be the most ASV rich and the lab equipment was the most ASV-poor location.
+Fig 2. Distribution trends of ASVs within each of the locations in HI-SEAS. The bedroom & common area are determined to be the most ASV rich and the lab equipment was the most ASV-poor location.
   
   <img src="../Rstudio/Core_Microbiome/Core_Microbiome_Kriti/Isolation_Data_Source_ISS.png" height="350" width="600">
 
-Distribution trends of ASVs within each of the locations in the ISS.  The kitchen & dining area was the most ASV rich and the lab equipment was the most ASV-poor location.
+Fig 3. Distribution trends of ASVs within each of the locations in the ISS.  The kitchen & dining area was the most ASV rich and the lab equipment was the most ASV-poor location.
   
 * Irina regenerated the differential abundance analysis volcano plot
   <img src="../pictures/vol_plot_data_source_2.png" height="350" width="600">
