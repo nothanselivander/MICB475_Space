@@ -74,8 +74,9 @@ Discussed combining ISS and Hi-SEAS datasets
 
 * Drafted potential research objectives and experimental aims - recorded on proposal document
 
-##October 12
-### W6-TM Week 6 Team meeting
+
+## W6-TM Week 6 Team meeting
+### October 12
 #### Agenda
 * Go over research objectives and experimental aims
 
@@ -106,14 +107,47 @@ To visualize demuxed sequence on QIIME2 from a combined ISS and HISEAS metadata 
 Laptop w/ Window 10 Home OS and RStudio 
 
 #### Methods 
-1. Refer to ---- for script to combine metadata.
-2. Refer to --- for import and demultiplexing code. 
+* [Combining metadata code](https://github.com/nothanselivander/MICB475_Space/blob/main/scripts/combining_manifests.R) 
+* [Inputing and demultiplexing code]
+* [Code to organize metadata file](https://github.com/nothanselivander/MICB475_Space/blob/main/Metadata&Manifest/Metadata.R) 
 
 #### Results 
-Refer to --- for combined metadata. 
-Refer to --- for a.pha rarfaction.qzv
-Refer to --- for 
+##### Initial QIIME2 Processing
+##### October 12
+* Demultiplexing using manifest
+   * Amy generated manifest files for ISS and HI-SEAS
+   * Amy imported combined ISS and HI-SEAS manifest from local computer to server
+   * Amy imported and demultiplexed the data using the combined manifest
+      *  Initially encountered an error: ' ' expected afer '"'  
+        * Wenny suggested that the problem might be due to the quotation marks in the manifest file or the file format (tsv instead of csv)
+           * Irina agreed with the suggestion
+           * Amy fixed the error by converting the csv to a tsv 
+   * Amy converted the resulting demux.qza to a qzv file
+   * [Combined qzv file](https://github.com/nothanselivander/MICB475_Space/blob/main/qiime_files/demux_combined_seqs.qzv)
+     
+* Creating new, organized metadata files
+   * Hansel removed unwanted samples and columns, and combined the metadata from both datasets using R
+      * Kriti suggested common terminology for comparable locations in the ISS and HI-SEAS datasets. Team agreed on it.
+     (insert table)
+      * Wenny wrote code for the new column to "rename" the locations
+   * [R Code](https://github.com/nothanselivander/MICB475_Space/blob/main/Metadata&Manifest/Metadata.R)
+   * [tsv file](https://github.com/nothanselivander/MICB475_Space/blob/main/Metadata&Manifest/Metadata/project_metadata.tsv)
+     
+ ##### October 13
+* Denoising 
+   * Irina looked at the demux.qzv file and proposed 293 as the right trim parameter for denoising the data using DADA
+   * Irina emailed Evelyn to confirm that this would be a good trim parameter
+   * Evelyn confirmed that 293 was good
+   * Irina started denoising the data
+      * Denoising finished – October 14
 
+#### Discussion 
+* Discovered demultiplexing data was missing samples.
+* Consult Professor on next meeting for future step
+* May need to redo demultiplexing step, demux.qzv may not be valid
+
+#### Conclusion
+* demux.qzv may not be useable as the sample number count is lower than expected. 
 
   ## W7-TM Week 7 Team Meeting
   ### October 19
@@ -121,7 +155,7 @@ Refer to --- for
   #### Meeting Minutes
   * previously combined denoised removed reads under 293 
   * redo denoising process in parallel with separate iss and hisease manifests to generate separate files and then merge them into one combined file
-  * refer to https://docs.qiime2.org/2023.9/tutorials/fmt/ (ctr-f denoised data) for merging denoised data
+  * refer to [merging denoise data tutorial](https://docs.qiime2.org/2023.9/tutorials/fmt/) (ctr-f denoised data)
   * create alpha refraction curve 
   * reorganize github w/folders 
   * reorganize "readme" - refer to canvas 
@@ -134,35 +168,7 @@ Materials:
 Laptop w/ Window 10 Home OS
 
 Methods: 
-Refer to --- for scripts
-
-## Initial QIIME2 Processing
-### October 12
-* Demultiplexing using manifest
-   * Amy generated manifest files for ISS and HI-SEAS
-   * Amy imported combined ISS and HI-SEAS manifest from local computer to server
-   * Amy imported and demultiplexed the data using the combined manifest
-      *  Initially encountered an error: ' ' expected afer '"'  
-        * Wenny suggested that the problem might be due to the quotation marks in the manifest file or the file format (tsv instead of csv)
-           * Irina agreed with the suggestion
-           * Amy fixed the error by converting the csv to a tsv 
-   * Amy converted the resulting demux.qza to a qzv file
-     
-* Creating new, organized metadata files
-   * Hansel removed unwanted samples and columns, and combined the metadata from both datasets using R
-      * Kriti suggested common terminology for comparable locations in the ISS and HI-SEAS datasets. Team agreed on it.
-     (insert table)
-      * Wenny wrote code for the new column to "rename" the locations
-   * [R Code](https://github.com/nothanselivander/MICB475_Space/blob/main/Metadata&Manifest/Metadata.R)
-   * [tsv file](https://github.com/nothanselivander/MICB475_Space/blob/main/Metadata&Manifest/Metadata/project_metadata.tsv)
-     
- ### October 13
-* Denoising 
-   * Irina looked at the demux.qzv file and proposed 293 as the right trim parameter for denoising the data using DADA
-   * Irina emailed Evelyn to confirm that this would be a good trim parameter
-   * Evelyn confirmed that 293 was good
-   * Irina started denoising the data
-      * Denoising finished – October 14
+Refer to --- for script
           
    ### October 19
    * The team realised that the import, demultiplex, and denoising need to occur for the ISS and HISEAS data separately
