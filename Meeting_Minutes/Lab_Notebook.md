@@ -382,7 +382,7 @@ Scripts:
 ### November 6
 * Irina, Amy, Kriti, Hansel and Wenny performed final reviews on proposal
 
-## Generating Phyloseq and Taxnonomic Analysis Part 2
+## Generating Phyloseq and Taxonomic Analysis Part 2
 #### Purpose
 Regenerating ISA, CMA, and DESeq2 by different team members to confirm correct result
 
@@ -551,7 +551,10 @@ Figure 5. Weighted UniFrac principal component analysis plot on Isolation Data S
 
 ### November 30
 * Amy added ellipses to the Beta Diversity plots. (updated code here)
-  
+
+### December 7 - Presentation
+[Final Presentation Slides](../MICB475_Final_Presentation.pdf)
+
 ## W14-TM Week 14 Team Meeting 
 ### December 7, 2023
 #### Agenda
