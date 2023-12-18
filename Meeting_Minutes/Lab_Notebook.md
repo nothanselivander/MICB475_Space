@@ -116,7 +116,7 @@ Laptop w/ Window 10 Home OS and RStudio
 ##### Initial QIIME2 Processing
 ##### October 12
 * Demultiplexing using manifest
-   * Amy generated manifest files for ISS and HI-SEAS
+   * Amy generated manifest files for ISS and HI-SEAS using Excel 
    * Amy imported combined ISS and HI-SEAS manifest from local computer to server
    * Amy imported and demultiplexed the data using the combined manifest
       *  Initially encountered an error: ' ' expected afer '"'  
@@ -139,7 +139,7 @@ Laptop w/ Window 10 Home OS and RStudio
    * Irina looked at the demux.qzv file and proposed 293 as the right trim parameter for denoising the data using DADA
    * Irina emailed Evelyn to confirm that this would be a good trim parameter
    * Evelyn confirmed that 293 was good
-   * Irina started denoising the data
+   * Irina started denoising the data using p-trim-left = 0 and p-trunc-len = 293
 ##### October 14
 * denoising data finished
   
@@ -157,7 +157,7 @@ Laptop w/ Window 10 Home OS and RStudio
   #### Meeting Minutes
   * previously combined denoised removed reads under 293
   * Evelyn confirmed that 292 should be the trim parameter for the data with longer reads
-  * redo denoising process in parallel with separate iss and hisease manifests to generate separate files and then merge them into one combined file
+  * redo denoising process in parallel with separate iss and hiseas manifests to generate separate files and then merge them into one combined file
   * refer to [merging denoise data tutorial](https://docs.qiime2.org/2023.9/tutorials/fmt/) (ctr-f denoised data)
   * create alpha refraction curve 
   * reorganize github w/folders 
@@ -180,8 +180,8 @@ Training classifier script
    * Irina imported and demultiplexed the ISS and HISEAS data with separate manifests
    * Irina converted the resulting qza files to qzv files
    * Irina visualised the qzv files and confirmed that 292 and 150 were good right trim parameters for HISEAS and ISS respectively 
-   * Irina denoised the ISS data with a right trim parameter of 150
-   * Irina started denoising the HISEAS data with a right trim parameter of 292
+   * Irina denoised the ISS data with a right trim parameter of 150 and left trim 0
+   * Irina started denoising the HISEAS data with a right trim parameter of 292 and left trim 0
    
 #### October 21
    * Denoise finished 
