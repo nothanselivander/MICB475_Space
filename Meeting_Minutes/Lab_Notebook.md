@@ -471,16 +471,16 @@ Regenerating ISA, CMA, and DESeq2 by different team members to confirm correct r
 #### Method 
 Scripts:[Alpha Beta Analyses Scripts](https://github.com/nothanselivander/MICB475_Space/blob/main/scripts/alpha_beta_plot.R)
 #### Results:
-   * <img src="../pictures/alpha_beta_plots_R/plot_richness_data_source.png" height="250" width="500">
-    Figure 1a. Alpha Diversity plots on Data Source (Shannon's and Observed features)
-   * <img src="../pictures/alpha_beta_plots_R/plot_shannon_mutated_isolation_source.png" height="250" width="500">
-   Figure 1b. Shannon's Diversity analysis plot on Mutated Isolation Source
-  * <img src="../pictures/alpha_beta_plots_R/plot_observed_mutated_isolation_source.png" height="250" width="500">
-  Figure 1c. Observed features analysis plot on Mutated Isolation Source
-    * <img src="../pictures/alpha_beta_plots_R/plot_wu_pcoa_data_source.png" height="250" width="500">
-  Figure 2a. Weighted UniFrac principal component analysis plot on Data Source 
-    * <img src="../pictures/alpha_beta_plots_R/plot_wu_pcoa_isolation_source.png" height="250" width="500">
-  Figure 1c. Weighted UniFrac principal component analysis plot on Isolation Data Source 
+<img src="../pictures/alpha_beta_plots_R/plot_richness_data_source.png" height="250" width="500">
+Figure 1. Alpha Diversity plots on Data Source (Shannon's and Observed features) on RStudio
+<img src="../pictures/alpha_beta_plots_R/plot_shannon_mutated_isolation_source.png" height="250" width="500">
+Figure 2. Shannon's Diversity analysis plot on Mutated Isolation Source RStudio
+<img src="../pictures/alpha_beta_plots_R/plot_observed_mutated_isolation_source.png" height="250" width="500">
+Figure 3. Observed features analysis plot on Mutated Isolation Source RStudio
+<img src="../pictures/alpha_beta_plots_R/plot_wu_pcoa_data_source.png" height="250" width="500">
+Figure 4. Weighted UniFrac principal component analysis plot on Data Source RStudio
+<img src="../pictures/alpha_beta_plots_R/plot_wu_pcoa_isolation_source.png" height="250" width="500">
+Figure 5. Weighted UniFrac principal component analysis plot on Isolation Data Source RStudio
 
 * Corresponding plots from qiime qzv files can be found in:(https://github.com/nothanselivander/MICB475_Space/blob/main/qiime_files/Diversity_Metrics/core-metrics-results/new_dm)
 
