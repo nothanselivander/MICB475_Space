@@ -418,6 +418,7 @@ Fig 9C. Distribution trends of ASVs within each of the locations in the ISS.  Th
 Fig S2. Volcano plot of differentially abundant microbial species at HI-SEAS relative to ISS. Data was filtered for adjusted p-value < 0.01. Microbial species present by a factor of 2 or higher are indicated in orange.
   
 * Wenny regenerated the ISA table
+* [Regenerated ISA Result](https://github.com/nothanselivander/MICB475_Space/blob/main/Rstudio/Indicator_Species_Analysis/ISA_Wenny.xlsx)
 
 
 #### Discussion 
@@ -461,7 +462,7 @@ ISS and HISEAS locations share no ASV.
             * One figure of alpha and beta analyses
             * For the CM, only put the data_source figure (the rest go in the supplemental)
             * ISA is a table
-            * 
+              
 
 ## W11-TM Week 11 Team Meeting
 ### November 16
