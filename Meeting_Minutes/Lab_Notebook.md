@@ -526,6 +526,12 @@ Figure 5. Weighted UniFrac principal component analysis plot on Isolation Data S
 
 * Corresponding plots from qiime qzv files can be found in:(https://github.com/nothanselivander/MICB475_Space/blob/main/qiime_files/Diversity_Metrics/core-metrics-results/new_dm)
 
+#### Discussion
+HI-SEAS exhibited significantly higher community richness and abundance evenness compared to ISS, as indicated by observed features and Shannon’s alpha diversity metrics. Weighted UniFrac analysis also highlighted significant phylogenetic differences in abundance between HI-SEAS and ISS. PCoA plots revealed distinct clustering between HI-SEAS and ISS, except for one ISS sanitary station sample closely clustering with the HI-SEAS group. Additionally, isolation sources within ISS and HI-SEAS locations displayed clustering.
+
+#### Conclusion 
+A clear disparity was observed in microbial community richness and diversity between HI-SEAS and ISS, with HI-SEAS consistently exhibiting higher metrics. The observed phylogenetic differences and clustering patterns further emphasize the distinct microbial ecosystems of these environments.
+
 ### November 29
 * Finished draft slides
 
