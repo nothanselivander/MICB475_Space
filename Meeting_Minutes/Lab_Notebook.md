@@ -340,17 +340,17 @@ Scripts:
         2. Importing, demux, denoise (each datasets, separately)
         3. Combined datasets
         4. Generate phylogenetic tree
-        5. Rarefaction and preform alpha and beta diversity analysis
+        5. Rarefaction and perform alpha and beta diversity analysis
         6. Regenerate in R
         7. Performed Statistical Analyses
            * PERMANOVA (compare the multiple surfaces) + Wilcoxon (compare between two data sets)
-           * both are non parametric approaches? 
+           * both are non-parametric approaches? 
       * Proper Aim 2 timeline
          * Generate phyloseq 
          * Perform Differential Abundance, Core Microbiome and Indicator Taxa Analysis
             * (no rarefaction, doesn’t work with this data - filtering is okay)
    * Dataset Overview
-      * State reason for selected truncation length 
+      * State the reason for selected truncation length 
 
 * Discussion on analyses:
    * Core microbiome, Deseq and Indicator taxa had potentially conflicting information. Let other team members regenerate plots to confirm results.
@@ -622,7 +622,7 @@ Methods
 * Dataset Retrieval, QIIME2 Processing
    * Written by Irina
 * Alpha, Beta Diversity and Statistical Analysis
-   * Written by Hansel
+   * Written by Wenny and Hansel
 * Taxonomic Analysis
    * Written by Irina and Kriti
 
