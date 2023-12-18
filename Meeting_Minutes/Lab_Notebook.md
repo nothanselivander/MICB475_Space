@@ -103,6 +103,7 @@ Discussed combining ISS and Hi-SEAS datasets
 
   ## W7-TM Week 7 Team Meeting
   ### October 19
+  #### Agenda
   #### Meeting Minutes
   * previously combined denoised removed reads under 293 
   * redo denoising process in parallel with separate iss and hisease manifests to generate separate files and then merge them into one combined file
