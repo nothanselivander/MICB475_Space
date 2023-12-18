@@ -397,6 +397,7 @@ Scripts:
 
 
 * Kriti regenerated the CMA venn diagrams
+  
   <img src="../Rstudio/Core_Microbiome/Core_Microbiome_Kriti/Data_Source.png" height="350" width="600">
 
 Fig 9A. Core microbiome analysis between the HI-SEAS and ISS datasets revealed shared ASV between the HI-SEAS and ISS datasets.
