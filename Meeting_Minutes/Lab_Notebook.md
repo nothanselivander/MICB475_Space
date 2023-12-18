@@ -177,7 +177,8 @@ Laptop w/ Window 10 Home OS
 
 #### Methods: 
 
-Training classifier script
+[Demultiplexing and denoising script](../scripts/demux_and_denoise.sh)
+[Training classifier script](../scripts/taxonomic_classification_and_rarefaction.sh)
 
 #### Results:
 #### October 20
@@ -269,13 +270,21 @@ Training classifier script
 
 * Kriti ran ISA
     * Refer to (https://github.com/nothanselivander/MICB475_Space/blob/main/Rstudio/Indicator_Species_Analysis)
+ 
+   [indicator species analysis script](../scripts/indicator_species_analysis.R)
 
 * Irina ran core microbiome and generated venn diagrams
   <img src="../pictures/Core_Microbiome_Data_Source_d0_p0.png" height="400" width="600">
   <img src="../pictures/Isolation_Source_HISEAS_d0_p0.png" height="400" width="600">
   <img src="../pictures/Isolation_Source_ISS_d0_p0.png" height="400" width="600">
+
+  [core microbiome analysis script](../scripts/core_microbiome_analysis.R)
+  
 * Hansel ran DESeq2
  <img src="../pictures/deseq_vol_plot.png" height="400" width="700">
+
+ [differential abundance analysis script](../scripts/differential_abundance_analysis.R)
+ 
 * Wenny started reformatting lab notebook
 
 ## W9-TM Week 9 Team Meeting
@@ -360,9 +369,17 @@ Training classifier script
   <img src="../Rstudio/Core_Microbiome/Core_Microbiome_Kriti/Data_Source.png" height="350" width="600">
   <img src="../Rstudio/Core_Microbiome/Core_Microbiome_Kriti/Isolation_Data_Source_HISEAS.png" height="350" width="600">
   <img src="../Rstudio/Core_Microbiome/Core_Microbiome_Kriti/Isolation_Data_Source_ISS.png" height="350" width="600">
+
+  [CMA regeneration script](../scripts/core_microbiome_Kriti.R)
+  
 * Irina regenerated the differential abundance analysis volcano plot
   <img src="../pictures/vol_plot_data_source_2.png" height="350" width="600">
+
+  [differential abundance analysis regeneration script](../scripts/differential_abundance_2_Irina.R)
+  
 * Wenny regenerated the ISA table
+
+  [ISA regeneration script](../scripts/indicator_species_analysis_2_Wenny.R)
   
 
 ## W10-TM Week 10 Team Meeting
