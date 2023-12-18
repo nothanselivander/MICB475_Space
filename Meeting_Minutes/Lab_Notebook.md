@@ -13,12 +13,13 @@
 |P001| ACCFR7523-001 |Initial QIIME2 processing|October 12| [Part 1](#initial-qiime2-processing-part-1), [Part 2](#initial-qiime2-processing-part-2)|
 |P001| W7–TM | [Week 7 Team Meeting](#w7-tm-week-7-team-meeting)| October 19| |
 |P001|W8–TM | [Week 8 Team Meeting](#w8-tm-week-8-team-meeting) | October 26 | |
-|P001| ACCFR7523-002 |  [Generating phyloseq and running core microbiome, Indicator Species Analysis, and DESeq2](#generating-phyloseq-and-running-core-microbiome-indicator-species-analysis-and-deseq2) | October 29||
+|P001| ACCFR7523-002 |  [Generating phyloseq and Taxonomic Analyses] | October 29|[Part 1]
+](#generating-phyloseq-and-taxonomic-analysis-part-1), [Part 2](#generating-phyloseq-and-taxonomic-analysis-part-2)|
 |P001| W9-TM | [Week 9 Team Meeting](#w9-tm-week-9-team-meeting)  | November 2| |
 |P001| W10-TM | [Week 10 Team Meeting](#w10-tm-week-10-team-meeting)  | November 9| |
 |P001| W11-TM | [Week 11 Team Meeting](#w11-tm-week-11-team-meeting)  | November 16| |
 |P001| W12-TM | [Week 12 Team Meeting](#w12-tm-week-12-team-meeting)  | November 23| |
-|P001|| [Regenerating alpha and beta diversity plots in R and Statistical Analyses](#Regenerating-alpha-and-beta-diversity-plots-in-R-and-Statistical-Analyses)| November 29||
+|P001|ACCFR7523-003| [Regenerating alpha and beta diversity plots in R and Statistical Analyses](#ACCFR7523-003=Regenerating-alpha-and-beta-diversity-plots-in-R-and-Statistical-Analyses)| November 29||
 |P001| W13-TM | [Week 13 Team Meeting](#w13-tm-week-13-team-meeting)  | November 30||
 |P001| W14-TM | [Week 14 Team Meeting](#w14-tm-week-14-team-meeting)  | November 10| |
 | |
@@ -129,8 +130,7 @@ Laptop w/ Window 10 Home OS and RStudio
            * Irina agreed with the suggestion
            * Amy fixed the error by converting the csv to a tsv 
    * Amy converted the resulting demux.qza to a qzv file
-   * [Combined qzv file](https://github.com/nothanselivander/MICB475_Space/blob/main/qiime_files/demux_combined_seqs.qzv)
-     
+   
 * Creating new, organized metadata files
    * Hansel removed unwanted samples and columns, and combined the metadata from both datasets using R
       * Kriti suggested common terminology for comparable locations in the ISS and HI-SEAS datasets. Team agreed on it.
@@ -179,8 +179,9 @@ Laptop w/ Window 10 Home OS
 
 #### Methods: 
 
-[Demultiplexing and denoising script](../scripts/demux_and_denoise.sh)
-[Training classifier script](../scripts/taxonomic_classification_and_rarefaction.sh)
+Scripts:
+* [Demultiplexing and denoising script](../scripts/demux_and_denoise.sh)
+* [Training classifier script](../scripts/taxonomic_classification_and_rarefaction.sh)
 
 #### Results:
 #### October 20
@@ -248,8 +249,13 @@ Laptop w/ Window 10 Home OS
     * Organize lab notebook! Should mention date and who did what, errors encountered, figures, and refer to code.
       
 
-## Generating Phyloseq and Running Core Microbiome, Indicator Species Analysis, and DESeq2
-## ACCFR7523-001
+## ACCFR7523-002 Generating Phyloseq and Taxonomic Analyses
+## Generating Phyloseq and Taxonomic Analyses Part 1
+#### Purpose
+To generate phyloseq and perform taxonomic analyses: indicator taxa analyses, core microbiome, and differential analyses using DESeq2 in R.
+#### Method 
+Scripts:
+* [Phyloseq](https://github.com/nothanselivander/MICB475_Space/blob/main/scripts/space_phyloseq.R)
 ### October 29 
 * Wenny attempted to generate the phyloseq, encountered an error
   * Files exported: feature_table.tsv, tree.nwk, taxonomy.tsv, project_metadata.tsv 
@@ -265,11 +271,7 @@ Laptop w/ Window 10 Home OS
 ### November 1
 * Hansel adjusted phyloseq file in R:
   * filter out non-bacterial sequences, low-quality samples, and low reads
-  * Rarefy:
-    * Sample depth =1000
-     <img src="../pictures/R_rarefaction_1000.png" height="350" width="600">
-    * Changed to sample depth = 5000
-        (insert figure)
+  * Rarefy
 
 * Kriti ran ISA
     * Refer to (https://github.com/nothanselivander/MICB475_Space/blob/main/Rstudio/Indicator_Species_Analysis)
@@ -367,7 +369,12 @@ Laptop w/ Window 10 Home OS
 ### November 6
 * Irina, Amy, Kriti, Hansel and Wenny performed final reviews on proposal
 
+## Generating Phyloseq and Taxnonomic Analysis Part 2
+#### Purpose
+Regenerating ISA, CMA, and DESeq2 by different team members to confirm correct result
 ### November 8
+
+
 * Kriti regenerated the CMA venn diagrams
   <img src="../Rstudio/Core_Microbiome/Core_Microbiome_Kriti/Data_Source.png" height="350" width="600">
   <img src="../Rstudio/Core_Microbiome/Core_Microbiome_Kriti/Isolation_Data_Source_HISEAS.png" height="350" width="600">
@@ -450,7 +457,7 @@ Laptop w/ Window 10 Home OS
    * have presentation draft ready by next meeting
         * In the presentation - pick one alpha and one beta - say that diversity is different, venn diagram and indicator taxa
 
-## Regenerating alpha and beta diversity plots in R and Statistical Analyses
+## ACCFR7523-003 Regenerating alpha and beta diversity plots in R and Statistical Analyses
 ### November 28
 * Wenny regenerated alpha diversity plots (Shannon's and Observed features) for data_source and mutated_isolation_source
      * Performed Kruskal-Wallis on data_source plots
