@@ -204,7 +204,7 @@ Figure: 2. Observed features alpha rarefaction curve of isolated source visualiz
 Figure: 3. Observed features alpha rarefaction curve of mutated isolation source visualized in QIIME2
 <img src="../pictures/qiime 2 interactive sample details - mutated-isolated-source.png" height="250" width="500">
 Figure: 4. Interactive sample details of mutated isolation source visualized in QIIME2
-<img src="../pictures/qiime 2 interactive sample details - isolated-source.png"  height="250" width="500">
+<img src="../pictures/qiime 2 interactive sample details - solated-source.png"  height="250" width="500">
 Figure: 5. Interactive sample details of isolated source visualized in QIIME2
 <img src="../pictures/qiime 2 interative sample details - data-source.png"  height="250" width="800">
 Figure: 7. Interactive sample details of data source visualized in QIIME2
