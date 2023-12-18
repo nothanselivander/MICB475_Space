@@ -40,7 +40,7 @@ Discussed combining ISS and Hi-SEAS datasets
 * find what terminology means in ISS dataset (eg node)
 * discussed combining columns
 
-Next steps:
+#### Before next Meeting 
 *Create 2 files
     * Manifest
     * Revised metadata file (potentially combining both Hi-SEAS and ISS data)
@@ -48,6 +48,8 @@ Next steps:
 
 ## Week 5 - Team Discussion
 ### October 11
+#### Agenda 
+* double check metadata + manifest with professor
 #### Meeting Minutes
 * Planning on merging ISS and HI-SEAS data
 * Removing the human swab samples
@@ -102,7 +104,7 @@ Next steps:
   ## W7-TM Week 7 Team Meeting
   ### October 19
   #### Meeting Minutes
-  * previously combine denoised removed reads under 293 
+  * previously combined denoised removed reads under 293 
   * redo denoising process in parallel with separate iss and hisease manifests to generate separate files and then merge them into one combined file
   * refer to https://docs.qiime2.org/2023.9/tutorials/fmt/ (ctr-f denoised data) for merging denoised data
   * create alpha refraction curve 
@@ -110,14 +112,14 @@ Next steps:
   * reorganize "readme" - refer to canvas 
   * proposal due date is Oct 25
 
-<img src="../pictures/alpha-rarefaction.png" height="250" width="500">
-<img src="../pictures/qiime 2 alpha rarefaction - data source.png"  height="250" width="500">
-<img src="../pictures/qiime 2 alpha rarefaction - isolated-source.png"  height="250" width="500">
-<img src="../pictures/qiime 2 alpha rarefaction - mutated-isolation-source.png"  height="250" width="500">
-<img src="../pictures/qiime 2 interactive sample details - mutated-isolated-source.png" height="250" width="500">
-<img src="../pictures/qiime 2 interactive sample details - solated-source.png"  height="250" width="500">
-<img src="../pictures/qiime 2 interative sample details - data-source.png"  height="250" width="800">
+#### Purpose:
+To separately create a combined ISS and HISEAS manifest and metadata for QIIME2 processing
 
+Materials: 
+Laptop w/ Window 10 Home OS
+
+Methods: 
+Refer to --- for scripts
 
 ## Initial QIIME2 Processing
 ### October 12
@@ -158,6 +160,14 @@ Next steps:
    * Irina denoised the ISS data with a right trim parameter of 150
    * Irina started denoising the HISEAS data with a right trim parameter of 292
       * Denoising finished - October 21
+    
+ <img src="../pictures/alpha-rarefaction.png" height="250" width="500">
+<img src="../pictures/qiime 2 alpha rarefaction - data source.png"  height="250" width="500">
+<img src="../pictures/qiime 2 alpha rarefaction - isolated-source.png"  height="250" width="500">
+<img src="../pictures/qiime 2 alpha rarefaction - mutated-isolation-source.png"  height="250" width="500">
+<img src="../pictures/qiime 2 interactive sample details - mutated-isolated-source.png" height="250" width="500">
+<img src="../pictures/qiime 2 interactive sample details - solated-source.png"  height="250" width="500">
+<img src="../pictures/qiime 2 interative sample details - data-source.png"  height="250" width="800">
    
    ### October 21
    * Irina combined the table.qza and rep-seqs.qza files of both ISS and HISEAS data together
